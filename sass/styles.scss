@@ -1,0 +1,68 @@
+@import "modules/variables";
+@import "modules/settings";
+@import "modules/containers";
+@import "modules/typography";
+@import "modules/layouts/nav";
+@import "modules/components";
+@import "modules/mosaic";
+@import "modules/layouts/footer";
+@import "modules/layouts";
+@import "modules/utilities";
+@import "modules/layouts/testimonials";
+
+
+
+
+.social {
+    display: inline-flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-evenly;
+    margin-top: 1rem;
+  }
+
+  .social-icon {
+    color: $primarycol;
+    font-size: 2em;
+    
+  }
+  .social-icon:hover {
+    color: rgba($primarycol,0.7);
+   
+  }
+  
+  .staff-jobtitle{
+      font-size: 1.25rem;
+      font-family: $sanserif;
+      font-weight: 300;
+  }
+
+  .staff-text{
+    font-size: 1.1rem;
+    font-family: $sanserif;
+    font-weight: 200;
+  }
+
+  .staff-name{
+    font-size: 2rem;
+    font-family: $handwriting;
+    font-weight: 300;
+  }
+ 
+  @media (min-width:768px){
+      .staff-container{
+          display: grid;
+          grid-template-columns: 1fr 1fr;
+          grid-template-rows: 1fr;
+          column-gap: 1.5rem;
+      }
+      .staff-img{
+          grid-column: 1/2;
+          grid-row: 1/2;
+      }
+      .staff-social{
+          grid-column: 1/3;
+      }
+  }
+
+

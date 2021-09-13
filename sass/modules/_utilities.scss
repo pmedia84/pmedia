@@ -1,0 +1,75 @@
+//remove top padding
+.p-top-0{
+    padding-top: 0;
+}
+
+//remove bottom padding
+.p-bt-0{
+    padding-bottom: 0;
+}
+
+// Add top padding - Standard through site
+.p-top-1{
+    padding-top: $narrowpadding;
+}
+
+.p-tb-2{// Add top and bottom padding of standard padding 
+    padding: $stdpadding 0 $stdpadding 0;
+}
+// Add top padding of 3rem - Standard padding through the site
+.p-top-2{
+    padding-top:$stdpadding;
+}
+
+// Add bottom Padding of 3rem
+.p-bt-1{
+    padding-bottom: $stdpadding;
+}
+
+.p-bt-2{
+    //Change bottom padding to narrow padding
+    padding-bottom: $narrowpadding;
+}
+// Add padding on all sides
+.p-1{
+    padding: $narrowpadding;
+}
+
+//Add bottom margin 1.5rem
+.m-b-1{
+    margin-bottom: 1.5rem; 
+}
+
+//Add margin to titles for spacing
+.mt-b-1{
+    margin-bottom: 0.5rem;
+}
+
+//Add margin to p elements for spacing
+.mp-b-1{
+    margin-bottom: 0.5rem;
+}
+
+//Class to adjust the way images fit within text boxes
+.img-fit{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+$smallbreak: 768px;
+// Converts Container to full width on small screens up to 768px
+@media (max-width:$smallbreak){
+    .full-width{
+        width: 100%;
+    }
+}
+
+.pinkbg{//converts the element to a bg color of pink
+    background-color: $secondcol;
+}
+
+.accentbg{
+    background-color: $accentcol;
+}

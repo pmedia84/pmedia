@@ -1,0 +1,106 @@
+// Default Hero Settings
+.hero{
+   background-image: url("../img/eyes.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat:no-repeat;
+    padding: 2.5vh;
+    background-color: $herobgblend;
+  background-blend-mode: multiply;
+  color: $text-light;
+}
+
+.herogrid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 100px 1fr 50px;
+    row-gap: 0.9rem;
+    
+}
+
+.herotitle{
+    grid-row: 1/1;
+    grid-column: 1/4;
+}
+.herotext{
+    grid-row: 2/3;
+    grid-column: 1/4;
+
+}
+.herobtn{
+    grid-column: 1/4;
+    grid-row: 4/4;
+    justify-self: start;
+}
+
+// Price List Page
+
+.pricehero{
+    background-image: url("../img/price-hero.jpg");
+    background-color: $secondcol;
+    max-height: 50vh;
+}
+
+// Contact Page
+
+.contacthero{
+    background-image: url("../img/contact-hero.jpg");
+    //background-color: $secondcol;
+    max-height: 50vh;
+}
+
+.contact-title{
+    text-align: center;
+}
+.openinghrs table{
+    margin-left: auto;
+    margin-right: auto;
+    td{
+        padding: 0 0.5rem 0 0.5rem;
+    }
+}
+
+
+.openinghrs{
+    .opentitle{
+        text-align: center;
+    }
+    
+    
+    p{
+        margin-bottom: 0.5rem;
+    }
+    .day, .hrs{
+        font-family: $sanserif;
+        font-size: 1rem;
+        font-weight: 400;
+    }
+}
+
+.contactdetails{
+    max-width: 400px;
+    margin: 0 auto;
+    margin-bottom: 1.5rem;
+    
+    ul{
+        
+        line-height: 1.7;
+        font-family: $sanserif;
+    }
+    li{
+        letter-spacing: 1.25px;
+        font-size: 1rem;
+        word-wrap: break-word;
+    }
+    .fa-li{
+        color: $primarycol;
+    }
+}
+// About Page
+
+.abouthero{
+    background-image: url("../img/about-hero.jpg");
+    //background-color: $secondcol;
+    max-height: 50vh;
+}
+

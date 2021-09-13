@@ -1,12 +1,12 @@
 @import "modules/variables";
 @import "modules/settings";
-@import "modules/containers";
+@import "modules/Framework/containers";
 @import "modules/typography";
 @import "modules/layouts/nav";
 @import "modules/components";
-@import "modules/mosaic";
+@import "modules/Framework/mosaic";
 @import "modules/layouts/footer";
-@import "modules/layouts";
+@import "modules/layouts/layouts";
 @import "modules/utilities";
 @import "modules/layouts/testimonials";
 

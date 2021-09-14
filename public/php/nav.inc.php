@@ -23,17 +23,17 @@
         <div class="nav-container">
             <div class="brand">
                 <a href="index">
-                    <h1 class="brand-title">Lashes & Brows</h1>
-                    <p class="brand-subtitle">BY MANDI</p>
+                    <img src="img/parrot-media-logo.gif" alt="Parrot Media Logo">
                 </a>
             </div>
 
 
             <ul class="nav-links">
-                <li class="nav-link"><a href="index">Home</a></li>
-                <li class="nav-link"><a href="about">About</a></li>
-                <li class="nav-link"><a href="prices">Prices</a></li>
-                <li class="nav-link"><a href="contact">Contact</a></li>
+                <li class="nav-link"><a href="index">Link</a></li>
+                <li class="nav-link"><a href="index">Link</a></li>
+                <li class="nav-link"><a href="index">Link</a></li>
+                <li class="nav-link"><a href="index">Link</a></li>
+                
             </ul>
 
             <div class="burger">

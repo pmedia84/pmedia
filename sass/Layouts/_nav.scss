@@ -1,8 +1,10 @@
+//Nav Design 2
+
 nav{
-    background-color: $secondcol;
+    background-color: rgba(255, 255, 255, 0);
     box-shadow: 0px 5px 5px white;
     padding:0.25rem 0 0.25rem 0;   
-    height: 80px;
+    height: 70px;
     position: -webkit-sticky; /* Safari */
   position: sticky;
   top: 0;
@@ -34,7 +36,7 @@ a{
     margin-top: -0.75rem;
     font-size: 0.9rem;
     letter-spacing: 2px;
-    color: black;
+    color: rgb(43, 29, 29);
 }
 
 .nav-links{
@@ -142,4 +144,8 @@ a{
 
 .toggle .line3{
     transform: rotate(45deg) translate(-5px,-5px);
+}
+
+.scrolled{
+    background-color: #fff;
 }

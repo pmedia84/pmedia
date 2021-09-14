@@ -21,6 +21,7 @@ img{
 
 body{
     z-index: -1;
+    background-color: salmon;
 }
 
 
@@ -50,4 +51,8 @@ html {
     border: 3px solid $secondcol;
   }
 
- 
+  .body-not-scrolled{
+    background-color: rgb(243, 7, 7);
+    transition: background-color 1500ms;
+    color: seagreen;
+  }

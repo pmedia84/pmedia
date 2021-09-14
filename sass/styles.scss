@@ -1,15 +1,14 @@
-@import "modules/variables";
-@import "modules/settings";
-@import "modules/Framework/containers";
-@import "modules/typography";
-@import "modules/layouts/nav";
-@import "modules/components";
-@import "modules/Framework/mosaic";
-@import "modules/layouts/footer";
-@import "modules/layouts/layouts";
-@import "modules/utilities";
-@import "modules/layouts/testimonials";
-
+@import "abstract/variables";
+@import "base/base";
+@import "framework/containers";
+@import "base/typography";
+@import "layouts/nav";
+@import "components/components";
+@import "framework/mosaic";
+@import "layouts/footer";
+@import "layouts/layouts";
+@import "utilities/utilities";
+@import "layouts/testimonials";
 
 
 

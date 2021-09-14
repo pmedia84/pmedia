@@ -12,13 +12,12 @@
 <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
 <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
 <link rel="manifest" href="site.webmanifest">
-<link rel="stylesheet" href="css/flickity.css">
 <link rel="stylesheet" href="css/styles.css">
 <script src="https://kit.fontawesome.com/3318fdaaaf.js" crossorigin="anonymous"></script>
 </head>
 
-<body>
-    <nav>
+<body class="body-not-scrolled">
+    <nav class="nav-">
 
         <div class="nav-container">
             <div class="brand">

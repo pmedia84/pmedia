@@ -1,0 +1,32 @@
+.btn{
+    padding: 0.25em 1em;
+    background-color: $secondcol;
+    text-align: center;
+    font-size: 1.25rem;
+    border-radius: 0.25rem;
+    text-decoration: none;
+    color: $primarycol;
+    border: 1px solid $primarycol;
+    &:hover{
+        opacity: 0.9;
+    }
+    &:active{
+        opacity:0.9;
+    }
+    &:focus{ /*Input Focus Settings*/
+      outline: none;
+      box-shadow: 0 0 2pt 1pt $focuscolor;
+      transition: box-shadow 250ms ease;
+    }
+}
+
+
+.herobtn{
+  
+  text-transform: uppercase;
+  font-size: 1.75rem;
+  border:1px solid $secondcol;
+  &:focus{
+    box-shadow: 0 0 2pt 1pt rgb(243, 231, 231);
+  }
+}

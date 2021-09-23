@@ -26,6 +26,10 @@
     padding-bottom: $stdpadding;
 }
 
+//Add extra 3rem of padding
+.p-bt-3{
+    padding-bottom: 6rem;
+}
 .p-bt-2{
     //Change bottom padding to narrow padding
     padding-bottom: $narrowpadding;
@@ -70,6 +74,6 @@ $smallbreak: 768px;
     background-color: $secondcol;
 }
 
-.accentbg{
+.accentbg{ // Adds bg color to the element based on the accent colour of the size
     background-color: $accentcol;
 }

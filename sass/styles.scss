@@ -1,15 +1,19 @@
 @import "abstract/variables";
 @import "base/base";
-@import "framework/containers";
 @import "base/typography";
 @import "layouts/nav";
-@import "components/components";
+@import "components/btn";
+@import "components/cards";
+@import "components/forms";
+@import "components/textboxes";
 @import "framework/mosaic";
+@import "framework/containers";
+@import "framework/grids";
 @import "layouts/footer";
 @import "layouts/layouts";
 @import "utilities/utilities";
 @import "layouts/testimonials";
-
+@import "pages/index";
 
 
 .social {

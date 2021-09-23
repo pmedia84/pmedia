@@ -1,0 +1,105 @@
+
+
+.card{
+    position: relative;
+    z-index: -1;
+    max-width: 500px;
+    margin: 0 auto;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    img{
+        vertical-align: middle;
+        width: 500px;
+        height:350px;
+        object-fit: cover;
+    }
+}
+
+
+@media (min-width:768px){
+    .cardcontainer{
+      
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        column-gap: 1.5rem;
+        
+    }
+
+    .card img{
+        height: 300px;
+    }
+}
+.cardtext{
+    position: absolute;
+    bottom: 0;
+    background: rgba($secondcol,0.7);
+    padding: 2rem;
+    color: $primarycol;
+    width: 100%;
+}
+
+//PriceList Container
+.pricelist{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px,1fr));
+    column-gap: 1.5rem;
+    row-gap: 1.5rem;
+}
+// Price Cards
+
+.pricecard{
+  border: 1px solid $primarycol;
+  border-radius: .25rem;
+  display: flex;
+  flex-direction: column;
+  color: $pricecardtext;
+}
+
+
+.pricecard-body{
+  padding: 1.25rem;
+}
+
+.pricecard-price, .pricecard-title, .pricecard-text, .pricecard-price-subtitle{
+  padding: 1.25rem 0 1.25rem 0;
+  text-align: center;
+}
+.pricecard-title{
+  background-color: rgba($secondcol, 0.4);
+  font-size: 1.1rem;
+  font-family: $sanserif;
+  line-height: 0.9;
+  text-transform: uppercase;
+}
+.pricecard-price{
+  
+  color: $highlighttext;
+
+  font-size: 2rem;
+  font-family: $handwriting;
+}
+.pricecard-price-subtitle{
+  padding-top: 0;
+}
+
+.pricecard-text{
+  line-height: 1.35;
+  font-family: $sanserif;
+}
+
+// Feature card with an adjacent icon and a block of text to the right
+
+.featurecard{
+  display: flex;
+  align-items: baseline;
+  gap: 1rem;
+  padding: 0.5rem 0.5rem 0.5rem 0.5rem;
+  i{
+    font-size: 2rem;
+  }
+  
+}
+
+.featurecard-title{
+  font-size: 2rem;
+}

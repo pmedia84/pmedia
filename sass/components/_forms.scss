@@ -1,0 +1,102 @@
+/// Form Control Styles
+
+.form-text{
+    display: none;
+  }
+  .inputwrapper{/*Input Flex Container*/
+    display: flex;
+    margin-bottom: 1rem;
+  }
+  
+  .input-prepend{ /*Input Icon Helper*/
+    width: 40px;
+    height: 38px;
+    padding:1rem 1rem;
+    color: $primarycol;
+    background-color: $secondcol;
+  border: 1px solid $primarycol;
+  border-right: 0;
+  border-radius: 0.25rem 0 0 0.25rem;
+  display: flex;
+  align-items:center;
+  justify-content: center;
+  
+  }
+  
+  .input{ /*Basic Input field Settings for all form boxes*/
+   
+    padding:.375rem .75rem;
+    font-family: $sanserif;
+    border: 1px solid $primarycol;
+  }
+  
+  .textarea{
+    width: 100%;
+    height: 150px;
+    padding:.375rem .75rem;
+    resize: none;
+    border-radius: 0.25rem;
+  }
+  
+  .input:focus{ /*Input Focus Settings*/
+    outline: none;
+    box-shadow: 0 0 2pt 1pt $focuscolor;
+      transition: box-shadow 250ms ease;
+  }
+  
+  .text-input{ /*Text Box Input Settings*/
+    
+    flex-grow: 1;
+    width: 100%;
+    
+    border-radius: 0 0.25rem 0.25rem 0;
+  }
+  
+  .email-input{ /*email  Input Settings*/
+    
+    flex-grow: 1;
+    width: 100%;
+    border-radius: 0 0.25rem 0.25rem 0;
+  }
+  
+  .formrow{
+    margin-bottom: 1rem;
+  }
+  
+  .formcolumn{
+    
+    width: 100%;
+    padding: 0 5px 0 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    
+    
+  }
+  
+  .formsubmit{
+    padding-top: 0;
+    padding-bottom: 1em;
+  }
+
+
+  @media (min-width:768px){
+    
+  .formrow{
+  display: flex;
+  flex-direction: row;
+  gap: 0.5rem;
+  
+}
+
+.formcolumn{
+justify-content: space-between;
+}
+
+.inputwrapper{
+margin-bottom: 0%;
+}
+
+
+}
+

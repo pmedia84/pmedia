@@ -8,6 +8,10 @@ $sanserif: 'Montserrat', sans-serif;
 $serif: 'Playfair Display', serif;
 $handwriting: 'Pinyon Script', cursive;
 
+.herotitle,
+.herotext{
+    color: $text-light;
+}
 .herotitle{
     font-size: clamp(2.5rem, 8vw, 4.5rem);
     margin-bottom: 1rem;
@@ -15,8 +19,10 @@ $handwriting: 'Pinyon Script', cursive;
 
 .herotext{
     font-size: clamp(1.25rem, 2vw, 2rem);
+    line-height: 1.6;
 }
 
 .content{
     font-family: $sanserif;
 }
+

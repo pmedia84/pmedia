@@ -1,5 +1,5 @@
 .textbox{
-    //background-color: rgba($secondcol, .7);
+    background-color: rgba($secondcol, .7);
   }
   .textbox-title{
     font-size: 2.8rem;
@@ -23,16 +23,5 @@
     justify-content: center;
   }
 
-  .curvedbg{
-    background-color: rgb(224, 9, 9);
-    border-top-left-radius: 25px;
-    border-top-right-radius: 25px;
-    grid-column: 1/3;
-    grid-row: 1/2;
-    z-index: 0;
-    position: relative;
-  }
-
-  .curvedbgitem2{
-    // places the adjacent image over the top of
-  }
+  
+ 

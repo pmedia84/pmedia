@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="1615.1855"
+   height="848.85907"
+   viewBox="0 0 1615.1855 848.85907"
+   version="1.1"
+   id="SVGRoot"
+   sodipodi:docname="drawing.svg"
+   inkscape:version="1.1 (c68e22c387, 2021-05-23)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview829"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="px"
+     showgrid="false"
+     inkscape:zoom="0.77771465"
+     inkscape:cx="842.21122"
+     inkscape:cy="315.66848"
+     inkscape:window-width="2819"
+     inkscape:window-height="1389"
+     inkscape:window-x="218"
+     inkscape:window-y="387"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="layer1"
+     inkscape:snap-grids="true" />
+  <defs
+     id="defs824">
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient10988">
+      <stop
+         style="stop-color:#000000;stop-opacity:1;"
+         offset="0"
+         id="stop10984" />
+      <stop
+         style="stop-color:#000000;stop-opacity:0;"
+         offset="1"
+         id="stop10986" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient10988"
+       id="linearGradient10990"
+       x1="6.2371454"
+       y1="1087.5912"
+       x2="1590.5631"
+       y2="273.55862"
+       gradientUnits="userSpaceOnUse" />
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-6.2371454,-238.73215)">
+    <rect
+       style="opacity:0.2114094;mix-blend-mode:normal;fill:url(#linearGradient10990);fill-opacity:1;stroke-width:1.49012"
+       id="rect982"
+       width="1615.1855"
+       height="848.85907"
+       x="6.2371454"
+       y="238.73215"
+       ry="166.21376"
+       rx="166.21376" />
+  </g>
+</svg>

@@ -1,5 +1,4 @@
-const nav = document.querySelector(".body-not-scrolled");
-const navbar = document.querySelector(".nav");
+const nav = document.querySelector(".nav");
 const hero = document.querySelector(".hero");
 
 const heroobserveroptions = {
@@ -12,18 +11,11 @@ const heroobserver = new IntersectionObserver(function(entries,
 entries.forEach(entry => {
     
     if(!entry.isIntersecting)
-    nav.classList.add("scrolled");
+    hero.classList.add("nav-scrolled");
     else {
-        nav.classList.remove("scrolled");
+        hero.classList.remove("scrolled");
         
     }
-    if(!entry.isIntersecting)
-    navbar.classList.add("nav-scrolled");
-    else {
-        navbar.classList.remove("nav-scrolled");
-        
-    }
-
     });
    
     

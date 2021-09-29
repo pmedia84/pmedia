@@ -28,6 +28,7 @@
 
 <script src="js/nav.js"></script>
 <script src="js/observer.js"></script>
+<script src="js/nav-io.js"></script>
 </body>
 
 </html>

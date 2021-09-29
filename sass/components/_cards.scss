@@ -1,6 +1,6 @@
 
 
-.card{
+.card{ //card with a background image
     position: relative;
     z-index: -1;
     max-width: 500px;
@@ -102,4 +102,55 @@
 
 .featurecard-title{
   font-size: 2rem;
+}
+
+//Services Card with features ticked or unticked
+.servicecardgrid{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  gap: 1.5rem;
+}
+
+.servicecard{
+  border-top: 5px solid $primarycol;
+  border-radius: 0.25rem;
+  
+}
+
+.servicecard-header,
+.servicecard-pricing,
+.servicecard-features,
+.featurecard-cta{
+  border-bottom: 1.5px solid $secondcol;
+  padding: 1.5rem;
+}
+
+.servicecard-features{
+  ul{
+    list-style-type: none;
+  }
+  
+}
+.active,
+.inactive{
+  
+
+&::before
+{
+    display: inline-block;
+  font-family: "Font Awesome 5 Free"; 
+  font-weight: 900; 
+  content: "\f00c";
+  margin-right: 0.25rem;
+  font-size: 0.9rem;
+  width: 1rem;
+}
+}
+
+.inactive{
+  color:rgb(146, 145, 145);
+  &::before{
+  content: "\f00d";
+  }
 }

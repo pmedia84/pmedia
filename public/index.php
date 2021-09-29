@@ -99,15 +99,15 @@
     </div>
 </section>
 
-<section class="" style="background-color: green;">
-    <div class="container gridcontainer">
-        <div class="curvedbg"></div>
-    <img class="seconditem centeredgrid" src="img/drawing.svg" alt="">
-        <div class="textbox firstitem"  style="padding: 2.5rem;">
+<section class="accentbg" >
+    <div class="container gridcontainer bgshape">
+        
+    <img class="seconditem centeredgrid" src="img/seo.png" alt="">
+        <div class="textbox firstitem">
             
-            <h2 class="textbox-title">Web Site Hosting</h2>
-            <p class="textbox-subtitle">We only use the best hosting services!</p>
-            <p class="textbox-text">If you do not already have a hosting provider then we will set you up with a hosting package on our own Cloud Based servers. All of our hosting packages come with free backups that can roll back the last 14 days. If you do have a provider already, we can migrate you to our own servers for ease of use. We can also provide a VPS service (Virtual Private Server) if required.</p>
+            <h2 class="textbox-title">Search Engine Optimisation</h2>
+            <p class="textbox-subtitle">Your new website will depend on being optimised correctly</p>
+            <p class="textbox-text">With our SEO package we will optimise your website so it is correctly indexed with the popular search engines. And you will also perform well in search results. After all, you want to be found on your corner of the internet don't you?</p>
         </div>
 
         
@@ -115,12 +115,183 @@
 </section>
 
 
+<section class="container">
+    <div class="banner">
+            <h1 class="bannertitle">Our Website Packages </h1>
+            <h3>We have something for every requirement</h3>
 
+    
+        </div>
+</section>
 
+<section class="container servicecardgrid">
+    <div class="servicecard">
+    <div class="servicecard-header">
+            <h1 class="servicecard-title">Starter</h1>
+            <p class="servicecard-sub">Great for small businesses or personal websites</p>
+        </div>
+        <div class="servicecard-pricing">
+            <h3>£300</h3>
+            <p>one off cost</p>
+        </div>
+        <div class="servicecard-features">
+            <ul>
+                <li class="active">Custom Design</li>
+                <li class="inactive">Free Domain Name</li>
+                <li class="active">Unlimited Revisions</li>
+                <li class="active">Unlimited Pages</li>
+                <li class="active">Web Hosting</li>
+                <li class="active">Web Hosting</li>
+                <li class="active">Web Hosting</li>
+            </ul>
+        </div>
 
+        <div class="featurecard-cta">
+            <a href="#" class="btn">Find Out More</a>
+        </div>
+    </div>
+    
+    <div class="servicecard">
 
+        <div class="servicecard-header">
+            <h1 class="servicecard-title">Business</h1>
+            <p class="servicecard-sub">Great for small businesses or personal websites</p>
+        </div>
 
+        <div class="servicecard-pricing">
+            <h3>£450</h3>
+            <p>one off cost</p>
+        </div>
+        <div class="servicecard-features">
+        <ul>
+                <li class="active">Custom Design</li>
+                <li class="inactive">Free Domain Name</li>
+                <li class="active">Unlimited Revisions</li>
+                <li class="active">Unlimited Pages</li>
+                <li class="active">Web Hosting</li>
+                <li class="active">Web Hosting</li>
+                <li class="active">Web Hosting</li>
+            </ul>
+        </div>
+        <div class="featurecard-cta">
+            <a href="#" class="btn">Find Out More</a>
+        </div>
+    </div>
 
+    <div class="servicecard">
+    <div class="servicecard-header">
+            <h1 class="servicecard-title">Professional</h1>
+            <p class="servicecard-sub">Great for small businesses or personal websites</p>
+        </div>
+        <div class="servicecard-pricing">
+            <h3>from £600</h3>
+            <p>one off cost</p>
+        </div>
+        <div class="servicecard-features">
+        <ul>
+                <li class="active">Custom Design</li>
+                <li class="inactive">Free Domain Name</li>
+                <li class="active">Unlimited Revisions</li>
+                <li class="active">Unlimited Pages</li>
+                <li class="active">Web Hosting</li>
+                <li class="active">Web Hosting</li>
+                <li class="active">Web Hosting</li>
+            </ul>
+        </div>
+        <div class="featurecard-cta">
+            <a href="#" class="btn">Find Out More</a>
+        </div>
+    </div>
+</section>
+
+<section class="container">
+    <div class="banner">
+            <h1 class="bannertitle">Just require Web Hosting?</h1>
+            <h3>If it's just Web Hosting that you need, then we have some great packages to choose from!</h3>
+
+    
+        </div>
+</section>
+
+<section class="container servicecardgrid">
+    <div class="servicecard">
+    <div class="servicecard-header">
+            <h1 class="servicecard-title">Starter</h1>
+            <p class="servicecard-sub">Great for small businesses or personal websites</p>
+        </div>
+        <div class="servicecard-pricing">
+            <h3>£3.99</h3>
+            <p>Per Month</p>
+        </div>
+        <div class="servicecard-features">
+            <ul>
+                
+                
+                <li class="active">Unlimited Revisions</li>
+                <li class="active">Unlimited Pages</li>
+                <li class="active">Web Hosting</li>
+                <li class="active">Web Hosting</li>
+                <li class="active">Web Hosting</li>
+            </ul>
+        </div>
+
+        <div class="featurecard-cta">
+            <a href="#" class="btn">Find Out More</a>
+        </div>
+    </div>
+    
+    <div class="servicecard">
+
+        <div class="servicecard-header">
+            <h1 class="servicecard-title">Business</h1>
+            <p class="servicecard-sub">Ideal for Small to Medium size businesses</p>
+        </div>
+
+        <div class="servicecard-pricing">
+            <h3>£6.99</h3>
+            <p>Per Month</p>
+        </div>
+        <div class="servicecard-features">
+        <ul>
+                <li class="active">Custom Design</li>
+                <li class="inactive">Free Domain Name</li>
+                <li class="active">Unlimited Revisions</li>
+                <li class="active">Unlimited Pages</li>
+                <li class="active">Web Hosting</li>
+                <li class="active">Web Hosting</li>
+                <li class="active">Web Hosting</li>
+            </ul>
+        </div>
+        <div class="featurecard-cta">
+            <a href="#" class="btn">Find Out More</a>
+        </div>
+    </div>
+
+    <div class="servicecard">
+    <div class="servicecard-header">
+            <h1 class="servicecard-title">Professional</h1>
+            <p class="servicecard-sub">Max Package, everything you need for the ultimate websites.</p>
+        </div>
+        <div class="servicecard-pricing">
+            <h3>£9.99</h3>
+            <p>Per Month</p>
+        </div>
+        <div class="servicecard-features">
+        <ul>
+                <li class="active">Custom Design</li>
+                <li class="inactive">Free Domain Name</li>
+                <li class="active">Unlimited Revisions</li>
+                <li class="active">Unlimited Pages</li>
+                <li class="active">Web Hosting</li>
+                <li class="active">Web Hosting</li>
+                <li class="active">Web Hosting</li>
+            </ul>
+        </div>
+        <div class="featurecard-cta">
+            <a href="#" class="btn">Find Out More</a>
+        </div>
+    </div>
+</section>
 </main>
  
     <?php include("inc/footer.inc.php"); ?>

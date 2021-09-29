@@ -17,12 +17,12 @@
 </head>
 
 <body class="body-not-scrolled">
-    <nav class="nav-">
+    <nav class="nav">
 
         <div class="nav-container">
             <div class="brand">
                 <a href="index">
-                    <img src="img/parrot-media-logo.gif" alt="Parrot Media Logo">
+                    <img src="img/drawing-1.png" alt="Parrot Media Logo">
                 </a>
             </div>
 

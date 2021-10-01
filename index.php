@@ -6,7 +6,7 @@
     <?php include("inc/nav.inc.php"); ?>
 <section class="container">
     <div class="hero herogrid">
-        <h1 class="herotitle mt-b-1">Your New Website Begins Here!</h1>
+        <h1 class="herotitle mt-b-1">Your New Website Begins Here!today</h1>
         <div class="herotext">
             <p>Parrot Media is the place to be to get your business online.
             From start to finish, we handle the design, build and the hosting of your new website. <p>Making the process easy and managable for you. Leaving you to get on with what you do best. Running your business!</p></p>

@@ -22,10 +22,12 @@
 
 
 .herobtn{
-  
+  background-color: #fff;
+  color: $secondcol;
+  border: 1px solid $primarycol;
   text-transform: uppercase;
   font-size: 1.75rem;
-  border:1px solid $secondcol;
+  
   &:focus{
     box-shadow: 0 0 2pt 1pt rgb(243, 231, 231);
   }

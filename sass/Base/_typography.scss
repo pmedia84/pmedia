@@ -1,17 +1,28 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400&display=swap');
 
-body{
-    font-family: 'Playfair Display', serif;
-}
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&family=Roboto:wght@100;300;400;700;900&display=swap');
+
+
+$titles: 'Poppins', sans-serif;
+$bodytext: 'Roboto', sans-serif;
 
 $sanserif: 'Montserrat', sans-serif;
 $serif: 'Playfair Display', serif;
 $handwriting: 'Pinyon Script', cursive;
 
-.herotitle,
-.herotext{
-    color: $text-light;
+h1,h2,h3,h4,h5,h6{
+    font-family: $titles;
 }
+body{
+    font-family: $bodytext;
+}
+
+
+
+.heroscrolled{
+    color: $lightcolor1;
+    transition: color 1500ms;
+}
+
 .herotitle{
     font-size: clamp(2.5rem, 8vw, 4.5rem);
     margin-bottom: 1rem;

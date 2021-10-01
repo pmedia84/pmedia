@@ -7,7 +7,7 @@
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Pinyon+Script&family=Playfair+Display&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet">
 <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
 <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
@@ -28,10 +28,27 @@
 
 
             <ul class="nav-links">
-                <li class="nav-link"><a href="index">Link</a></li>
-                <li class="nav-link"><a href="index">Link</a></li>
-                <li class="nav-link"><a href="index">Link</a></li>
-                <li class="nav-link"><a href="index">Link</a></li>
+                <li class="nav-link"><a href="index">Home</a></li>
+                <li class="nav-link">
+                    
+                        
+                            
+                                <button class="navbtn sub-menu sub-menu-xl"><a class="" >Services</a></button>
+                                    <div class="sub-menu-content sub-menu-content-xl">
+                                        <a class="nav-link sub-menu-link" href="#">Web Design</a>
+                                        <a class="nav-link" href="#">Web Hosting</a>
+                                        <a class="nav-link" href="#">SEO</a>
+                                        <a class="nav-link" href="#">Social Media</a>
+                                
+                                    </div>
+                            
+                        
+                    
+                </li>
+                <li class="nav-link"><a href="index">Portfolio</a></li>
+                <li class="nav-link"><a href="index">About</a></li>
+                <li class="nav-link"><a href="index">Contact</a></li>
+                
                 
             </ul>
 

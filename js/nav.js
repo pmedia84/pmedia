@@ -19,3 +19,18 @@ const navslide = () =>{
 
 }
 navslide();
+
+
+const submenuslide = () =>{
+const submenu = document.querySelector('.sub-menu');
+const submenucontent = document.querySelector('.sub-menu-content');
+
+// Toggle menu bar
+
+submenu.addEventListener('click', ()=>{
+    submenucontent.classList.toggle('sub-menu-active',);
+})
+
+
+}
+submenuslide();

@@ -20,7 +20,9 @@ img{
 }
 
 body{
+  margin-top: 70px;
     z-index: -1;
+    overflow-x: hidden;
 }
 
 
@@ -51,7 +53,7 @@ html {
   }
 
   .body-not-scrolled{
-    background-color: ;
+    background-color: #1179AD;
     transition: background-color 1500ms;
     color: seagreen;
   }

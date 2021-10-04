@@ -135,6 +135,14 @@ a{
     transform: rotate(45deg) translate(-5px,-5px);
 }
 
+.nav-not-scrolled{
+    background-color: #1179AD;
+    
+    transition: all 1500ms ease;
+    
+  }
+
+  
 .scrolled{
     
     background-color: #fff;

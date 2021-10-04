@@ -1,9 +1,9 @@
-const nav = document.querySelector(".nav");
+const nav = document.querySelector(".nav-not-scrolled");
 const hero = document.querySelector(".hero");
 
 const heroobserveroptions = {
     
-    rootMargin: "-500px 0px -500px 0px",
+    rootMargin: "-35000px 0px -300px 0px",
     
 };
 
@@ -12,9 +12,9 @@ const heroobserver = new IntersectionObserver(function(entries) {
 entries.forEach(entry => {
     
     if(!entry.isIntersecting)
-    hero.classList.add("nav-scrolled");
+    nav.classList.add("nav-scrolled");
     else {
-        hero.classList.remove("scrolled");
+        nav.classList.remove("nav-scrolled");
         
     }
     });

@@ -39,10 +39,12 @@
 .hero{
     
      padding: 2.5vh;
+     background-size:cover;
+     background-repeat: no-repeat;
      
    background-blend-mode: multiply;
    
-   min-height: 25vh;
+   min-height: 40vh;
  }
  
  .herogrid{
@@ -63,8 +65,10 @@
      grid-column: 1/4;
  
  }
- .herobtn{
+ .herobtnholder{
      grid-column: 1/4;
      grid-row: 3/4;
      justify-self: start;
  }
+
+ 

@@ -16,8 +16,8 @@
 <script src="https://kit.fontawesome.com/3318fdaaaf.js" crossorigin="anonymous"></script>
 </head>
 
-<body class="body-not-scrolled">
-    <nav class="nav">
+<body>
+    <nav class="nav nav-not-scrolled">
 
         <div class="nav-container">
             <div class="brand">
@@ -28,7 +28,7 @@
 
 
             <ul class="nav-links">
-                <li class="nav-link"><a href="index">Home</a></li>
+               <!-- <li class="nav-link"><a href="index">Home</a></li>
                 <li class="nav-link">
                     
                         
@@ -45,9 +45,9 @@
                         
                     
                 </li>
-                <li class="nav-link"><a href="index">Portfolio</a></li>
-                <li class="nav-link"><a href="index">About</a></li>
-                <li class="nav-link"><a href="index">Contact</a></li>
+               <li class="nav-link"><a href="index">Portfolio</a></li>
+                <li class="nav-link"><a href="index">About</a></li> 
+                <li class="nav-link"><a href="index">Contact</a></li> -->
                 
                 
             </ul>

@@ -4,21 +4,21 @@
 <head>
     <title>Parrot Media:: Creative Web Design Services in Lincolnshire</title>
     <?php include("inc/nav.inc.php"); ?>
-<section class="container">
+    <main class="home-not-scrolled">
+    <section class="container">
     <div class="hero herogrid">
-        <h1 class="herotitle mt-b-1">Your New Website Begins Here!today</h1>
+        <h1 class="herotitle mt-b-1">Your New Website Begins Here!</h1>
         <div class="herotext">
-            <p>Parrot Media is the place to be to get your business online.
-            From start to finish, we handle the design, build and the hosting of your new website. <p>Making the process easy and managable for you. Leaving you to get on with what you do best. Running your business!</p></p>
+            <p class="mp-b-1">Increase your presence online with Parrot Media. We help you take your business online by doing the hard work for you, leaving you to do what you do best. Running your business...</p>
+            <p>Why not contact us to find out how we can help you?</p>
         </div>
-        <a href="#" class="btn herobtn">Contact us now</a>
+        <div class="herobtnholder"><a href="contact" class="btn herobtn">Contact us now</a></div>
     </div>
 </section>
-<main>
+
 <section class="container portfoliogrid">
-    <img class="portfolioimg img1" src="img/lbmlarge.png" alt="">
-    <img class="portfolioimg img2" src="img/lbmsmall.png" alt="">
-    <img class="portfolioimg img3" src="img/apexsmall.png" alt="">
+    <img class="portfolioimg img1" src="img/bitmap.png" alt="">
+    
 </section>
 
 <section class="container">
@@ -293,5 +293,5 @@
     </div>
 </section>
 </main>
- 
+<script src="js/observer.js"></script>
     <?php include("inc/footer.inc.php"); ?>

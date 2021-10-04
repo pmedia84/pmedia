@@ -1,0 +1,12 @@
+.contacthero{
+    background-image: url("../img/contacthero.jpg");
+    background-color: $grey;
+    max-height: 40vh;
+    color: #fff;
+    .herotext{
+        grid-column:1/3;
+        grid-row: 2/4;
+    }
+}
+
+

@@ -46,10 +46,6 @@ h1, h2, h3, h4, h5, h6 {
 body {
   font-family: "Roboto", sans-serif; }
 
-.heroscrolled {
-  color: #242424;
-  transition: color 1500ms; }
-
 .herotitle {
   font-size: clamp(2.5rem, 8vw, 4.5rem);
   margin-bottom: 1rem; }
@@ -66,7 +62,8 @@ nav {
   height: 70px;
   position: fixed;
   top: 0;
-  width: 100%; }
+  width: 100%;
+  z-index: 25; }
   nav a {
     display: inline-block;
     text-decoration: none; }
@@ -457,15 +454,16 @@ nav {
     margin-bottom: 0%; } }
 
 .textbox {
-  background-color: rgba(231, 129, 109, 0.7); }
+  padding: 4rem 2rem 4rem 2rem; }
 
 .textbox-title {
   font-size: 2.8rem;
   font-weight: bold;
-  color: #78b5a3; }
+  color: #e7816d; }
 
 .textbox-text {
-  line-height: 1.5; }
+  line-height: 1.7;
+  font-weight: 300; }
 
 .textbox-subtitle {
   font-size: 1.25rem;
@@ -557,7 +555,8 @@ nav {
   background-size: cover;
   background-repeat: no-repeat;
   background-blend-mode: multiply;
-  min-height: 40vh; }
+  min-height: 40vh;
+  color: #fff; }
 
 .herogrid {
   display: grid;
@@ -822,9 +821,6 @@ footer {
     grid-column: 1/3;
     grid-row: 2/4; }
 
-.portfolioimg {
-  opacity: 0.8; }
-
 .img1 {
   grid-column: 2/11;
   grid-row: 1/3;
@@ -848,6 +844,10 @@ footer {
 
 .home-scrolled {
   background-color: #fff; }
+
+.heroscrolled {
+  color: black;
+  transition: color 1500ms; }
 
 .social {
   display: inline-flex;

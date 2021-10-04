@@ -9,17 +9,17 @@
     <div class="hero herogrid">
         <h1 class="herotitle mt-b-1">Your New Website Begins Here!</h1>
         <div class="herotext">
-            <p class="mp-b-1">Increase your presence online with Parrot Media. We help you take your business online by doing the hard work for you, leaving you to do what you do best. Running your business...</p>
-            <p>Why not contact us to find out how we can help you?</p>
+            <p class="mp-b-1">We help you get your business online without the stress!</p>
+            <p>Contact us now to see how we can help your business...</p>
         </div>
         <div class="herobtnholder"><a href="contact" class="btn herobtn">Contact us now</a></div>
     </div>
 </section>
-
+<!--
 <section class="container portfoliogrid">
     <img class="portfolioimg img1" src="img/bitmap.png" alt="">
     
-</section>
+</section> 
 
 <section class="container">
     <div class="banner">
@@ -54,9 +54,9 @@
 
 </section>
 
+-->
 
-
-<section class="accentbg">
+<section class="">
     <div class="container gridcontainer p-bt-3">
     <img class="firstitem" src="img/responsive.png" alt="">
         <div class="textbox seconditem">
@@ -85,7 +85,7 @@
 </section>
 
 
-<section class="accentbg">
+<section class="">
     <div class="container gridcontainer">
     <img class="firstitem" src="img/servers.jpg" alt="">
         <div class="textbox seconditem">
@@ -99,7 +99,7 @@
     </div>
 </section>
 
-<section class="accentbg" >
+<section class="" >
     <div class="container gridcontainer bgshape">
         
     <img class="seconditem centeredgrid" src="img/seo.png" alt="">
@@ -292,6 +292,7 @@
         </div>
     </div>
 </section>
+-->
 </main>
 <script src="js/observer.js"></script>
     <?php include("inc/footer.inc.php"); ?>

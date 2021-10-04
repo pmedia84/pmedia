@@ -1,14 +1,15 @@
 .textbox{
-    background-color: rgba($secondcol, .7);
+    padding: 4rem 2rem 4rem 2rem;
   }
   .textbox-title{
     font-size: 2.8rem;
     font-weight: bold;
-    color: $primarycol;
+    color: $secondcol;
   }
   
   .textbox-text{
-    line-height: 1.5;
+    line-height: 1.7;
+    font-weight: 300;
   }
   
   .textbox-subtitle{

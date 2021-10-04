@@ -3,7 +3,7 @@ const navbar = document.querySelector(".nav");
 const hero = document.querySelector(".hero");
 
 const heroobserveroptions = {
-    rootMargin: "-300px 0px -300px 0px",
+    rootMargin: "-500px 0px -500px 0px",
 };
 
 const heroobserver = new IntersectionObserver(function(entries, 

@@ -1,6 +1,6 @@
 .portfolioimg{
   //  box-shadow: 0px 2px 5px rgb(180, 180, 180);
-    opacity: 0.8;
+  
 }
 
 .img1{
@@ -34,4 +34,9 @@
 
 .home-scrolled{
     background-color: #fff;
+}
+
+.heroscrolled{
+    color:black;
+    transition: color 1500ms;
 }

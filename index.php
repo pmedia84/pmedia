@@ -23,7 +23,7 @@
 
 <section class="container">
     <div class="banner">
-        <h1 class="bannertitle">How We Get Your Business Online</h1>
+        <h1 class="bannertitle">How We Get Your Busines Online</h1>
 
     </div>
 

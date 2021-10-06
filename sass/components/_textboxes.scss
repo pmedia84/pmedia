@@ -1,22 +1,58 @@
 .textbox{
+  border: 1px solid $primarycol;
+  background-color: #fff;
     padding: 4rem 2rem 4rem 2rem;
+    border-radius: 0.5rem;
+    a::after{
+      font-family: "Font Awesome 5 Free"; font-weight: 900; content: "\f061";
+      margin: 0 0.5rem 0 0.5rem;
+      position: absolute;
+      transform: translatex(0px);
+      transition: transform 350ms ease-in-out;
+      
+    }
+    a:hover::after{
+      
+        transform: translatex(5px);
+        transition: transform 350ms ease-in-out;
+    
+    }
+    a:focus{
+      outline-color: $primarycol;
+      text-decoration-line: underline;
+      &::after{
+        transform: translatex(5px);
+        transition: transform 350ms ease-in-out;
+      }
+    }
   }
+
   .textbox-title{
-    font-size: 2.8rem;
-    font-weight: bold;
+    font-size: clamp(1.5rem, 25vw, 2rem);
+    font-weight: 500;
     color: $secondcol;
+    
   }
   
+  $lineheight: 1.8;
+
   .textbox-text{
-    line-height: 1.7;
+    line-height: $lineheight;
     font-weight: 300;
+    margin-block-end: 1rem;
   }
   
   .textbox-subtitle{
     font-size: 1.25rem;
+    line-height: $lineheight;
     color: $lightcolor1;
+    font-weight: 300;
   }
 
+  .textbox-title,
+  .textbox-subtitle{
+    margin-bottom: 1rem;
+  }
   .centered{
     //aligns content in the middle of textbox when on larger screens
     display: flex;

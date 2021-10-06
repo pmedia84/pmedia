@@ -41,8 +41,26 @@
 
 //Add bottom margin 1.5rem
 .m-b-1{
-    margin-bottom: 1.5rem; 
+    margin-bottom: $narrowmargin; 
 }
+
+//Add bottom margin 3rem
+.m-b-2{
+    margin-bottom: $stdmargin;
+}
+
+
+// Apply marginonly on screens over 768px
+
+@media (max-width:768px){
+
+
+.m-b-2-lg{
+    margin-bottom: $stdmargin;
+}
+}
+
+
 
 //Add margin to titles for spacing
 .mt-b-1{
@@ -77,3 +95,4 @@ $smallbreak: 768px;
 .accentbg{ // Adds bg color to the element based on the accent colour of the size
     background-color: $accentcol;
 }
+

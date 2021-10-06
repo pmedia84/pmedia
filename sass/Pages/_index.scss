@@ -1,7 +1,7 @@
-.portfolioimg{
+//.portfolioimg{
   //  box-shadow: 0px 2px 5px rgb(180, 180, 180);
   
-}
+//}
 
 .img1{
     grid-column: 2/11;
@@ -24,19 +24,32 @@
 }
 
 .home-not-scrolled{
-    background-color: #1179AD;
+    background-color: $notscrolledbg;
     
     transition: all 1500ms ease;
     
   }
 
 
-
+.indexhero{
+    background-image: url("../img/indexhero.jpg");
+    background-color: $notscrolledbg;
+    background-blend-mode: soft-light;
+    //height: 50vh;
+    transition: background-color 1500ms;
+    color: #fff;
+}
 .home-scrolled{
     background-color: #fff;
+    
 }
 
-.heroscrolled{
-    color:black;
-    transition: color 1500ms;
+.indexheroscrolled{
+    @media (min-width:800px) {
+        color:black;
+    }
+    
+    background-color: rgb(126, 126, 126);
+    transition: all 1500ms;
+
 }

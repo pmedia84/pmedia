@@ -2,18 +2,19 @@
 <html lang="en">
 
 <head>
-    <title>Lashes and Brows by Mandi : Contact Me</title>
+    <title>Parrot Media : Contact Us</title>
 
     <?php include("inc/nav.inc.php"); ?>
 
     <main>
-    <section class="containerfw">
-    <div class="hero herogrid contacthero">
+    <section class="containerfw hero contacthero ">
+    <div class="container  herogrid ">
         <h1 class="herotitle mt-b-1">Get In Touch With Us</h1>
         <p class="herotext">We take the stress away from you and help you take your business online. Find out how we can hep you, fill out the form below and we will be in touch...</p>
         
         
     </div>
+    </section>
     <section class="container banner">
         <h1 class="bannertitle m-b-1">Contact Us</h1>
         

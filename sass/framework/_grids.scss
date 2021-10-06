@@ -1,10 +1,14 @@
 //CSS Grid for 2 column layouts. Equal size columns and 1 row
-@media (min-width: 768px){
+@media (min-width: 800px){
     .gridcontainer{
         display: grid;
         grid-template-columns: 1fr 1fr;
         grid-template-rows: 1fr;
         gap: 2rem;
+        img{
+            height: 100%;
+            object-fit: contain;
+        }
     }
 
     
@@ -44,8 +48,9 @@
     // background-image: url("../img/code.jpg");
    background-blend-mode: multiply;
    
-   min-height: 40vh;
-   color: #fff;
+  // min-height: 40vh;
+   
+   transition: color 1500ms;
  }
  
  .herogrid{

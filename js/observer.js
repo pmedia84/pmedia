@@ -1,6 +1,6 @@
 const home = document.querySelector(".home-not-scrolled");
 const navbar = document.querySelector(".nav");
-const hero = document.querySelector(".hero");
+const hero = document.querySelector(".indexhero");
 
 const heroobserveroptions = {
     rootMargin: "-500px 0px -500px 0px",
@@ -26,9 +26,9 @@ entries.forEach(entry => {
 
 
     if(!entry.isIntersecting)
-    hero.classList.add("heroscrolled");
+    hero.classList.add("indexheroscrolled");
     else {
-        hero.classList.remove("heroscrolled");
+        hero.classList.remove("indexheroscrolled");
         
     }
     });

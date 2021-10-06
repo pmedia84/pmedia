@@ -48,7 +48,7 @@ if(isset($_POST['validation']) && !empty($_POST['validation'])) {
 
 		// Configuration options
 		// Enter the email address that you want emails to be sent to.
-		$address = "mandi@lashesandbrowsbymandi.co.uk";
+		$address = "karl@parrotmedia.co.uk.co.uk";
 		$visitoremail = $email; //address for auto reply
 
 		//email subject
@@ -56,7 +56,7 @@ if(isset($_POST['validation']) && !empty($_POST['validation'])) {
 		$arsubject = 'Thank You For Contacting Apex Personal Fitness';
 
 		// compose email body
-		$msg = "<h4>Dear Mandi,</h4>
+		$msg = "<h4>Dear Karl,</h4>
 		<p>You have been contacted by $name.</p>
 		<p><strong>Message:</strong><br>$message</p>
 		<p><strong>Name:</strong> $name<br>

@@ -9,7 +9,7 @@
             <div class="container hero herogrid">
                 <h1 class="herotitle mt-b-1">Your New Website Begins Here!</h1>
                 <div class="herotext">
-                    <p class="mp-b-1">We are a young and vibrant usiness based in Long Sutton Lincolnshire, we develop and design custom websites that will help you take that next step to enhance you presence online. </p>
+                    <p class="mp-b-1">We are a young and vibrant business based in Long Sutton, Lincolnshire, we develop and design custom websites that help you take that next step to enhance your presence online. </p>
                     <p class="mp-b-1">Why not contact us and see what we can do for your business?</p>
                 </div>
                 <div class="herobtnholder"><a href="contact" class="btn herobtn">Contact us now</a></div>

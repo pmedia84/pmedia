@@ -9,7 +9,7 @@
             <div class="container hero herogrid">
                 <h1 class="herotitle mt-b-1">Your New Website Begins Here!</h1>
                 <div class="herotext">
-                    <p class="mp-b-1">We are a young and vibrant business based in Long Sutton, Lincolnshire, we develop and design custom websites that help you take that next step to enhance your presence online. </p>
+                    <p class="mp-b-1">We are a young and vibrant business based in Long Sutton, Lincolnshire. We develop and design custom websites that help you take that next step to enhance your presence online. </p>
                     <p class="mp-b-1">Why not contact us and see what we can do for your business?</p>
                 </div>
                 <div class="herobtnholder"><a href="contact" class="btn herobtn">Contact us now</a></div>
@@ -80,7 +80,7 @@
                 <div class="textbox firstitem">
 
                     <h2 class="textbox-title">Custom Built</h2>
-                    <p class="textbox-subtitle">We make all of our websites from scratch</p>
+                    <p class="textbox-subtitle">No templates to be seen here!</p>
                     <p class="textbox-text">All of our websites are built from the gound up from scratch. We don't use any templates or any "Quick Fixes", we do this to ensure you always have a unique site and also this enables you to have the site you truly want.</p>
                     <p class="textbox-text"><a href="contact"> Contact Us To Find Out More</a></p>
                 </div>
@@ -203,7 +203,7 @@
                     <p class="servicecard-sub">Great for small businesses or personal websites</p>
                 </div>
                 <div class="servicecard-pricing">
-                    <h3>from £600</h3>
+                    <h3>From £600</h3>
                     <p>One off cost</p>
                 </div>
                 <div class="servicecard-features">

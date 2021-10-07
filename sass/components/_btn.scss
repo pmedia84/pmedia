@@ -1,12 +1,11 @@
 .btn{
     padding: 0.25em 1em;
-    //background-color: $secondcol;
     text-align: center;
     font-size: 1.25rem;
     border-radius: 0.25rem;
     text-decoration: none;
-    color: $primarycol;
-    border: 1px solid $primarycol;
+    color: $secondcol;
+    border: 1px solid $secondcol;
     text-decoration: none;
     &:hover{
         opacity: 0.9;
@@ -37,8 +36,8 @@
   }
 }
 
-.featurecardbtn{
-  width: 500px;
+.featurecardbtn, button{
+  
   box-shadow: 0 1px 1px rgba(0,0,0,0.15), 
               0 2px 2px rgba(0,0,0,0.15), 
               0 4px 4px rgba(0,0,0,0.15), 

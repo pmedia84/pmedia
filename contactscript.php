@@ -48,7 +48,7 @@ if(isset($_POST['validation']) && !empty($_POST['validation'])) {
 
 		// Configuration options
 		// Enter the email address that you want emails to be sent to.
-		$address = "karl@parrotmedia.co.uk.co.uk";
+		$address = "karl@parrotmedia.co.uk";
 		$visitoremail = $email; //address for auto reply
 
 		//email subject

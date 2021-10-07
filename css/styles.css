@@ -918,7 +918,7 @@ footer {
 
 .indexheroscrolled {
   background-color: #7e7e7e;
-  transition: all 1500ms; }
+  transition: background-color 1500ms; }
   @media (min-width: 800px) {
     .indexheroscrolled {
       color: black; } }

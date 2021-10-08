@@ -61,7 +61,7 @@
 
         <section class="">
             <div class="container  gridcontainer p-bt-0 ">
-                <img class="firstitem m-b-2-lg" src="img/responsive2.png" alt="">
+                <img class="firstitem m-b-2-lg" src="img/responsive-web-design.svg" alt="">
                 <div class="textbox seconditem">
 
                     <h2 class="textbox-title">Responsive Designs</h2>
@@ -76,7 +76,7 @@
 
         <section>
             <div class="container gridcontainer">
-                <img class="seconditem m-b-2-lg" src="img/coding.png" alt="">
+                <img class="seconditem m-b-2-lg" src="img/custom-built-websites.svg" alt="">
                 <div class="textbox firstitem">
 
                     <h2 class="textbox-title">Custom Built</h2>
@@ -92,7 +92,7 @@
 
         <section class="">
             <div class="container gridcontainer">
-                <img class="firstitem m-b-2-lg" src="img/servers.jpg" alt="">
+                <img class="firstitem m-b-2-lg" src="img/web-hosting.svg" alt="">
                 <div class="textbox seconditem">
 
                     <h2 class="textbox-title">Web Site Hosting</h2>
@@ -108,7 +108,7 @@
         <section class="">
             <div class="container gridcontainer">
 
-                <img class="seconditem centeredgrid" src="img/seo.png" alt="">
+                <img class="seconditem centeredgrid" src="img/search-engine-optimisation.svg" alt="">
                 <div class="textbox firstitem">
 
                     <h2 class="textbox-title">Search Engine Optimisation</h2>

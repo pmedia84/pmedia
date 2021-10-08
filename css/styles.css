@@ -609,7 +609,7 @@ button {
   grid-template-rows: 1fr 1fr; }
 
 .hero {
-  padding: 2.5vh;
+  padding: 2.5vw;
   background-size: cover;
   background-repeat: no-repeat;
   background-blend-mode: multiply;

@@ -108,7 +108,7 @@
         <section class="">
             <div class="container gridcontainer">
 
-                <img class="seconditem centeredgrid" src="img/search-engine-optimisation.svg" alt="">
+                <img class="seconditem centeredgrid m-b-2-lg" src="img/search-engine-optimisation.svg" alt="">
                 <div class="textbox firstitem">
 
                     <h2 class="textbox-title">Search Engine Optimisation</h2>

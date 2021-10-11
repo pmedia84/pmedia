@@ -38,6 +38,12 @@ src="https://www.facebook.com/tr?id=564896878076520&ev=PageView
 </head>
 
 <body>
+<div id="fb-root"></div>
+
+<!-- Your Chat plugin code -->
+<div id="fb-customer-chat" class="fb-customerchat">
+</div>
+
     <nav class="nav nav-not-scrolled">
 
         <div class="nav-container">

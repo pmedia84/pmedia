@@ -23,8 +23,8 @@
 
         <section class="container">
             <div class="banner">
-                <h1 class="bannertitle">How We Take Your Busines Online</h1>
-                <h3>We think of everything, so you don't have to!</h3>
+                <h1 class="bannertitle">How We Help Your Business</h1>
+                <h3>Full service in house, from Design to Hosting!</h3>
 
             </div>
         </section>

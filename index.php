@@ -125,7 +125,7 @@
         <section class="container">
             <div class="banner">
                 <h1 class="bannertitle">Our Website Packages </h1>
-                <h3>We have something for everyone!</h3>
+                <h3>Large or small, we have it all!</h3>
 
 
             </div>

@@ -9,7 +9,7 @@
             <div class="container hero herogrid">
                 <h1 class="herotitle mt-b-1">Your New Website Begins Here!</h1>
                 <div class="herotext">
-                    <p class="mp-b-1">We are a young and vibrant business based in Long Sutton, Lincolnshire. We develop and design custom websites that help you take that next step to enhance your presence online. </p>
+                    <p class="mp-b-1">Parrot Media are a young, vibrant business in Long Sutton, Lincolnshire. Our mission is to help you develop your presence online. We create awesome websites that help you take that next step.</p>
                     <p class="mp-b-1">Why not contact us and see what we can do for your business?</p>
                 </div>
                 <div class="herobtnholder"><a href="contact" class="btn herobtn">Contact us now</a></div>

@@ -81,7 +81,7 @@
 
                     <h2 class="textbox-title">Custom Built</h2>
                     <p class="textbox-subtitle">No templates to be seen here!</p>
-                    <p class="textbox-text">All of our websites are built from the gound up from scratch. We don't use any templates or any "Quick Fixes", we do this to ensure you always have a unique site and also this enables you to have the site you truly want.</p>
+                    <p class="textbox-text">All of our websites are built from scratch! We don't use any templates or any "Quick Fixes", we do this to ensure you always have a unique site, also this meake updating and your website much easier in the future.</p>
                     <p class="textbox-text"><a href="contact"> Contact Us To Find Out More</a></p>
                 </div>
 

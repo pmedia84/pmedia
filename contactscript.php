@@ -33,7 +33,7 @@ if(isset($_POST['validation'] ) && !empty($_POST['validation'])) {
 		
 		$currentwebsite  = filter_var($_POST['currentwebsite'],FILTER_SANITIZE_STRING);
 		
-		foreach($_POST ['requirements'] as $requirements);
+		foreach($_POST ['requirements[]'] as $requirements);
 		// define extra fields for an auto reply to customer
 		$visitoremail    = filter_var($_POST['email'],FILTER_SANITIZE_EMAIL);
 		//check values

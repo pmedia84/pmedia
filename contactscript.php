@@ -75,7 +75,7 @@ if(isset($_POST['validation'] ) && !empty($_POST['validation'])) {
 		<p><strong>Name:</strong> $name<br>
 		<strong>Email:</strong> $email <br>
 		<strong>Phone:</strong> $phone <br></p>
-		<strong>Phone:</strong> $requirements <br></p>
+		<strong>Requirements:</strong> $requirements <br></p>
 		<p>Regards,<br><br><strong>Administrator</strong></p>";
 
 		// Auto Reply email Body

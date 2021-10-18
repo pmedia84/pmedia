@@ -55,7 +55,7 @@ if(isset($_POST['validation'] ) && !empty($_POST['validation'])) {
 			echo '<div id="response">0</div><div class="error_message">No message. Please try again.</div>';
 			exit();
 		}
-		foreach($_POST ['requirements'] as $requirements);
+		foreach($_POST ['requirements[]'] as $requirements);
 
 		// Configuration options
 		// Enter the email address that you want emails to be sent to.

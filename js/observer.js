@@ -25,12 +25,7 @@ entries.forEach(entry => {
     }
 
 
-    if(!entry.isIntersecting)
-    hero.classList.add("indexheroscrolled");
-    else {
-        hero.classList.remove("indexheroscrolled");
-        
-    }
+   
     });
    
     

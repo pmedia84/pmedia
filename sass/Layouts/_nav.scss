@@ -137,7 +137,7 @@ a{
 }
 
 .nav-not-scrolled{
-    background-color: #1179AD;
+   background-color: #ffffff;
     
     transition: all 1500ms ease;
     
@@ -146,14 +146,14 @@ a{
   
 .scrolled{
     
-    background-color: #fff;
+    background-color: red;
     
 }
 
 .nav-scrolled{
-    background-color: rgba(255, 255, 255, 1);
+    background-color: rgb(250, 250, 250);
     color: black;
-    box-shadow: 0px 2px 2px rgba($primarycol, 0.9);
+    box-shadow: 0px 3px 3px rgba($primarycol, 0.9);
     a{
         color: black;
         transition: color 1500ms;

@@ -12,7 +12,7 @@
                     <p class="mp-b-1">Parrot Media are a young, vibrant business in Long Sutton, Lincolnshire. Our mission is to help you develop your presence online. We create awesome websites that help you take that next step.</p>
                     <p class="mp-b-1">Why not contact us and see what we can do for your business?</p>
                 </div>
-                <div class="herobtnholder"><a href="contact" class="btn herobtn">Contact us now</a></div>
+                <div class="herobtnholder"><a href="contact" class="btn herobtn">Request A Quotation</a></div>
             </div>
         </section>
         <!--

@@ -53,7 +53,7 @@
         <div class="nav-container">
             <div class="brand">
                 <a href="index">
-                    <img src="img/drawing-1.png" alt="Parrot Media Logo">
+                    <img src="img/svglogo.svg" alt="Parrot Media Logo">
                 </a>
             </div>
 

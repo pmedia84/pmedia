@@ -50,7 +50,7 @@ if(isset($_POST['validation'] ) && !empty($_POST['validation'])) {
 			exit();
 		}
 
-
+		
 		// Configuration options
 		// Enter the email address that you want emails to be sent to.
 		$address = "hello@parrotmedia.co.uk";
@@ -65,7 +65,7 @@ if(isset($_POST['validation'] ) && !empty($_POST['validation'])) {
 		<p>You have been contacted by $name.</p>
 		<p><strong>Message:</strong><br>$message</p>
 		<p><strong>Wanting a :</strong><br>$newwebsite</p>
-		<p><strong>Message:</strong><br>$currentwebsite</p>
+		<p><strong>Current Website Address:</strong><br>$currentwebsite</p>
 		<p><strong>Timescale:</strong><br>$timescale</p>
 		<p><strong>Name:</strong> $name<br>
 		<strong>Email:</strong> $email <br>

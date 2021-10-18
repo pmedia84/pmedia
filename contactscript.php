@@ -25,6 +25,9 @@ if(isset($_POST['validation']) && !empty($_POST['validation'])) {
 		$email    = filter_var($_POST['email'],FILTER_SANITIZE_EMAIL);
 		$phone    = filter_var($_POST['phone'],FILTER_SANITIZE_SPECIAL_CHARS);
 		$message  = filter_var($_POST['message'],FILTER_SANITIZE_STRING);
+		$newwebsite  = filter_var($_POST['newwebsite'],FILTER_SANITIZE_STRING);
+		$currentwebsite  = filter_var($_POST['currentwebsite'],FILTER_SANITIZE_STRING);
+		$timescale  = filter_var($_POST['timescale'],FILTER_SANITIZE_STRING);
 		// define extra fields for an auto reply to customer
 		$visitoremail    = filter_var($_POST['email'],FILTER_SANITIZE_EMAIL);
 		//check values
@@ -59,6 +62,9 @@ if(isset($_POST['validation']) && !empty($_POST['validation'])) {
 		$msg = "<h4>Dear Karl,</h4>
 		<p>You have been contacted by $name.</p>
 		<p><strong>Message:</strong><br>$message</p>
+		<p><strong>Wanting a :</strong><br>$newwebsite</p>
+		<p><strong>Message:</strong><br>$currentwebsite</p>
+		<p><strong>Timescale:</strong><br>$timescale</p>
 		<p><strong>Name:</strong> $name<br>
 		<strong>Email:</strong> $email <br>
 		<strong>Phone:</strong> $phone <br></p>

@@ -27,7 +27,7 @@ if(isset($_POST['validation'] ['requirements[]'] ['timescale[]']) && !empty($_PO
 		$message  = filter_var($_POST['message'],FILTER_SANITIZE_STRING);
 		$newwebsite  = filter_var($_POST['newwebsite'],FILTER_SANITIZE_STRING);
 		$currentwebsite  = filter_var($_POST['currentwebsite'],FILTER_SANITIZE_STRING);
-		$timescale  = filter_var($_POST['timescale[]'],FILTER_SANITIZE_STRING);
+		
 		// define extra fields for an auto reply to customer
 		$visitoremail    = filter_var($_POST['email'],FILTER_SANITIZE_EMAIL);
 		//check values

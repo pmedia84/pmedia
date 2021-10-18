@@ -6,7 +6,7 @@ if(!$_POST) {
 	exit;
 }
 
-if(isset($_POST['validation'] ['requirements[]'] ['timescale']) && !empty($_POST['validation'])) {
+if(isset($_POST['validation'] ['requirements[]'] ['timescale[]']) && !empty($_POST['validation'])) {
 	$secret = '6LdQQ7UcAAAAAPLfmSCoR2BWaM-2Iri5zC6LW7YK';
 	$verifyResponse = file_get_contents('https://www.google.com/recaptcha/api/siteverify?secret='.$secret.'&response='.$_POST['validation']);
 	$responseData = json_decode($verifyResponse);

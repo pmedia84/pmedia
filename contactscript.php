@@ -19,7 +19,7 @@ if(isset($_POST['validation'] ) && !empty($_POST['validation'])) {
 
 		
 		
-			foreach($_POST ['requirements'] as $requirements);
+			
 		
 		//define new line
 		if (!defined("PHP_EOL")) {
@@ -54,7 +54,7 @@ if(isset($_POST['validation'] ) && !empty($_POST['validation'])) {
 			echo '<div id="response">0</div><div class="error_message">No message. Please try again.</div>';
 			exit();
 		}
-
+		foreach($_POST ['requirements'] as $requirements);
 
 		// Configuration options
 		// Enter the email address that you want emails to be sent to.
@@ -69,7 +69,7 @@ if(isset($_POST['validation'] ) && !empty($_POST['validation'])) {
 		$msg = "<h4>Dear Karl,</h4>
 		<p>You have been contacted by $name.</p>
 		<p><strong>Message:</strong><br>$message</p>
-		<p><strong>Wanting a :</strong><br>$newwebsite</p>
+		
 		<p><strong>Current Website Address:</strong><br>$currentwebsite</p>
 		<p><strong>Timescale:</strong><br>$timescale</p>
 		<p><strong>Name:</strong> $name<br>

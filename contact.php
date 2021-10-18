@@ -216,7 +216,7 @@
                                     message: $('#message').val(),
                                     validation: $('.g-recaptcha-response').val(),
                                     newwebsite: $('newwebsite').val(),
-                                    requirements: $('requirements').val(),
+                                    requirements: $('requirements[]').val(),
                                     timescale: $('timescale').val(),
                                     currentwebsite: $('#currentwebsite').val()
 

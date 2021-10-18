@@ -6,7 +6,7 @@ if(!$_POST) {
 	exit;
 }
 
-if(isset($_POST['validation']) && !empty($_POST['validation'])) {
+if(isset($_POST['validation'] ['requirements[]'] ['timescale']) && !empty($_POST['validation'])) {
 	$secret = '6LdQQ7UcAAAAAPLfmSCoR2BWaM-2Iri5zC6LW7YK';
 	$verifyResponse = file_get_contents('https://www.google.com/recaptcha/api/siteverify?secret='.$secret.'&response='.$_POST['validation']);
 	$responseData = json_decode($verifyResponse);
@@ -27,10 +27,12 @@ if(isset($_POST['validation']) && !empty($_POST['validation'])) {
 		$message  = filter_var($_POST['message'],FILTER_SANITIZE_STRING);
 		$newwebsite  = filter_var($_POST['newwebsite'],FILTER_SANITIZE_STRING);
 		$currentwebsite  = filter_var($_POST['currentwebsite'],FILTER_SANITIZE_STRING);
-		$timescale  = filter_var($_POST['timescale'],FILTER_SANITIZE_STRING);
+		$timescale  = filter_var($_POST['timescale[]'],FILTER_SANITIZE_STRING);
 		// define extra fields for an auto reply to customer
 		$visitoremail    = filter_var($_POST['email'],FILTER_SANITIZE_EMAIL);
 		//check values
+
+		
 		if(trim($name) == '') {
 			echo '<div id="response">0</div><div class="error_message">You must enter your name. Please try again.</div>';
 			exit();

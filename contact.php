@@ -45,9 +45,9 @@
 
                             <div class="form-check">
                                 <p class="mp-b-1">Help us to understand what type of website you are looking for:</p>
-                                <label class="check-label" for="newwebsite"><input class="check-input" type="checkbox" id="newwebsite" name="newwebsite" value="newwebsite" checked>I Need A New Website</label><br>
+                                <label class="check-label" for="newwebsite"><input class="check-input" type="checkbox" id="newwebsite" name="requirements[]" value="newwebsite" checked>I Need A New Website</label><br>
                             
-                                <label class="check-label" for="exisitingsite"><input class="check-input" type="checkbox" id="exisitingsite" name="existingsite" value="exisitingwebsite">I Need Help With My Current Website</label><br>
+                                <label class="check-label" for="exisitingsite"><input class="check-input" type="checkbox" id="exisitingsite" name="requirements[]" value="exisitingwebsite">I Need Help With My Current Website</label><br>
                             </div>
 
 
@@ -84,17 +84,17 @@
                             <p class="mp-b-1">Please indicate your expected timescale for this project:</p>
                             <div class="form-radio">
                                 
-                                <label class="radio-label" for="asap"><input type="radio" class="radio-input" id="asap" name="timescale" value="asap" checked>ASAP</label>
+                                <label class="radio-label" for="asap"><input type="radio" class="radio-input" id="asap" name="timescale[]" value="asap" checked>ASAP</label>
                             </div>
                             
                             <div class="form-radio">
                                 
-                                <label class="radio-label" for="3to6"><input type="radio" class="radio-input" id="3to6" name="timescale" value="3to6">3 to 6 Months</label>
+                                <label class="radio-label" for="3to6"><input type="radio" class="radio-input" id="3to6" name="timescale[]" value="3to6">3 to 6 Months</label>
                             </div>
 
                             <div class="form-radio">
                                 
-                                <label class="radio-label" for="6to9"><input type="radio" class="radio-input" id="6to9" name="timescale" value="6to9">6 to 9 Months</label>
+                                <label class="radio-label" for="6to9"><input type="radio" class="radio-input" id="6to9" name="timescale[]" value="6to9">6 to 9 Months</label>
                             </div>
                           
                         </div>
@@ -216,9 +216,8 @@
                                     message: $('#message').val(),
                                     validation: $('.g-recaptcha-response').val(),
                                     newwebsite: $('newwebsite').val(),
-                                    exisitingsite: $('exisitingsite').val(),
-                                    currentwebsite: $('currentwebsite').val(),
-                                    timescale: $('timescale').val()
+                                    requirements: $('requirements[]').val(),
+                                    timescale: $('timescale[]').val()
 
 
 

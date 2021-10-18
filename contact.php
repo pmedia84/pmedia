@@ -215,9 +215,9 @@
                                     phone: $('#phone').val(),
                                     message: $('#message').val(),
                                     validation: $('.g-recaptcha-response').val(),
-                                    newwebsite: $('#newwebsite').val(),
-                                    exisitingsite: $('#exisitingsite').val(),
-                                    currentwebsite: $('#currentwebsite').val(),
+                                    newwebsite: $('newwebsite').val(),
+                                    exisitingsite: $('exisitingsite').val(),
+                                    currentwebsite: $('currentwebsite').val(),
                                     timescale: $('timescale').val()
 
 

@@ -252,5 +252,8 @@
                 });
             }(jQuery));
         </script>
-
+<?php 
+        echo $_POST["timescale"];
+       
+?>
         <?php include("inc/footer.inc.php"); ?>

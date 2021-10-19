@@ -88,8 +88,8 @@ if(isset($_POST['validation'] ) && !empty($_POST['validation'])) {
 		<p>Regards,<br><br><strong>Parrot Media</strong></p>";
 
 		//email headers
-		$headers = "From: Parrot Media <karl@parrotmedia.co.uk>" . PHP_EOL;
-		$headers .= "Return-Path: Parrot Media <karl@parrotmedia.co.uk>" . PHP_EOL;
+		$headers = "From: Parrot Media <admin@parrotmedia.co.uk>" . PHP_EOL;
+		$headers .= "Return-Path: Parrot Media <admin@parrotmedia.co.uk>" . PHP_EOL;
 		$headers .= "Reply-To: $name <$email>" . PHP_EOL;
 		$headers .= "MIME-Version: 1.0" . PHP_EOL;
 		$headers .= "Content-type: text/html; charset=iso-8859-1" . PHP_EOL;

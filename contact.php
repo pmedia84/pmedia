@@ -252,8 +252,5 @@
                 });
             }(jQuery));
         </script>
-<?php 
-        echo $_POST["name"];
-       
-?>
+
         <?php include("inc/footer.inc.php"); ?>

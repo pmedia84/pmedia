@@ -60,7 +60,7 @@
 </section>
 
 -->
-
+<!--
         <section class="">
             <div class="container  gridcontainer p-bt-0 ">
                 <img class="firstitem m-b-2-lg" src="img/responsive-web-design.svg" alt="">
@@ -230,7 +230,7 @@
                 </div>
             </div>
         </section>
-<!--
+
         <section class="container">
             <div class="banner">
                 <h1 class="bannertitle">Just require Web Hosting?</h1>

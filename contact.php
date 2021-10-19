@@ -88,17 +88,17 @@
                             <p class="mp-b-1">Please indicate your expected timescale for this project:</p>
                             <div class="form-radio">
                                 
-                                <label class="radio-label" for="asap"><input type="radio" name="timescale"   value="asap"  class="radio-input" id="asap"checked>ASAP</label>
+                                <label class="radio-label" for="asap"><input type="radio" name="timescale"   value="ASAP"  class="radio-input" id="asap"checked>ASAP</label>
                             </div>
                             
                             <div class="form-radio">
                                 
-                                <label class="radio-label" for="3to6"><input type="radio" name="timescale"   value="3to6" class="radio-input" id="3to6">3 to 6 Months</label>
+                                <label class="radio-label" for="3to6"><input type="radio" name="timescale"   value="3 To 6 Months" class="radio-input" id="3to6">3 to 6 Months</label>
                             </div>
 
                             <div class="form-radio">
                                 
-                                <label class="radio-label" for="6to9"><input type="radio" name="timescale"   value="6to9" class="radio-input" id="6to9">6 to 9 Months</label>
+                                <label class="radio-label" for="6to9"><input type="radio" name="timescale"   value="6 To 9 Months" class="radio-input" id="6to9">6 to 9 Months</label>
                             </div>
                           
                         </div>

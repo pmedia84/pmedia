@@ -515,7 +515,7 @@ button {
 
 .form-radio {
   border: 1px solid #e7816d;
-  padding: 1rem;
+  padding: 0.5;
   margin-bottom: 1rem;
   border-radius: 0.25rem; }
   .form-radio:hover {

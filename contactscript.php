@@ -71,12 +71,14 @@ if(isset($_POST['validation'] ) && !empty($_POST['validation'])) {
 		<p>You have been contacted by $name.</p>
 		<p><strong>Message:</strong><br>$message</p>
 		
+		
+		<strong>Requirements:</strong><br>$requirements</p>
 		<p><strong>Current Website Address:</strong><br>$currentwebsite</p>
 		<p><strong>Timescale:</strong><br>$timescale</p>
 		<p><strong>Name:</strong> $name<br>
 		<strong>Email:</strong> $email <br>
 		<strong>Phone:</strong> $phone <br></p>
-		<strong>Requirements:</strong> $requirements<br></p>
+		
 		<p>Regards,<br><br><strong>Administrator</strong></p>";
 
 		// Auto Reply email Body

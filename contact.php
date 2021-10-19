@@ -215,9 +215,9 @@
                                     phone: $('#phone').val(),
                                     message: $('#message').val(),
                                     validation: $('.g-recaptcha-response').val(),
+                                    timescale: $("input[name=timescale]:checked").val(),
                                     
                                     
-                                    timescale: $('timescale:checked').val(),
                                     currentwebsite: $('#currentwebsite').val()
 
 

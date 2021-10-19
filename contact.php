@@ -217,7 +217,7 @@
                                     validation: $('.g-recaptcha-response').val(),
                                     
                                     
-                                    timescale: $('#timescale').val(),
+                                    timescale: $('#timescale:checked').val(),
                                     currentwebsite: $('#currentwebsite').val()
 
 

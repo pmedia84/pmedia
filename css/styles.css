@@ -828,6 +828,9 @@ footer {
     grid-column: 1/3;
     grid-row: 2/4; }
 
+#response {
+  display: none; }
+
 .p-top-0 {
   padding-top: 0; }
 
@@ -951,6 +954,9 @@ footer {
   .contacthero .herotext {
     grid-column: 1/3;
     grid-row: 2/4; }
+
+#response {
+  display: none; }
 
 .img1 {
   grid-column: 2/11;

@@ -253,7 +253,7 @@
             }(jQuery));
         </script>
 <?php 
-        echo $_POST["timescale"];
+        echo $_POST["name"];
        
 ?>
         <?php include("inc/footer.inc.php"); ?>

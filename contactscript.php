@@ -32,7 +32,7 @@ if(isset($_POST['validation'] ) && !empty($_POST['validation'])) {
 		$message  = filter_var($_POST['message'],FILTER_SANITIZE_STRING);
 		
 		$currentwebsite  = filter_var($_POST['currentwebsite'],FILTER_SANITIZE_STRING);
-		$timescale = $_POST['timescale'];
+		$timescale = $_POST["timescale"];
 		
 		// define extra fields for an auto reply to customer
 		$visitoremail    = filter_var($_POST['email'],FILTER_SANITIZE_EMAIL);

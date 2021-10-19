@@ -220,7 +220,7 @@
                                     message: $('#message').val(),
                                     validation: $('.g-recaptcha-response').val(),
                                     timescale: $("input[name=timescale]:checked").val(),
-                                    timescale: $("input[name=requirements]:checked").val(),
+                                    requirements: $("input[name=requirements]:checked").val(),
                                     
                                     currentwebsite: $('#currentwebsite').val()
 

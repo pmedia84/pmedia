@@ -32,7 +32,7 @@ if(isset($_POST['validation'] ) && !empty($_POST['validation'])) {
 		$message  = filter_var($_POST['message'],FILTER_SANITIZE_STRING);
 		$requirements  = filter_var($_POST['requirements'],FILTER_SANITIZE_STRING);
 		$currentwebsite  = filter_var($_POST['currentwebsite'],FILTER_SANITIZE_STRING);
-		$timescale = $_POST["timescale"];
+		$timescale = filter_var($_POST['timescale'],FILTER_SANITIZE_STRING);
 		
 		// define extra fields for an auto reply to customer
 		$visitoremail    = filter_var($_POST['email'],FILTER_SANITIZE_EMAIL);
@@ -76,7 +76,7 @@ if(isset($_POST['validation'] ) && !empty($_POST['validation'])) {
 		<p><strong>Name:</strong> $name<br>
 		<strong>Email:</strong> $email <br>
 		<strong>Phone:</strong> $phone <br></p>
-		<strong>Requirements:</strong> $requirements <br></p>
+		<strong>Requirements:</strong> $requirements<br></p>
 		<p>Regards,<br><br><strong>Administrator</strong></p>";
 
 		// Auto Reply email Body

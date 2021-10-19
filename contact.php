@@ -43,11 +43,15 @@
                                 <input class="text-input input" type="text" id="name" placeholder="Your Name *" autocomplete="off" required="" maxlength="45"><small class="form-text text-danger flex-grow-1 help-block lead"></small>
                             </div>
 
-                            <div class="form-check">
-                                <p class="mp-b-1">Help us to understand what type of website you are looking for:</p>
-                                <label class="check-label" for="newwebsite"><input class="check-input" type="checkbox" id="newwebsite" name="requirements[]" value="newwebsite" checked>I Need A New Website</label><br>
+                            <p class="mp-b-1">Please indicate if you are looking for a new website, or you require work to an existing website?</p>
+                            <div class="form-radio">
+                                
+                                <label class="radio-label" for="new"><input type="radio" name="requirements"   value="New Website"  class="radio-input" id="new"checked>New Website</label>
+                            </div>
                             
-                                <label class="check-label" for="exisitingsite"><input class="check-input" type="checkbox" id="exisitingsite" name="requirements[]" value="exisitingwebsite">I Need Help With My Current Website</label><br>
+                            <div class="form-radio">
+                                
+                                <label class="radio-label" for="existing"><input type="radio" name="requirements"   value="Work to Existing Website" class="radio-input" id="existing">Work To An Existing Website</label>
                             </div>
 
 

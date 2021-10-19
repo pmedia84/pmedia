@@ -81,30 +81,30 @@ if(isset($_POST['validation'] ) && !empty($_POST['validation'])) {
 
 		// Auto Reply email Body
 		$armsg = "<h4>Dear $name,</h4>
-		<p>Thank you for contacting Apex Personal Training.</p>
+		<p>Thank you for contacting Parrot Media.</p>
 		<p>We will be in touch very soon</p>
 		<p>You asked us :<strong>Message:</strong><br>$message</p>
 		<br>
-		<p>Regards,<br><br><strong>Apex Personal Training</strong></p>";
+		<p>Regards,<br><br><strong>Parrot Media</strong></p>";
 
 		//email headers
-		$headers = "From: Parrot Media <karl@parrotmedia.co.uk>" . PHP_EOL;
-		$headers .= "Return-Path: Parrot Media <karl@parrotmedia.co.uk>" . PHP_EOL;
+		$headers = "From: Parrot Media <hello@parrotmedia.co.uk>" . PHP_EOL;
+		$headers .= "Return-Path: Parrot Media <hello@parrotmedia.co.uk>" . PHP_EOL;
 		$headers .= "Reply-To: $name <$email>" . PHP_EOL;
 		$headers .= "MIME-Version: 1.0" . PHP_EOL;
 		$headers .= "Content-type: text/html; charset=iso-8859-1" . PHP_EOL;
 		$headers .= "Content-Transfer-Encoding: quoted-printable" . PHP_EOL;
 
 		//Auto Reply Headers
-		$headers = "From: $name <$email>" . PHP_EOL;
-		$headers .= "Return-Path: $name <$email>" . PHP_EOL;
-		$headers .= "Reply-To: $name <$email>" . PHP_EOL;
-		$headers .= "MIME-Version: 1.0" . PHP_EOL;
-		$headers .= "Content-type: text/html; charset=iso-8859-1" . PHP_EOL;
-		$headers .= "Content-Transfer-Encoding: quoted-printable" . PHP_EOL;
+		$arheaders = "From: Parrot Media <hello@parrotmedia.co.uk>" . PHP_EOL;
+		$arheaders .= "Return-Path: Parrot Media <hello@parrotmedia.co.uk>" . PHP_EOL;
+		$arheaders .= "Reply-To: Parrot Media <hello@parrotmedia.co.uk>" . PHP_EOL;
+		$arheaders .= "MIME-Version: 1.0" . PHP_EOL;
+		$arheaders .= "Content-type: text/html; charset=iso-8859-1" . PHP_EOL;
+		$arheaders .= "Content-Transfer-Encoding: quoted-printable" . PHP_EOL;
 
 		//send email
-		if(mail($address, $e_subject, $msg, $headers)) {
+		if(mail($address, $e_subject, $msg, $headers) && mail($email, $arsubject, $armsg, $arheaders)) {
 			// Email has sent successfully, echo a success page
 			echo "<fieldset>
 					<div id='response'>1</div>

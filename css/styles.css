@@ -529,6 +529,7 @@ button {
   cursor: pointer; }
 
 .radio-input {
+  -webkit-tap-highlight-color: none;
   margin-right: 0.5em;
   width: 1rem;
   height: 1rem;

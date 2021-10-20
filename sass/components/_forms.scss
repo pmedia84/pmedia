@@ -176,6 +176,7 @@ margin-bottom: 1rem;
 }
 .radio-input,
 .radio-label{
+  -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
  appearance: none;
   cursor: pointer;
   

@@ -9,7 +9,7 @@
             <div class="container hero herogrid">
                 <h1 class="herotitle mt-b-1">Your New Website Begins Here!</h1>
                 <div class="herotext">
-                    <p class="mp-b-1">Parrot Media are a young, vibrant business in Long Sutton, Lincolnshire. Our mission is to help you develop your presence online. We create awesome websites that help you take that next step.</p>
+                    <p class="mp-b-1">Parrot Media are a young, vibrant business in Long Sutton, Lincolnshire. Our mission is to help you grow your business. We create amazing websites that help you take that next step.</p>
                     <p class="mp-b-1">Why not contact us and see what we can do for your business?</p>
                 </div>
                 <div class="herobtnholder"><a href="contact" class="btn herobtn">Request A Quotation</a></div>
@@ -26,29 +26,29 @@
         <section class="container">
             <div class="banner">
                 <h1 class="bannertitle">How We Help Your Business</h1>
-                <h3>Full service in house, from Design to Hosting!</h3>
+                <h3>We provide a full in house service, from the design to the hosting of your website.</h3>
 
             </div>
-        </section>
+       
 
-        <!--
+        
     <div class="mos-container">
         <div class="featurecard">
-        <i class="fas fa-pencil-ruler"></i>
+        <i class="fas fa-pencil-ruler featurecard-icon"></i>
             <div class="featurecard-body">
-                <h1 class="featurecard-title">Website Design</h1>
-                <p class="featurecard-text">It all starts with the design. We will work with you and come up with a design that you love! And then we build the site for you from scratch</p>
+                <h1 class="featurecard-title">Design</h1>
+                <p class="featurecard-text">It all starts with the design. We will work with you and understand what designs you like. We can even help you with your current website if you are not happy with it!</p>
             </div>
         </div>
         <div class="featurecard">
-        <i class="fas fa-server"></i>
+        <i class="fas fa-server featurecard-icon"></i>
             <div class="featurecard-body">
                 <h1 class="featurecard-title">Hosting</h1>
                 <p class="featurecard-text">Every website needs somewhere to live on its own corner of the internet. Every website package we offer comes with the first year of hosting for free!</p>
             </div>
         </div>
         <div class="featurecard">
-        <i class="fas fa-search"></i>
+        <i class="fas fa-search featurecard-icon"></i>
         <div class="featurecard-body">
                 <h1 class="featurecard-title">SEO</h1>
                 <p class="featurecard-text">Search Engine Optimisation is important for your business to be found in search results. We can help you do this by ensuring that your website is indexed correctly and can be found in search results.</p>
@@ -59,7 +59,7 @@
 
 </section>
 
--->
+
 
         <section class="">
             <div class="container  gridcontainer p-bt-0 ">
@@ -67,8 +67,8 @@
                 <div class="textbox seconditem">
 
                     <h2 class="textbox-title">Responsive Designs</h2>
-                    <p class="textbox-subtitle">We make sure that your website looks amazing on every device</p>
-                    <p class="textbox-text">Mobile first is where we start! With the growing trend now towards mobile devices you need to make sure that your website is up to the task. And that is where we will start. Your website will look amazing no matter what device it is being viewed on.</p>
+                    <p class="textbox-subtitle">We make sure that your new website looks amazing on every device</p>
+                    <p class="textbox-text">Mobile first is where we start! With the growing trend now towards mobile devices you need to make sure that your website is up to the task. Your website will look amazing no matter what device it is being viewed on.</p>
                     <p class="textbox-text"><a href="contact">Request A Quotation</a></p>
                 </div>
 
@@ -83,7 +83,7 @@
 
                     <h2 class="textbox-title">Custom Built</h2>
                     <p class="textbox-subtitle">No templates to be seen here!</p>
-                    <p class="textbox-text">All of our websites are built from scratch! We don't use any templates or any "Quick Fixes", we do this to ensure you always have a unique site, also this makes updating and your website much easier in the future.</p>
+                    <p class="textbox-text">Once a design has been agreed upon, we set to work developing every amazing feature and page that you want in your new website. We can build components into your website such as, a contact form, a dynamic price list, photo gallery and many more. Just ask us and see what is possible.</p>
                     <p class="textbox-text"><a href="contact">Request A Quotation</a></p>
                 </div>
 
@@ -97,7 +97,7 @@
                 <img class="firstitem m-b-2-lg" src="img/web-hosting.svg" alt="">
                 <div class="textbox seconditem">
 
-                    <h2 class="textbox-title">Web Site Hosting</h2>
+                    <h2 class="textbox-title">Web Hosting</h2>
                     <p class="textbox-subtitle">We only use the best hosting services!</p>
                     <p class="textbox-text">If you do not already have a hosting provider then we will set you up with a hosting package on our own Cloud Based servers. All of our hosting packages come with free backups that can roll back the last 14 days. If you do have a provider already, we can migrate you to our own servers for ease of use. We can also provide a VPS service (Virtual Private Server) if required.</p>
                     <p class="textbox-text"><a href="contact">Request A Quotation</a></p>

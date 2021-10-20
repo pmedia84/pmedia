@@ -69,7 +69,7 @@
                     <h2 class="textbox-title">Responsive Designs</h2>
                     <p class="textbox-subtitle">We make sure that your website looks amazing on every device</p>
                     <p class="textbox-text">Mobile first is where we start! With the growing trend now towards mobile devices you need to make sure that your website is up to the task. And that is where we will start. Your website will look amazing no matter what device it is being viewed on.</p>
-                    <p class="textbox-text"><a href="contact"> Contact Us To Find Out More</a></p>
+                    <p class="textbox-text"><a href="contact">Request A Quotation</a></p>
                 </div>
 
 
@@ -84,7 +84,7 @@
                     <h2 class="textbox-title">Custom Built</h2>
                     <p class="textbox-subtitle">No templates to be seen here!</p>
                     <p class="textbox-text">All of our websites are built from scratch! We don't use any templates or any "Quick Fixes", we do this to ensure you always have a unique site, also this makes updating and your website much easier in the future.</p>
-                    <p class="textbox-text"><a href="contact"> Contact Us To Find Out More</a></p>
+                    <p class="textbox-text"><a href="contact">Request A Quotation</a></p>
                 </div>
 
 
@@ -100,7 +100,7 @@
                     <h2 class="textbox-title">Web Site Hosting</h2>
                     <p class="textbox-subtitle">We only use the best hosting services!</p>
                     <p class="textbox-text">If you do not already have a hosting provider then we will set you up with a hosting package on our own Cloud Based servers. All of our hosting packages come with free backups that can roll back the last 14 days. If you do have a provider already, we can migrate you to our own servers for ease of use. We can also provide a VPS service (Virtual Private Server) if required.</p>
-                    <p class="textbox-text"><a href="contact"> Contact Us To Find Out More</a></p>
+                    <p class="textbox-text"><a href="contact">Request A Quotation</a></p>
                 </div>
 
 
@@ -116,7 +116,7 @@
                     <h2 class="textbox-title">Search Engine Optimisation</h2>
                     <p class="textbox-subtitle">Your new website will depend on being optimised correctly</p>
                     <p class="textbox-text">With our SEO package we will optimise your website so it is correctly indexed with the popular search engines. And you will also perform well in search results. After all, you want to be found on your corner of the internet don't you?</p>
-                    <p class="textbox-text"><a href="contact"> Contact Us To Find Out More</a></p>
+                    <p class="textbox-text"><a href="contact">Request A Quotation</a></p>
                 </div>
 
 

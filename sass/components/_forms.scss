@@ -176,12 +176,25 @@ margin-bottom: 1rem;
 }
 .radio-input,
 .radio-label{
- // appearance: none;
+ appearance: none;
   cursor: pointer;
-  color: inherit;
+  
 }
 .radio-input{
-  accent-color: $secondcol;
+  margin-right: 0.5em;
+  width: 1rem;
+  height: 1rem;
+  border: 1px solid $secondcol;
+  border-radius: 50px;
+  
+  &:checked[type=radio]{
+    background-image: url("../img/dot-circle.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain; 
+  
+    
+  }
   &:focus{
     outline: none;
     box-shadow: 0 0 2pt 1pt $focuscolor;

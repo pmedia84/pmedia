@@ -7,11 +7,11 @@
     <main class="home-not-scrolled">
         <section class="containerfw indexhero">
             <div class="container hero herogrid">
-                <h1 class="herotitle mt-b-1">Your New Website Begins Here!</h1>
+                <!--<h1 class="herotitle mt-b-1">Your New Website Begins Here!</h1>
                 <div class="herotext">
                     <p class="mp-b-1">Parrot Media are a young, vibrant business in Long Sutton, Lincolnshire. Our mission is to help you grow your business. We create amazing websites that help you take that next step.</p>
                     <p class="mp-b-1">Why not contact us and see what we can do for your business?</p>
-                </div>
+                </div> -->
                 <div class="herobtnholder"><a href="contact" class="btn herobtn">Request A Quotation</a></div>
             </div>
         </section>

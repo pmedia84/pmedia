@@ -53,6 +53,8 @@
     resize: none;
     border-radius: 0.25rem;
     @media (min-width:768px) {
+      min-height: 0;
+      margin-bottom: 1rem;
       height: 100%;
     }
   }

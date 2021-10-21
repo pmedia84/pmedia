@@ -7,13 +7,8 @@
     <?php include("inc/nav.inc.php"); ?>
 
     <main>
-        <section class="containerfw hero contacthero ">
-            <div class="container  herogrid ">
-                <h1 class="herotitle mt-b-1">Request A Quotation</h1>
-                <p class="herotext">Parrot Media take the stress away of getting your new website online. Why not request a FREE no obligation quotation from us?</p>
-
-
-            </div>
+        <section class="containerfw hero quotehero">
+            
         </section>
         <section class="container banner">
             <h1 class="bannertitle">Quotation Request</h1>

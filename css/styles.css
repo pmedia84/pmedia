@@ -284,7 +284,7 @@ nav {
   color: #e7816d;
   border: 1px solid #78b5a3;
   text-transform: uppercase;
-  font-size: 1.5rem; }
+  font-size: 1.4rem; }
   .herobtn:focus {
     box-shadow: 0 0 2pt 1pt #f3e7e7; }
 
@@ -457,6 +457,8 @@ button {
   border-radius: 0.25rem; }
   @media (min-width: 768px) {
     .textarea {
+      min-height: 0;
+      margin-bottom: 1rem;
       height: 100%; } }
 
 .input:focus {
@@ -700,6 +702,7 @@ button {
   background-blend-mode: multiply; }
 
 .herogrid {
+  height: 40vh;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   row-gap: 0.9rem; }
@@ -931,9 +934,11 @@ button {
   opacity: 0.99; }
 
 .indexhero {
-  background-image: url("../img/indexhero.jpg");
-  background-blend-mode: soft-light;
-  transition: background-color 1500ms;
+  background-image: url("../img/indexhero.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  height: 40vh;
   color: #78b5a3; }
   .indexhero h1 {
     text-shadow: 1px 1px #cecece; }
@@ -947,6 +952,15 @@ button {
   @media (min-width: 800px) {
     .indexheroscrolled {
       color: black; } }
+
+.quotehero {
+  background-image: url("../img/request_quote.svg");
+  background-position: center;
+  background-size: contain;
+  height: 40vh; }
+
+#response {
+  display: none; }
 
 .social {
   display: inline-flex;

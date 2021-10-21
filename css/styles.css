@@ -897,7 +897,8 @@ button {
 
 .contacthero {
   background-image: url("../img/contactus.svg");
-  background-position: 100% center;
+  background-position: center;
+  background-size: contain;
   min-height: 40vh;
   color: white; }
   .contacthero .herotext {

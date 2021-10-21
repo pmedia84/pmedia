@@ -1,7 +1,7 @@
 .contacthero{
     background-image: url("../img/contactus.svg");
-  background-position:  100% center;
-  //background-size:cover;
+  background-position:   center;
+  background-size:contain;
     min-height: 40vh;
     color: rgb(255, 255, 255);
     .herotext{

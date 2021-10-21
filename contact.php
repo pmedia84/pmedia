@@ -8,16 +8,13 @@
 
     <main>
         <section class="containerfw hero contacthero ">
-            <div class="container  herogrid ">
-                <h1 class="herotitle mt-b-1">Contact Us</h1>
-                <p class="herotext"></p>
-
+           
 
             </div>
         </section>
         <section class="container banner">
-            <h1 class="bannertitle">Quotation Request</h1>
-            <h3 class="m-b-1">Simply fill out the form below and we get back to within 24 Hours. Make sure to include as much information as you can.</h3>
+            <h1 class="bannertitle">Contact Us</h1>
+        <h3 class="m-b-1">Parrot Media are here to help you grow your business. If you would like a quotation, please fill out our <a href="quote_request">Quote Request Form.</a> For anything else, or you simply just want to say hello, then use this form below:</h3>
 
         </section>
         <section id="contact" class="contact container p-top-0 p-bt-2">
@@ -43,27 +40,10 @@
                                 <input class="text-input input" type="text" id="name" placeholder="Your Name *" autocomplete="off" required="" maxlength="45"><small class="form-text text-danger flex-grow-1 help-block lead"></small>
                             </div>
 
-                            <p class="mp-b-1">Please indicate if you are looking for a new website, or you require work to an existing website?</p>
-                            <div class="form-radio">
-                                
-                                <label class="radio-label" for="new"><input type="radio" name="requirements"   value="New Website"  class="radio-input" id="new"checked>New Website</label>
-                            </div>
+                           
+
+
                             
-                            <div class="form-radio">
-                                
-                                <label class="radio-label" for="existing"><input type="radio" name="requirements"   value="Work to Existing Website" class="radio-input" id="existing">Work To An Existing Website</label>
-                            </div>
-
-
-                            <div class="inputwrapper">
-                                <!-- flex container -->
-                                <div class="input-prepend">
-                                    <!-- flex item -->
-                                    <span class="input-prepend-text"><i class="fas fa-globe"></i></span>
-                                </div>
-                                <!-- Flex Item -->
-                                <input class="text-input input" type="text" id="currentwebsite" placeholder="Current Website Address If You Have One" autocomplete="off" maxlength="45"><small class="form-text text-danger flex-grow-1 help-block lead"></small>
-                            </div>
 
 
 
@@ -85,21 +65,7 @@
                                 <input class="text-input input" type="tel" id="phone" placeholder="Your Phone No. *" autocomplete="off" required="" maxlength="45"><small class="form-text text-danger help-block lead"></small>
                             </div>
 
-                            <p class="mp-b-1">Please indicate your expected timescale for this project:</p>
-                            <div class="form-radio">
-                                
-                                <label class="radio-label" for="asap"><input type="radio" name="timescale"   value="ASAP"  class="radio-input" id="asap"checked>ASAP</label>
-                            </div>
                             
-                            <div class="form-radio">
-                                
-                                <label class="radio-label" for="3to6"><input type="radio" name="timescale"   value="3 To 6 Months" class="radio-input" id="3to6">3 to 6 Months</label>
-                            </div>
-
-                            <div class="form-radio">
-                                
-                                <label class="radio-label" for="6to9"><input type="radio" name="timescale"   value="6 To 9 Months" class="radio-input" id="6to9">6 to 9 Months</label>
-                            </div>
                           
                         </div>
                         <div class="formcolumn">
@@ -219,10 +185,7 @@
                                     phone: $('#phone').val(),
                                     message: $('#message').val(),
                                     validation: $('.g-recaptcha-response').val(),
-                                    timescale: $("input[name=timescale]:checked").val(),
-                                    requirements: $("input[name=requirements]:checked").val(),
                                     
-                                    currentwebsite: $('#currentwebsite').val()
 
 
 

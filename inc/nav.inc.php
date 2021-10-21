@@ -60,26 +60,27 @@
 
             <ul class="nav-links">
                <li class="nav-link"><a href="index">Home</a></li>
-                <li class="nav-link">
+               <!-- <li class="nav-link sub-menu-wrapper">
                     
                         
                             
                                 <button class="navbtn sub-menu sub-menu-xl"><a class="" >Services</a></button>
-                                    <div class="sub-menu-wrapper">
+                                    
                                       <div class="sub-menu-content sub-menu-content-xl">
                                           <a class="nav-link sub-menu-link" href="#">Web Design</a>
                                           <a class="nav-link" href="#">Web Hosting</a>
                                           <a class="nav-link" href="#">SEO</a>
                                           <a class="nav-link" href="#">Social Media</a>
                                       </div>
-                                    </div>
+                                    
                             
                         
                     
-                </li>
-               <li class="nav-link"><a href="index">Portfolio</a></li>
-                <li class="nav-link"><a href="index">About</a></li> 
-                <li class="nav-link"><a href="index">Contact</a></li>
+                </li> -->
+              <!--  <li class="nav-link"><a href="index">Portfolio</a></li>
+                <li class="nav-link"><a href="index">About</a></li> -->
+                <li class="nav-link"><a href="quote_request">Request a Quotation</a></li>
+                <li class="nav-link"><a href="contact">Contact</a></li>
                 
                 
             </ul>

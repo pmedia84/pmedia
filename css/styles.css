@@ -141,7 +141,6 @@ nav {
   display: flex;
   flex-direction: column;
   align-items: center;
-  height: 50vh;
   width: 100%;
   padding-bottom: 0.5rem; }
   .nav-active li {
@@ -186,38 +185,45 @@ nav {
   box-shadow: 0 0 0;
   background: none;
   border: none; }
+  @media (max-width: 769px) {
+    .navbtn {
+      background: #fff; } }
 
 @media (min-width: 769px) {
   .sub-menu-xl {
-    position: relative;
     cursor: pointer;
     pointer-events: all; }
   .sub-menu-content-xl {
-    margin-top: 1rem;
     padding: 0.75rem;
+    margin: 0 auto;
+    margin-top: 1rem;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     gap: 0.5rem;
     align-items: center;
     position: absolute;
-    background-color: antiquewhite;
+    background-color: #fff;
     border-radius: 0.15rem;
     opacity: 0;
+    border: 1px solid #e7816d;
     -webkit-transform: translatey(-10px);
     transform: translatey(-10px);
+    z-index: 500;
     pointer-events: none;
     transition: all 0.4s ease; }
     .sub-menu-content-xl::before {
-      position: absolute;
-      top: -0.25rem;
       -webkit-transform: rotate(45deg);
       transform: rotate(45deg);
       content: "";
       height: 1rem;
       width: 1rem;
       border-radius: 0.15rem;
-      background: antiquewhite; }
+      border: 1px solid #e7816d;
+      background: #fff;
+      position: absolute;
+      top: -0.25rem;
+      z-index: -1; }
   .sub-menu-xl:focus + .sub-menu-content-xl {
     opacity: 1;
     pointer-events: all;
@@ -234,7 +240,9 @@ nav {
   .sub-menu {
     width: 100vw;
     text-align: center;
-    cursor: pointer; } }
+    cursor: pointer; }
+  .sub-menu-wrapper {
+    background-color: #cecece; } }
 
 @media (max-width: 768px) {
   .sub-menu-active {
@@ -245,10 +253,7 @@ nav {
     justify-content: center;
     gap: 0.5rem;
     margin: 0 auto;
-    margin-top: 0.5rem; }
-  .sub-menu-wrapper {
-    width: 100%;
-    background-color: rgba(238, 238, 238, 0.9); } }
+    margin-top: 0.5rem; } }
 
 .btn {
   padding: 0.25em 1em;
@@ -685,11 +690,9 @@ button {
   grid-template-rows: 1fr 1fr; }
 
 .hero {
-  padding: 2.5vw;
-  background-size: cover;
+  padding: 6.5vw;
   background-repeat: no-repeat;
-  background-blend-mode: multiply;
-  transition: color 1500ms; }
+  background-blend-mode: multiply; }
 
 .herogrid {
   display: grid;
@@ -776,18 +779,6 @@ button {
 .abouthero {
   background-image: url("../img/about-hero.jpg");
   max-height: 50vh; }
-
-.contacthero {
-  background-image: url("../img/contacthero.jpg");
-  background-color: #d6d6d6;
-  min-height: 40vh;
-  color: white; }
-  .contacthero .herotext {
-    grid-column: 1/3;
-    grid-row: 2/4; }
-
-#response {
-  display: none; }
 
 .p-top-0 {
   padding-top: 0; }
@@ -905,8 +896,8 @@ button {
   display: none; }
 
 .contacthero {
-  background-image: url("../img/contacthero.jpg");
-  background-color: #d6d6d6;
+  background-image: url("../img/contactus.svg");
+  background-position: 100% center;
   min-height: 40vh;
   color: white; }
   .contacthero .herotext {
@@ -935,10 +926,11 @@ button {
 
 .indexhero {
   background-image: url("../img/indexhero.jpg");
-  background-color: #1179AD;
   background-blend-mode: soft-light;
   transition: background-color 1500ms;
-  color: #fff; }
+  color: #78b5a3; }
+  .indexhero h1 {
+    text-shadow: 1px 1px #cecece; }
 
 .home-scrolled {
   background-color: #fff; }

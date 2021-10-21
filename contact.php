@@ -9,8 +9,8 @@
     <main>
         <section class="containerfw hero contacthero ">
             <div class="container  herogrid ">
-                <h1 class="herotitle mt-b-1">Request A Quotation</h1>
-                <p class="herotext">Parrot Media take the stress away of getting your new website online. Why not request a FREE no obligation quotation from us?</p>
+                <h1 class="herotitle mt-b-1">Contact Us</h1>
+                <p class="herotext"></p>
 
 
             </div>

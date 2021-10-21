@@ -33,11 +33,14 @@
 
 .indexhero{
     background-image: url("../img/indexhero.jpg");
-    background-color: $notscrolledbg;
+    //background-color: $notscrolledbg;
     background-blend-mode: soft-light;
     //height: 50vh;
     transition: background-color 1500ms;
-    color: #fff;
+    color: $primarycol;
+    h1{
+        text-shadow: 1px 1px $grey;
+    }
 }
 .home-scrolled{
     background-color: #fff;

@@ -68,6 +68,9 @@ body {
 .content {
   font-family: "Montserrat", sans-serif; }
 
+.lead {
+  font-weight: 100; }
+
 nav {
   padding: 0.25rem 0 0.25rem 0;
   height: 70px;
@@ -654,6 +657,8 @@ button {
   .banner h3, .banner p {
     font-family: "Roboto", sans-serif;
     font-weight: 400; }
+  .banner .lead {
+    font-weight: 300; }
 
 .clipped {
   clip-path: polygon(0 0, 100% 0%, 100% calc(100% - 5vw), 0 100%);

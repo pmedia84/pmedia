@@ -14,7 +14,7 @@
         </section>
         <section class="container banner">
             <h1 class="bannertitle">Contact Us</h1>
-        <h3 class="m-b-1">Parrot Media are here to help you grow your business. If you would like a quotation, please fill out our <a href="quote_request">Quote Request Form.</a> For anything else, or you simply just want to say hello, then use this form below:</h3>
+        <p class="m-b-1 lead">Parrot Media are here to help you grow your business. If you would like a quotation, please fill out our <a href="quote_request">Quote Request Form.</a> For anything else, or you simply just want to say hello, then use this form below:</hp>
 
         </section>
         <section id="contact" class="contact container p-top-0 p-bt-2">

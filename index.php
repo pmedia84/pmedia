@@ -25,8 +25,8 @@
 
         <section class="container">
             <div class="banner">
-                <h1 class="bannertitle">How We Help Your Business</h1>
-                <h3>We provide a full in house service, from the design to the hosting of your website.</h3>
+                <h1 class="bannertitle">How We Help Grow Your Business</h1>
+                <h3>We provide service, from the design to the hosting of your new website.</h3>
 
             </div>
        

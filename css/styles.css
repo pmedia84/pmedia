@@ -731,7 +731,9 @@ button {
 .footergrid {
   width: 90%;
   margin: 0 auto;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); }
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  gap: 0.5rem; }
 
 .footer-group li {
   color: #9e9e9e;

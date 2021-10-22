@@ -3,6 +3,19 @@
 .footer{
     border-top: 1px solid $secondcol;
     min-height: 25vh;
+    a{  
+        color: $text-light;
+        font-size: 1rem;
+        &:hover{
+            color: $secondcol;
+            text-decoration: underline;
+            
+        }
+        &:focus{
+            color: $secondcol;
+            text-decoration: underline;
+        }
+    }
 }
 
  .footer .brand{
@@ -23,6 +36,7 @@
         color: $text-light;
         list-style-type: none;
         line-height: 1.7;
+       
     }
 }
 
@@ -40,11 +54,16 @@
 
         .copyright{
         color:$primarycol;
-        font-size: 1.25rem;
-        font-family: $handwriting;
-        i{
-            font-size: 1rem;
+        font-size: 0.9rem;
+        width: 100%;
+        
+        img{
+         height: 0.9rem;
         }
-        }
+    .copyright-text{
+        width: 100%;
+       text-align: center;
+    }
+    }
 
         

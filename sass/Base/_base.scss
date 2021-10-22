@@ -26,8 +26,16 @@ a{
     outline-color: $primarycol;
     text-decoration-line: underline;
   }
+  &:active{
+    outline-color: $primarycol;
+    text-decoration-line: underline;
+  }
 }
 
+.activelink{
+  color: $secondcol;
+    text-decoration-line: underline;
+}
 img{
     max-width: 100%;
     vertical-align: middle;

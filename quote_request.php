@@ -10,9 +10,9 @@
         <section class="containerfw hero quotehero">
             
         </section>
-        <section class="container banner">
+        <section class="container banner p-bt-0">
             <h1 class="bannertitle">Quotation Request</h1>
-            <h3 class="m-b-1">Simply fill out the form below and we get back to within 24 Hours. Make sure to include as much information as you can.</h3>
+            <h3 class="m-b-1 lead">Simply fill out the form below and we get back to within 24 Hours. Make sure to include as much information as you can.</h3>
 
         </section>
         <section id="contact" class="contact container p-top-0 p-bt-2">

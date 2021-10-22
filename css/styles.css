@@ -23,6 +23,13 @@ a {
   a:focus {
     outline-color: #78b5a3;
     text-decoration-line: underline; }
+  a:active {
+    outline-color: #78b5a3;
+    text-decoration-line: underline; }
+
+.activelink {
+  color: #e7816d;
+  text-decoration-line: underline; }
 
 img {
   max-width: 100%;
@@ -371,6 +378,9 @@ nav {
   .featurecard i {
     font-size: 2rem; }
 
+.featurecard-text {
+  font-weight: 300; }
+
 .featurecard-icon {
   color: #e7816d; }
 
@@ -593,7 +603,7 @@ button {
 .textbox-title {
   font-size: clamp(1.5rem, 25vw, 2rem);
   font-weight: 500;
-  color: #e7816d; }
+  color: #fa8d77; }
 
 .textbox-text {
   line-height: 1.8;
@@ -723,6 +733,15 @@ button {
 .footer {
   border-top: 1px solid #e7816d;
   min-height: 25vh; }
+  .footer a {
+    color: #696969;
+    font-size: 1rem; }
+    .footer a:hover {
+      color: #e7816d;
+      text-decoration: underline; }
+    .footer a:focus {
+      color: #e7816d;
+      text-decoration: underline; }
 
 .footer .brand {
   color: red;
@@ -736,16 +755,19 @@ button {
   gap: 0.5rem; }
 
 .footer-group li {
-  color: #9e9e9e;
+  color: #696969;
   list-style-type: none;
   line-height: 1.7; }
 
 .copyright {
   color: #78b5a3;
-  font-size: 1.25rem;
-  font-family: "Pinyon Script", cursive; }
-  .copyright i {
-    font-size: 1rem; }
+  font-size: 0.9rem;
+  width: 100%; }
+  .copyright img {
+    height: 0.9rem; }
+  .copyright .copyright-text {
+    width: 100%;
+    text-align: center; }
 
 .pricehero {
   background-image: url("img/price-hero.jpg");

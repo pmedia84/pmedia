@@ -4,6 +4,7 @@
   "description": "Parrot Media Main Website",
   "main": "index.js",
   "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.15.4",
     "node-sass": "^6.0.1",
     "nodemon": "^2.0.13"
   },

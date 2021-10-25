@@ -6,12 +6,12 @@
 
 *::-moz-selection { /* Code for Firefox */
   color: $secondcol;
-  background: $primarycol;
+  background: $blue;
 }
 
 *::selection {
   color: $secondcol;
-  background: $primarycol;
+  background: $grey;
 }
 
 a{

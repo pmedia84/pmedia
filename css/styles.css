@@ -7,11 +7,11 @@
 *::-moz-selection {
   /* Code for Firefox */
   color: #e7816d;
-  background: #78b5a3; }
+  background: #2995cc; }
 
 *::selection {
   color: #e7816d;
-  background: #78b5a3; }
+  background: #cecece; }
 
 a {
   text-decoration: none;

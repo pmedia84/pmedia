@@ -3,7 +3,7 @@
 <meta name="theme-color" content="#1179AD">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta property="og:title" content="Parrot Media: Creative Web Solutions For Your Business" />
-<meta property="og:description" content="Grow your business with Parrot Media, we create amazing websites that will take your Business to the next level!" />
+<meta property="og:description" content="Grow your business with Parrot Media" />
 <meta property="og:image" content="https://www.parrotmedia.co.uk/img/ogad.png"/>
 <meta property="og:type" content="website" />
 <link rel="preconnect" href="https://fonts.googleapis.com">

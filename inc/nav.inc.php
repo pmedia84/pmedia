@@ -4,7 +4,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta property="og:title" content="Parrot Media: Creative Web Solutions For Your Business" />
 <meta property="og:description" content="Grow your business with Parrot Media, we create amazing websites that will take your Business to the next level!" />
-<meta property="og:image" content="https://www.parrotmedia.co.uk/img/advert.jpg"/>
+<meta property="og:image" content="https://www.parrotmedia.co.uk/img/ogad.png"/>
 <meta property="og:type" content="website" />
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>

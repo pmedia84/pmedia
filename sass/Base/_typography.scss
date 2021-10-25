@@ -10,13 +10,20 @@ $serif: 'Playfair Display', serif;
 $handwriting: 'Pinyon Script', cursive;
 
 h1,h2,h3,h4,h5,h6{
+    font-weight: 400;
     font-family: $titles;
 }
 body{
     font-family: $bodytext;
 }
  
-
+p,
+a,
+li{
+    font-size: 1rem;
+    font-weight: 300;
+    line-height: 1.7;
+}
 
 
 

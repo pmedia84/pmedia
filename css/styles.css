@@ -59,10 +59,18 @@ body::-webkit-scrollbar-thumb {
   border: 3px solid #e7816d; }
 
 h1, h2, h3, h4, h5, h6 {
+  font-weight: 400;
   font-family: "Poppins", sans-serif; }
 
 body {
   font-family: "Roboto", sans-serif; }
+
+p,
+a,
+li {
+  font-size: 1rem;
+  font-weight: 300;
+  line-height: 1.7; }
 
 .herotitle {
   font-size: clamp(2.5rem, 8vw, 4.5rem);
@@ -940,6 +948,9 @@ button {
 #response {
   display: none; }
 
+.privacynotice a {
+  font-size: 1rem; }
+
 .img1 {
   grid-column: 2/11;
   grid-row: 1/3;
@@ -985,6 +996,13 @@ button {
 
 #response {
   display: none; }
+
+.privacyhero {
+  background-image: url("../img/privacyhero.svg");
+  background-position: center;
+  background-size: contain;
+  min-height: 40vh;
+  color: white; }
 
 .social {
   display: inline-flex;

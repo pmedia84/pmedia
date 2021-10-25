@@ -14,7 +14,7 @@
         </section>
         <section class="container banner">
             <h1 class="bannertitle">Contact Us</h1>
-        <p class="m-b-1 lead">Parrot Media are here to help you grow your business. If you would like a quotation, please fill out our <a href="quote_request">Quote Request Form.</a> For anything else, or you simply just want to say hello, then use this form below:</hp>
+        <p class="m-b-1 lead">Parrot Media are here to help you grow your business. If you would like a quotation, please fill out our <a href="quote_request">Quote Request Form.</a> For anything else, or you simply just want to say hello, then use this form below:</p>
 
         </section>
         <section id="contact" class="contact container p-top-0 p-bt-2">
@@ -80,6 +80,7 @@
                                 <div id="validation" class="g-recaptcha text-center" data-sitekey="6LdQQ7UcAAAAANT4oohJKLEDx5vQXmA4R1MEDGkA"></div>
                                 <div id="success"></div>
                                 <div id="submit">
+                                    <p class="privacynotice mp-b-1">By submitting this form you agree to our <a href="privacy">Privacy Notice</a></p>
                                     <button class="btn" id="sendMessageButton" type="submit">Send Message</button>
                                 </div>
                             </div>

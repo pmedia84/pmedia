@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <title>Parrot Media:: Creative Web Design Services in Lincolnshire</title>
+    <title>Parrot Media:: Creative Web Solutions For Your Business</title>
     <?php include("inc/nav.inc.php"); ?>
     <main class="home-not-scrolled">
         <section class="containerfw indexhero">

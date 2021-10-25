@@ -3,9 +3,10 @@
 .footer{
     border-top: 1px solid $secondcol;
     min-height: 25vh;
-    a{  
+    a{
         color: $text-light;
         font-size: 1rem;
+        
         &:hover{
             color: $secondcol;
             text-decoration: underline;

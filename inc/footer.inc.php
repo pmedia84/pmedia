@@ -28,10 +28,10 @@
             <div class="footer-group">
             <h3 class="footer-group-heading">Follow Us</h3>
             <ul>
-                <li>Facebook</li>
-                <li>Instagram</li>
-                <li>Twitter</li>
-                <li>Pintrest</li>
+                <li><a href="https://www.facebook.com/parrotmedialincolnshire" target="_blank"><i class="fab fa-facebook-f"></i> Facebook</a></li>
+                <li><a href="https://www.instagram.com/parrotmedia1/" target="_blank"><i class="fab fa-instagram"></i> Instagram</a></li>
+                <li><a href="https://twitter.com/parrotmedia4" target="_blank"><i class="fab fa-twitter"></i> Twitter</a></li>
+                <li><a href="http://www.pinterest.com/Parrot_Media" target="_blank"><i class="fab fa-pinterest-p"></i> Pinterest</a></li>
             </ul> 
             </div>
         

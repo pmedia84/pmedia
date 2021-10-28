@@ -25,8 +25,8 @@
 
         <section class="container">
             <div class="banner m-b-2">
-                <h1 class="bannertitle">How We Help Grow Your Business</h1>
-                <h3 class="lead">At Parrot Media, our mission is to help you grow your business by developing your presence online.</h3>
+                <h1 class="bannertitle">We Help Grow Your Business</h1>
+                <h3 class="lead">At Parrot Media, our mission is to help you grow your business!</h3>
 
             </div>
        

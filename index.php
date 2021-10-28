@@ -26,8 +26,9 @@
         <section class="container">
             <div class="banner m-b-2">
                 <h1 class="bannertitle">We Help Grow Your Business</h1>
-                <h3 class="lead">At Parrot Media our mission is to help you grow your business!</h3>
-                <p class="lead">We develop amazing custom websites that come packed with features all at a very resonable price. Creating a website for your business does not have to be expensive! </p>
+                <h3 class="lead">At Parrot Media we provide creative web solutions for your business!</h3>
+                <p class="lead">We develop amazing custom websites that come packed with features all at a very resonable price. Creating a website for your business does not have to be expensive and we will also take care of everything for you, from the design right through to the hosting. We can even manage the content of your site once it is made so you don't have to worry about it, leaving you to get on with managing your business! </p>
+                <p class="lead">So why not get in touch with us and see what we can do for your business.</p>
             </div>
        
 

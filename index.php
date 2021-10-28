@@ -26,8 +26,8 @@
         <section class="container">
             <div class="banner m-b-2">
                 <h1 class="bannertitle">We Help Grow Your Business</h1>
-                <h3 class="lead">At Parrot Media, our mission is to help you grow your business!</h3>
-
+                <h3 class="lead">At Parrot Media our mission is to help you grow your business!</h3>
+                <p class="lead">We develop amazing custom websites that come packed with features all at a very resonable price. Creating a website for your business does not have to be expensive! </p>
             </div>
        
 

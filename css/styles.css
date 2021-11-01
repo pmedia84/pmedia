@@ -587,7 +587,8 @@ button {
 
 .response {
   border: 1px solid #e7816d;
-  padding: 1rem; }
+  padding: 1rem;
+  border-radius: 0.25rem; }
 
 .textbox {
   border: 1px solid #78b5a3;

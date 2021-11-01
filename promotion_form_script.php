@@ -111,8 +111,8 @@ if(isset($_POST['validation'] ) && !empty($_POST['validation'])) {
 			echo "<fieldset class='response'>
 					<div id='response'>1</div>
 					<div id='success_page'>
-						<p>Email Sent Successfully.</p>
-						<p>Thank you <strong>$name</strong>, your message has been submitted to us.</p>
+						<p>Request sent.</p>
+						<p>Thank you <strong>$name</strong>, you are just one step closer to having the website your business needs</p>
 					</div>
 				</fieldset>";
 				

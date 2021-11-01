@@ -586,7 +586,8 @@ button {
   display: block; }
 
 .response {
-  border: 1px solid #e7816d; }
+  border: 1px solid #e7816d;
+  padding: 1rem; }
 
 .textbox {
   border: 1px solid #78b5a3;

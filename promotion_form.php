@@ -38,7 +38,7 @@
                                 <input class="text-input input" type="text" id="name" placeholder="Your Name *" autocomplete="off" required="" maxlength="45"><small class="form-text text-danger flex-grow-1 help-block lead"></small>
                             </div>
 
-                            <p class="mp-b-1">As part of this package we provide you with a domain name, please tell us here if you already have one.</p>
+                            <p class="mp-b-1">As part of this package we will provide you with a domain name, please tell us here if you already have one.</p>
                             <div class="form-radio">
                                 
                                 <label class="radio-label" for="new"><input type="radio" name="requirements"   value="New Domain Name"  class="radio-input" id="new"checked>I Need A New Domain Name</label>
@@ -83,19 +83,19 @@
                             <p class="mp-b-1">Please tell us your prefered contact method:</p>
                             <div class="form-radio">
                                 
-                                <label class="radio-label" for="phone"><input type="radio" name="contactmethod"   value="ASAP"  class="radio-input" id="asap"checked>Phone</label>
+                                <label class="radio-label" for="phonemethod"><input type="radio" name="contactmethod"   value="Phone"  class="radio-input" id="phonemethod"checked>Phone</label>
                             </div>
                             
                             <div class="form-radio">
                                 
-                                <label class="radio-label" for="email"><input type="radio" name="contactmethod"   value="email" class="radio-input" id="3to6">Email</label>
+                                <label class="radio-label" for="emailmethod"><input type="radio" name="contactmethod"   value="email" class="radio-input" id="emailmethod">Email</label>
                             </div>
 
                             
                           
                         </div>
                         <div class="formcolumn">
-                            <textarea class="input textarea" id="message" placeholder="Tell us about your business*" required="" spellcheck="true" autocomplete="off"></textarea><small class="form-text text-danger help-block lead"></small>
+                            <textarea class="input textarea" id="message" placeholder="Tell us about your business and the sort of website you are looking for*" required="" spellcheck="true" autocomplete="off"></textarea><small class="form-text text-danger help-block lead"></small>
                         </div>
                     </div>
 

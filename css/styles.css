@@ -1009,6 +1009,13 @@ button {
   min-height: 40vh;
   color: white; }
 
+.promohero {
+  background-image: url("../img/promohero.svg");
+  background-position: center;
+  background-size: contain;
+  min-height: 40vh;
+  color: white; }
+
 .social {
   display: inline-flex;
   flex-direction: row;

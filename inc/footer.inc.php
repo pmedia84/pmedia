@@ -12,7 +12,7 @@
                 <li>About Us</li>
                 <li><a href="contact">Contact Us</a></li>
                 <li><a href="quote_request">Quotation Request</a></li>
-                <li><a href="news">News</a></li>
+                <li><a href="promotions">Promotions</a></li>
                 <li><a href="privacy">Privacy Policy</a></li>
                 
             </ul>

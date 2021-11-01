@@ -82,6 +82,7 @@
                 <li class="nav-link"><a href="index">About</a></li> -->
                 <!--<li class="nav-link"><a href="quote_request">Request a Quotation</a></li> -->
                 <li class="nav-link"><a href="contact">Contact</a></li>
+                <li class="nav-link"><a href="promotions">Promotions</a></li>
                 
                 
             </ul>

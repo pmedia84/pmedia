@@ -11,8 +11,8 @@
             
         </section>
         <section class="container banner p-bt-0">
-            <h1 class="bannertitle">Quotation Request</h1>
-            <h3 class="m-b-1 lead">Simply fill out the form below and we get back to within 24 Hours. Make sure to include as much information as you can.</h3>
+            <h1 class="bannertitle">Take Advantage of Our Introductory Offer</h1>
+            <h3 class="m-b-1 lead"><strong>Custom Website for only £100</strong> <br>Simply fill out the form below and we will contact you to discuss your requirements for your amazing new website.</h3>
 
         </section>
         <section id="contact" class="contact container p-top-0 p-bt-2">
@@ -23,7 +23,7 @@
                 <!-- custom styling for inputs -->
                 <!-- =========== -->
                 <!-- Prepend all inputs with an icon helper -->
-                <form id="contactForm" action="quote_request_script.php" name="contactForm">
+                <form id="contactForm" action="promotion_form_script.php" name="contactForm">
 
 
                     <div class="formrow">
@@ -38,15 +38,15 @@
                                 <input class="text-input input" type="text" id="name" placeholder="Your Name *" autocomplete="off" required="" maxlength="45"><small class="form-text text-danger flex-grow-1 help-block lead"></small>
                             </div>
 
-                            <p class="mp-b-1">Please indicate if you are looking for a new website, or you require work to an existing website?</p>
+                            <p class="mp-b-1">As part of this package we provide you with a domain name, please tell us here if you already have one.</p>
                             <div class="form-radio">
                                 
-                                <label class="radio-label" for="new"><input type="radio" name="requirements"   value="New Website"  class="radio-input" id="new"checked>New Website</label>
+                                <label class="radio-label" for="new"><input type="radio" name="requirements"   value="New Domain Name"  class="radio-input" id="new"checked>I Need A New Domain Name</label>
                             </div>
                             
                             <div class="form-radio">
                                 
-                                <label class="radio-label" for="existing"><input type="radio" name="requirements"   value="Work to Existing Website" class="radio-input" id="existing">Work To An Existing Website</label>
+                                <label class="radio-label" for="existing"><input type="radio" name="requirements"   value="Already Have A Domain" class="radio-input" id="existing">I Already Have A Domain Name</label>
                             </div>
 
 
@@ -57,7 +57,7 @@
                                     <span class="input-prepend-text"><i class="fas fa-globe"></i></span>
                                 </div>
                                 <!-- Flex Item -->
-                                <input class="text-input input" type="text" id="currentwebsite" placeholder="Current Website Address If You Have One" autocomplete="off" maxlength="45"><small class="form-text text-danger flex-grow-1 help-block lead"></small>
+                                <input class="text-input input" type="text" id="domainname" placeholder="Please Tell Us Your Domain Name If You Have One" autocomplete="off" maxlength="45"><small class="form-text text-danger flex-grow-1 help-block lead"></small>
                             </div>
 
 
@@ -80,25 +80,22 @@
                                 <input class="text-input input" type="tel" id="phone" placeholder="Your Phone No. *" autocomplete="off" required="" maxlength="45"><small class="form-text text-danger help-block lead"></small>
                             </div>
 
-                            <p class="mp-b-1">Please indicate your expected timescale for this project:</p>
+                            <p class="mp-b-1">Please tell us your prefered contact method:</p>
                             <div class="form-radio">
                                 
-                                <label class="radio-label" for="asap"><input type="radio" name="timescale"   value="ASAP"  class="radio-input" id="asap"checked>ASAP</label>
+                                <label class="radio-label" for="phone"><input type="radio" name="contactmethod"   value="ASAP"  class="radio-input" id="asap"checked>Phone</label>
                             </div>
                             
                             <div class="form-radio">
                                 
-                                <label class="radio-label" for="3to6"><input type="radio" name="timescale"   value="3 To 6 Months" class="radio-input" id="3to6">3 to 6 Months</label>
+                                <label class="radio-label" for="email"><input type="radio" name="contactmethod"   value="email" class="radio-input" id="3to6">Email</label>
                             </div>
 
-                            <div class="form-radio">
-                                
-                                <label class="radio-label" for="6to9"><input type="radio" name="timescale"   value="6 To 9 Months" class="radio-input" id="6to9">6 to 9 Months</label>
-                            </div>
+                            
                           
                         </div>
                         <div class="formcolumn">
-                            <textarea class="input textarea" id="message" placeholder="Tell us how we can help you *" required="" spellcheck="true" autocomplete="off"></textarea><small class="form-text text-danger help-block lead"></small>
+                            <textarea class="input textarea" id="message" placeholder="Tell us about your business*" required="" spellcheck="true" autocomplete="off"></textarea><small class="form-text text-danger help-block lead"></small>
                         </div>
                     </div>
 
@@ -110,7 +107,7 @@
                                 <div id="success"></div>
                                 <div id="submit">
                                 <p class="privacynotice mp-b-1">By submitting this form you agree to our <a href="privacy">Privacy Notice</a></p>
-                                    <button class="btn" id="sendMessageButton" type="submit">Send Message</button>
+                                    <button class="btn" id="sendMessageButton" type="submit">Submit</button>
                                 </div>
                             </div>
                             <!-- success - for status messages -->
@@ -215,10 +212,10 @@
                                     phone: $('#phone').val(),
                                     message: $('#message').val(),
                                     validation: $('.g-recaptcha-response').val(),
-                                    timescale: $("input[name=timescale]:checked").val(),
+                                    contactmethod: $("input[name=contactmethod]:checked").val(),
                                     requirements: $("input[name=requirements]:checked").val(),
                                     
-                                    currentwebsite: $('#currentwebsite').val()
+                                    domainname: $('#domainname').val()
 
 
 

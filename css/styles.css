@@ -585,6 +585,9 @@ button {
 .radio-label {
   display: block; }
 
+.response {
+  border: 1px solid #e7816d; }
+
 .textbox {
   border: 1px solid #78b5a3;
   background-color: #fff;

@@ -108,7 +108,7 @@ if(isset($_POST['validation'] ) && !empty($_POST['validation'])) {
 		//send email
 		if(mail($address, $e_subject, $msg, $headers) && mail($email, $arsubject, $armsg, $arheaders)) {
 			// Email has sent successfully, echo a success page
-			echo "<fieldset>
+			echo "<fieldset class='response'>
 					<div id='response'>1</div>
 					<div id='success_page'>
 						<p>Email Sent Successfully.</p>

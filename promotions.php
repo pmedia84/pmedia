@@ -53,7 +53,7 @@
 
                 <div class="featurecard-cta">
                     <p class="mp-b-1">Contact us to take advantage of this amazing offer</p>
-                    <a href="promotion_form" class="btn featurecardbtn">Contact Us</a>
+                    <a href="promotion_form" class="btn featurecardbtn">Get Offer!</a>
                 </div>
             </div>
 

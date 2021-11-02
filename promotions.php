@@ -2,6 +2,10 @@
 <html lang="en">
 
 <head>
+<meta property="og:title" content="Parrot Media: Limited Time Offer" />
+<meta property="og:description" content="Get your business online for less with Parrot Media. Custom built website for only £100" />
+<meta property="og:image" content="https://www.parrotmedia.co.uk/img/promo-ad.png"/>
+<meta property="og:type" content="website" />
     <title>Parrot Media : Special Offers - Custom Website for £100</title>
 
     <?php include("inc/nav.inc.php"); ?>

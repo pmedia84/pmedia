@@ -2,7 +2,12 @@
 <html lang="en">
 
 <head>
+<meta property="og:title" content="Parrot Media: Creative Web Solutions For Your Business" />
+<meta property="og:description" content="Grow your business with Parrot Media" />
+<meta property="og:image" content="https://www.parrotmedia.co.uk/img/ogad.png"/>
+<meta property="og:type" content="website" />
     <title>Parrot Media:: Creative Web Solutions For Your Business</title>
+
     <?php include("inc/nav.inc.php"); ?>
     <main class="home-not-scrolled">
         <section class="containerfw indexhero">

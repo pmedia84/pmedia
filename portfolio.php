@@ -28,7 +28,7 @@
 
 
 
-    $db = new mysqli("localhost", "parrotme", "Krb833908!", "portfolio");
+    $db = new mysqli("localhost", "parrotme", "Krb833908!", "parrotme_portfolio");
 
     $query = "SELECT `id`, `name`, `content`, `imageurl`,`liveurl` FROM `client` WHERE 1;";
     $result = $db->query($query);

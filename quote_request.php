@@ -2,6 +2,10 @@
 <html lang="en">
 
 <head>
+<meta property="og:title" content="Parrot Media: Quotation Request" />
+<meta property="og:description" content="Request a quotation from Parrot Media for a new website or work to an existing one" />
+<meta property="og:image" content="https://www.parrotmedia.co.uk/img/og-quote-request.png"/>
+<meta property="og:type" content="website" />
     <title>Parrot Media : Contact Us</title>
 
     <?php include("inc/nav.inc.php"); ?>

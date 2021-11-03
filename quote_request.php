@@ -114,7 +114,7 @@
                                 <div id="success"></div>
                                 <div id="submit">
                                 <p class="privacynotice mp-b-1">By submitting this form you agree to our <a href="privacy">Privacy Notice</a></p>
-                                    <button class="btn" id="sendMessageButton" type="submit">Send Message</button>
+                                    <button class="btn" id="sendMessageButton" type="submit">Send Request</button>
                                 </div>
                             </div>
                             <!-- success - for status messages -->

@@ -18,7 +18,7 @@
        </section>
        <section class="container banner">
            <h1 class="bannertitle">Portfolio</h1>
-       <p class="m-b-1 lead">Some examples of some of the work we have done. </p>
+       <p class="m-b-1 lead">Some examples of our latest work. </p>
        <p class="lead">This is just a taste of what we can do, if you don't see a design here that quote does it for you, do not worry. We have something for everyone</p>
 
        </section>

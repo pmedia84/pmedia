@@ -7,3 +7,27 @@
     
     
 }
+
+
+.portfolio-grid{
+    gap: 1rem;
+}
+
+
+.portfolio-body{
+    border: 1px solid $secondcol;
+    
+}
+
+.portfolio-title{
+    padding: 2rem;
+    background-color: $grey;
+}
+
+.portfolioimg{
+    width: 100%;
+}
+
+.portfolio-content{
+    padding: 2rem;
+}

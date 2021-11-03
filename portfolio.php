@@ -22,31 +22,37 @@
        <p class="lead">This is just a taste of what we can do, if you don't see a design here that quote does it for you, do not worry. We have something for everyone</p>
 
        </section>
-       <div class="container">
+       <section class="container mos-container portfolio-grid">
 <?php 
+
 
 
 
     $db = new mysqli("localhost", "root", "", "portfolio");
 
-    $query = "SELECT `id`, `name`, `content`, `imageurl` FROM `client` WHERE 1;";
+    $query = "SELECT `id`, `name`, `content`, `imageurl`,`liveurl` FROM `client` WHERE 1;";
     $result = $db->query($query);
     while ($row = $result->fetch_assoc()) {
         $id = $row['id'];
         $name = $row['name'];
         $content = $row['content'];
         $imageurl = $row['imageurl'];
+        $liveurl = $row['liveurl'];
+
         echo "
         
         
-        <div class=''>
-                <div class=''>
-                    <h1>$name</h1>
-                    
+        <div class='portfolio-body'>
+                
+                    <h1 class='portfolio-title'>$name</h1>
+                    <img class='portfolioimg'  src='img/$imageurl' alt=''>
 
-                </div>
-                <p>$content</p>
-                <img src='img/$imageurl' alt=''>
+                
+                <p class='portfolio-content'>$content<br>
+                <a class='portfolio-sitelink' href='http://$liveurl' target='_blank'>Visit Live Site</a>
+
+                </p>
+                
             
         </div>
         
@@ -57,6 +63,8 @@
     
     ?>
 
-</div>
+</section>
 
 <?php include("inc/footer.inc.php"); ?>
+
+

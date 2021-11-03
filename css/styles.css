@@ -1023,6 +1023,22 @@ button {
   min-height: 40vh;
   color: white; }
 
+.portfolio-grid {
+  gap: 1rem; }
+
+.portfolio-body {
+  border: 1px solid #e7816d; }
+
+.portfolio-title {
+  padding: 2rem;
+  background-color: #cecece; }
+
+.portfolioimg {
+  width: 100%; }
+
+.portfolio-content {
+  padding: 2rem; }
+
 .social {
   display: inline-flex;
   flex-direction: row;

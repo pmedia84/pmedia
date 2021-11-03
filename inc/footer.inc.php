@@ -13,6 +13,7 @@
                 <li><a href="contact">Contact Us</a></li>
                 <li><a href="quote_request">Quotation Request</a></li>
                 <li><a href="promotions">Promotions</a></li>
+                <li><a href="portfolio">Portfolio</a></li>
                 <li><a href="privacy">Privacy Policy</a></li>
                 
             </ul>

@@ -1016,6 +1016,13 @@ button {
   min-height: 40vh;
   color: white; }
 
+.portfoliohero {
+  background-image: url("../img/portfoliohero.svg");
+  background-position: center;
+  background-size: contain;
+  min-height: 40vh;
+  color: white; }
+
 .social {
   display: inline-flex;
   flex-direction: row;

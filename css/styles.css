@@ -1027,11 +1027,19 @@ button {
   gap: 1rem; }
 
 .portfolio-body {
-  border: 1px solid #e7816d; }
+  border: 1px solid #e7816d;
+  border-radius: 0.25rem; }
+  .portfolio-body:focus {
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.12), 0 2px 2px rgba(0, 0, 0, 0.12), 0 4px 4px rgba(0, 0, 0, 0.12), 0 8px 8px rgba(0, 0, 0, 0.12), 0 16px 16px rgba(0, 0, 0, 0.12);
+    transition: all 300ms ease-in-out; }
+  @media (hover: hover) {
+    .portfolio-body:hover {
+      box-shadow: 0 1px 1px rgba(0, 0, 0, 0.12), 0 2px 2px rgba(0, 0, 0, 0.12), 0 4px 4px rgba(0, 0, 0, 0.12), 0 8px 8px rgba(0, 0, 0, 0.12), 0 16px 16px rgba(0, 0, 0, 0.12);
+      transition: all 300ms ease-in-out; } }
 
 .portfolio-title {
   padding: 2rem;
-  background-color: #cecece; }
+  background-color: #f3f3f3; }
 
 .portfolioimg {
   width: 100%; }

@@ -31,7 +31,7 @@
 
     $db = new mysqli("localhost", "parrotme", "Krb833908!", "parrotme_portfolio");
    // $db = new mysqli("localhost", "root", "", "portfolio");
-    $query = "SELECT `id`, `name`, `content`, `imageurl`,`liveurl` FROM `client` WHERE 1;";
+    $query = "SELECT `id`, `name`, `content`, `imageurl`,`liveurl`, `imgalt` FROM `client` WHERE 1;";
     $result = $db->query($query);
     while ($row = $result->fetch_assoc()) {
         $id = $row['id'];
@@ -39,6 +39,7 @@
         $content = $row['content'];
         $imageurl = $row['imageurl'];
         $liveurl = $row['liveurl'];
+        $imgalt = $row['imgalt'];
 
         echo "
         
@@ -46,7 +47,7 @@
         <div class='portfolio-body'>
                 
                     <h1 class='portfolio-title'>$name</h1>
-                    <img class='portfolioimg'  src='img/portfolio/$imageurl' alt=''>
+                    <img class='portfolioimg'  src='img/portfolio/$imageurl' alt='$imgalt'>
 
                 
                 <p class='portfolio-content'>$content<br>

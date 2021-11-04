@@ -11,7 +11,7 @@
 <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
 <link rel="manifest" href="/favicon/site.webmanifest">
 <link rel="stylesheet" href="css/styles.css">
-<script src="https://kit.fontawesome.com/3318fdaaaf.js" crossorigin="anonymous"></script>
+<script defer src="https://kit.fontawesome.com/3318fdaaaf.js" crossorigin="anonymous"></script>
 
 
 </head>
@@ -24,7 +24,7 @@
 <div id="fb-customer-chat" class="fb-customerchat">
 </div>
 
-<script>
+<script async="false">
   var chatbox = document.getElementById('fb-customer-chat');
   chatbox.setAttribute("page_id", "103788011835233");
   chatbox.setAttribute("attribution", "biz_inbox");

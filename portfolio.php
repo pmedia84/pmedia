@@ -29,8 +29,8 @@
 
 
 
-   // $db = new mysqli("localhost", "parrotme", "Krb833908!", "parrotme_portfolio");
-    $db = new mysqli("localhost", "root", "", "portfolio");
+    $db = new mysqli("localhost", "parrotme", "Krb833908!", "parrotme_portfolio"); // Server
+   //$db = new mysqli("localhost", "root", "", "portfolio");//local
     $query = "SELECT `id`, `name`, `content`, `imageurl`,`liveurl`, `imgalt` FROM `client` WHERE 1;";
     $result = $db->query($query);
     while ($row = $result->fetch_assoc()) {

@@ -7,7 +7,7 @@
 <meta property="og:image" content="https://www.parrotmedia.co.uk/img/ogad.png"/>
 <meta property="og:type" content="website" />
     <title>Parrot Media:: Creative Web Solutions For Your Business</title>
-
+ 
     <?php include("inc/nav.inc.php"); ?>
     <main class="home-not-scrolled">
         <section class="containerfw indexhero">
@@ -17,7 +17,7 @@
                     <p class="mp-b-1">Parrot Media are a young, vibrant business in Long Sutton, Lincolnshire. Our mission is to help you grow your business. We create amazing websites that help you take that next step.</p>
                     <p class="mp-b-1">Why not contact us and see what we can do for your business?</p>
                 </div> -->
-                <div class="herobtnholder"><a href="quote_request" class="btn herobtn">Request A Quotation</a></div>
+               
             </div>
         </section>
         <!--
@@ -31,7 +31,7 @@
         <section class="container">
             <div class="banner m-b-2">
                 <h1 class="bannertitle">We Help Grow Your Business</h1>
-                <h3 class="lead">At Parrot Media we provide creative web solutions for your business that will bring you online.</h3>
+                <h3 class="lead">At Parrot Media we provide creative web solutions for your business that will help you grow your online presence.</h3>
                 <p class="lead">We develop amazing custom websites that come packed with features all at a very resonable price. Creating a website for your business does not have to be expensive and we will also take care of everything for you, from the design right through to the hosting. We can even manage the content of your site once it is made so you don't have to worry about it, leaving you to get on with managing your business! </p>
                 <p class="lead">So why not get in touch with us and see what we can do for your business.</p>
             </div>

@@ -47,8 +47,9 @@
 </div>
 
     <nav class="nav nav-not-scrolled">
-
+    <?php include("inc/ad-banner.inc.php");?>
         <div class="nav-container">
+        
             <div class="brand">
                 <a href="index">
                     <img src="img/svglogo.svg" alt="Parrot Media Logo">

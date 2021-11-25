@@ -2,6 +2,7 @@
 <html lang="en">
 
 <head>
+    <meta name="description" content="Explore some of our previous website development projects we have done.">
 <meta property="og:title" content="Parrot Media: Limited Time Offer" />
 <meta property="og:description" content="Get your business online for less with Parrot Media. Custom built website for only £100" />
 <meta property="og:image" content="https://www.parrotmedia.co.uk/img/promo-ad.png"/>

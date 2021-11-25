@@ -2,6 +2,8 @@
 <html lang="en">
 
 <head>
+<meta name="description" content="Welcome to Parrot Media - We design and build amazing custom websites. We are from Long Sutton, Lincolnshire" />
+<meta name="robots" content="..., ..." />
 <meta property="og:title" content="Parrot Media: Creative Web Solutions For Your Business" />
 <meta property="og:description" content="Grow your business with Parrot Media" />
 <meta property="og:image" content="https://www.parrotmedia.co.uk/img/ogad.png"/>

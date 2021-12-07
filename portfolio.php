@@ -75,6 +75,7 @@
 </section>
 
 <?php include("inc/contact.inc.php");?>
+
 <?php include("inc/footer.inc.php"); ?>
 
 

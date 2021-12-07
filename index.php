@@ -329,5 +329,5 @@
         </section>
         -->
     </main>
-    <script src="js/observer.js"></script>
+    
     <?php include("inc/footer.inc.php"); ?>

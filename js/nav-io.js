@@ -3,7 +3,7 @@ const hero = document.querySelector(".hero");
 
 const heroobserveroptions = {
     
-    rootMargin: "-35000px 0px -300px 0px",
+    rootMargin: "-300px 0px -300px 0px",
     
 };
 

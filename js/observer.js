@@ -1,4 +1,4 @@
-const home = document.querySelector(".home-not-scrolled");
+
 const navbar = document.querySelector(".nav");
 const hero = document.querySelector(".indexhero");
 

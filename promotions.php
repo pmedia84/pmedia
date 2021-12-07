@@ -12,7 +12,7 @@
     <?php include("inc/nav.inc.php"); ?>
 
 <main>
-<section class="containerfw hero promohero ">
+<section class="containerfw hero promohero">
            
 
            </div>

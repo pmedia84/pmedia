@@ -56,8 +56,11 @@
 </footer>
 
 <script src="js/nav.js"></script>
-
 <script src="js/nav-io.js"></script>
+
+</body>
+
+</html>
 <script>
   $(document).ready(function() {
     $("[href]").each(function() {
@@ -67,6 +70,3 @@
     });
   });
 </script>
-</body>
-
-</html>

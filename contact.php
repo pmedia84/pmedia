@@ -21,5 +21,13 @@
         <?php include("inc/contact.inc.php");?>
 
 
-
+        <script>
+  $(document).ready(function() {
+    $("[href]").each(function() {
+      if (this.href == window.location.href){
+        $(this).addClass("activelink");
+      }
+    });
+  });
+</script>
         <?php include("inc/footer.inc.php"); ?>

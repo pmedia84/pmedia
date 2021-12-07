@@ -1,10 +1,10 @@
 //Nav Design 2
 
 nav{
-   
     
-    padding:0rem 0 0.25rem 0;   
-    //height: 100px;
+    padding: 0.25rem 0 0.25rem 0;
+    //height: 70px;  
+    height: 70px;
     //position: -webkit-sticky; /* Safari */
   position: fixed;
   top: 0;
@@ -21,7 +21,7 @@ a{
     display: flex;
     justify-content: space-between;
     align-items: center;
-   // height: 100%;
+   height: 100%;
 
 }
 .brand{
@@ -92,7 +92,7 @@ a{
 .nav-active{
     position: absolute;
     right: 0px;
-    top: 98px;
+    top: 70px;
     background-color: rgba(255, 255, 255, 0.979);
    display: flex;
    flex-direction: column;

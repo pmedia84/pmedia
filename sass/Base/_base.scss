@@ -76,4 +76,65 @@ html {
   }
 
   
+ // featured client hero images
+.hero{
+  background-repeat: no-repeat;
+  background-position:   center;
+background-size:contain;
+  min-height: 25vh;
+  display: grid;
+  gap: 1rem;
+ background-color: #0a0b04;
+ color: #f1f1f1;
+}
+.hero-img{
+  img{
+      max-height:25vh;
+  }
+  
+  place-self: start;
+}
+@media (min-width: 800px){
+  .hero{
+  grid-template-columns: repeat(2, 1fr);
+  }
+  .hero-img{
+      place-self: end;
+  }
+}
+
+
+
+.herotextbody{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+
+  .herobtn{
+      place-self: start;
+  }
  
+}
+
+.herotitle{
+  font-size: clamp(2rem, 8vw, 2.5rem);
+  margin-bottom: 0;
+  font-weight: 100;
+}
+
+.herotext{
+  font-size: clamp(1rem, 2vw, 1rem);
+  line-height: 1.6;
+}
+
+
+.attr a{
+  color: $clientprimary;
+  
+
+&:hover{
+  
+  opacity: 1;
+}
+}
+

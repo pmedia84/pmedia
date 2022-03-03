@@ -7,7 +7,7 @@
     <?php include("inc/nav.inc.php"); ?>
 
     <main>
-        <section class="containerfw hero contacthero ">
+        <section class="containerfw hero contacthero">
            
 
             </div>

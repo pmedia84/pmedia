@@ -2,333 +2,104 @@
 <html lang="en">
 
 <head>
-<meta name="description" content="Welcome to Parrot Media - We design and build amazing custom websites. We are from Long Sutton, Lincolnshire" />
-<meta name="robots" content="..., ..." />
-<meta property="og:title" content="Parrot Media: Creative Web Solutions For Your Business" />
-<meta property="og:description" content="Grow your business with Parrot Media" />
-<meta property="og:image" content="https://www.parrotmedia.co.uk/img/ogad.png"/>
-<meta property="og:type" content="website" />
-<meta name="facebook-domain-verification" content="jlgqnxbxg590mhl4r7fypiwkw77h8y" />
-    <title>Parrot Media:: Creative Web Solutions For Your Business</title>
  
+
+    <meta name="description" content="Welcome to Parrot Media - We design and build amazing custom websites. We are from Long Sutton, Lincolnshire" />
+    <meta name="robots" content="..., ..." />
+    <meta property="og:title" content="Parrot Media: Creative Web Solutions For Your Business" />
+    <meta property="og:description" content="Grow your business with Parrot Media" />
+    <meta property="og:image" content="https://www.parrotmedia.co.uk/img/ogad.png" />
+    <meta property="og:type" content="website" />
+    <meta name="facebook-domain-verification" content="jlgqnxbxg590mhl4r7fypiwkw77h8y" />
+    <title>Parrot Media:: Creative Web Solutions For Your Business</title>
+
     <?php include("inc/nav.inc.php"); ?>
-    <main class="home-not-scrolled">
-        <section class="containerfw indexhero">
-            <div class="container hero herogrid">
-                <!--<h1 class="herotitle mt-b-1">Your New Website Begins Here!</h1>
-                <div class="herotext">
-                    <p class="mp-b-1">Parrot Media are a young, vibrant business in Long Sutton, Lincolnshire. Our mission is to help you grow your business. We create amazing websites that help you take that next step.</p>
-                    <p class="mp-b-1">Why not contact us and see what we can do for your business?</p>
-                </div> -->
-               
-            </div>
-        </section>
-        <!--
-<section class="container portfoliogrid">
-    <img class="portfolioimg img1" src="img/bitmap.png" alt="">
-    
-</section> -->
+
+    <main>
+        <div class="container hero indexhero">
 
 
-
-        <section class="container">
-            <div class="banner m-b-2">
-                <h1 class="bannertitle">We Help Grow Your Business</h1>
-                <h3 class="lead">At Parrot Media we provide creative web solutions for your business that will help you grow your online presence.</h3>
-                <p class="lead">We develop amazing custom websites that come packed with features all at a very resonable price. Creating a website for your business does not have to be expensive and we will also take care of everything for you, from the design right through to the hosting. We can even manage the content of your site once it is made so you don't have to worry about it, leaving you to get on with managing your business! </p>
-                <p class="lead">So why not get in touch with us and see what we can do for your business.</p>
-            </div>
-       
-
-        
-    <div class="mos-container">
-        <div class="featurecard">
-        <i class="fas fa-pencil-ruler featurecard-icon"></i>
-            <div class="featurecard-body">
-                <h1 class="featurecard-title">Design</h1>
-                <p class="featurecard-text">It all starts with the design. We will work with you and understand what designs you like. We can even help you with your current website if you are not happy with it!</p>
-            </div>
-        </div>
-        <div class="featurecard">
-        <i class="fas fa-server featurecard-icon"></i>
-            <div class="featurecard-body">
-                <h1 class="featurecard-title">Hosting</h1>
-                <p class="featurecard-text">Every website needs somewhere to live on its own corner of the internet. Every website package we offer comes with the first year of hosting for free!</p>
-            </div>
-        </div>
-        <div class="featurecard">
-        <i class="fas fa-search featurecard-icon"></i>
-        <div class="featurecard-body">
-                <h1 class="featurecard-title">SEO</h1>
-                <p class="featurecard-text">Search Engine Optimisation is important for your business to be found in search results. We can help you do this by ensuring that your website is indexed correctly and can be found in search results.</p>
-            </div>
-        </div>
-        
-    </div>
-
-</section>
-
-
-
-        <section class="">
-            <div class="container  gridcontainer p-bt-0 ">
-                <img class="firstitem m-b-2-lg" src="img/responsive-web-design.svg" alt="">
-                <div class="textbox seconditem">
-
-                    <h2 class="textbox-title">Responsive Designs</h2>
-                    <p class="textbox-subtitle">We make sure that your new website looks amazing on every device</p>
-                    <p class="textbox-text">Mobile first is where we start! With the growing trend now towards mobile devices you need to make sure that your website is up to the task. Your website will look amazing no matter what device it is being viewed on.</p>
-                    <p class="textbox-text"><a href="contact">Request A Quotation</a></p>
+            <div class="herotextbody">
+                <div class="">
+                    <h1 class="herotitle">Grow Your Business</h1>
+                    <p class="herosubtitle">Web Design & Development Services in Long Sutton Lincolnshire</p>
                 </div>
-
-
+                <a class="herobtn" href="#" class="btn">Find Out More</a>
+                <p class="herotext" style="margin-top: 1rem;">We take away the headache of getting your business online. <br>Full services from design and development to hosting.</p>
             </div>
-        </section>
-
-        <section>
-            <div class="container gridcontainer">
-                <img class="seconditem m-b-2-lg" src="img/custom-built-websites.svg" alt="">
-                <div class="textbox firstitem">
-
-                    <h2 class="textbox-title">Custom Built</h2>
-                    <p class="textbox-subtitle">No templates to be seen here!</p>
-                    <p class="textbox-text">Once a design has been agreed upon, we set to work developing every amazing feature and page that you want in your new website. We can build components into your website such as, a contact form, a dynamic price list, photo gallery and many more. Just ask us and see what is possible.</p>
-                    <p class="textbox-text"><a href="contact">Request A Quotation</a></p>
-                </div>
+            <figure class="hero-img"><img src="img/kutz-barbers.svg" alt="Kutz Barber Shop Website">
+                <figcaption class="attr"><a href="https://www.parrotmedia.co.uk/kutz" target="_blank" rel="noreferrer">Kutz - Barber Shop</a></figcaption>
+            </figure>
 
 
-            </div>
-        </section>
+        </div>
 
+        <div class="servicegrid">
+
+            <a class="service-box" href="web-design-lincolnshire">
+                Website Design
+            </a>
+
+
+            <a class="service-box" href="#">
+                Development
+            </a>
+            <a class="service-box" href="#">
+                Hosting
+            </a>
+
+        </div>
 
         <section class="">
             <div class="container gridcontainer">
-                <img class="firstitem m-b-2-lg" src="img/web-hosting.svg" alt="">
-                <div class="textbox seconditem">
+            <img class="firstitem m-b-2-lg" src="img/kutz-responsive.webp" alt="">
+                <div class="textbox p-t-bt-0 seconditem">
 
-                    <h2 class="textbox-title">Web Hosting</h2>
-                    <p class="textbox-subtitle">We only use the best hosting services!</p>
-                    <p class="textbox-text">If you do not already have a hosting provider then we will set you up with a hosting package on our own Cloud Based servers. All of our hosting packages come with free backups that can roll back the last 14 days. If you do have a provider already, we can migrate you to our own servers for ease of use. We can also provide a VPS service (Virtual Private Server) if required.</p>
-                    <p class="textbox-text"><a href="contact">Request A Quotation</a></p>
+                    <h2 class="textbox-title">Get Your Business Online</h2>
+                    <p class="textbox-subtitle">We do the hard work so you don't have to!</p>
+                    <p class="textbox-text">Even if you already have a website we can help you! We take the stress away from building a website, leaving you to get on with running your business.</p>
+                    <p class="textbox-text"><a href="web-design-lincolnshire">Find Out More</a></p>
                 </div>
-
-
             </div>
-        </section>
 
-        <section class="">
             <div class="container gridcontainer">
+            <img class=" m-b-2-lg" src="img/managed-websites.jpg" alt="">
+                <div class="textbox p-t-bt-0 firstitem">
 
-                <img class="seconditem centeredgrid m-b-2-lg" src="img/search-engine-optimisation.svg" alt="">
-                <div class="textbox firstitem">
-
-                    <h2 class="textbox-title">Search Engine Optimisation</h2>
-                    <p class="textbox-subtitle">Your new website will depend on being optimised correctly</p>
-                    <p class="textbox-text">With our SEO package we will optimise your website so it is correctly indexed with the popular search engines. And you will also perform well in search results. After all, you want to be found on your corner of the internet don't you?</p>
-                    <p class="textbox-text"><a href="contact">Request A Quotation</a></p>
-                </div>
-
-
-            </div>
-        </section>
-
-<!--
-        <section class="container">
-            <div class="banner">
-                <h1 class="bannertitle">Our Website Packages </h1>
-                <h3>Large or small, we have it all!</h3>
-
-
-            </div>
-        </section>
-
-        <section class="container servicecardgrid">
-            <div class="servicecard">
-                <div class="servicecard-header">
-                    <h1 class="servicecard-title">Starter</h1>
-                    <p class="servicecard-sub">Great for small businesses or personal websites</p>
-                </div>
-                <div class="servicecard-pricing">
-                    <h3>£300</h3>
-                    <p>One off cost</p>
-                </div>
-                <div class="servicecard-features">
-                    <ul>
-                        <li class="active">Custom Design</li>
-                        <li class="active">Bespoke Colour Scheme</li>
-                        <li class="inactive">Bespoke Logo Service</li>
-                        <li class="active">Contact Page</li>
-                        <li class="inactive">Unlimited Business eMail Addresses</li>
-                        <li class="active">Free Domain Name</li>
-                        <li class="inactive">Free Updates for 12 Months</li>
-                        <li class="inactive">Unlimited Pages</li>
-                        <li class="active">Web Hosting for 12 Months</li>
-                        <li class="active">Free SSL Certificate for 12 Months</li>
-                        <li class="inactive">Online Shop</li>
-                        <li class="inactive">Blog</li>
-                        <li class="active">SEO Package</li>
-                    </ul>
-                </div>
-
-                <div class="featurecard-cta">
-                    <a href="#" class="btn featurecardbtn">Find Out More</a>
+                    <h2 class="textbox-title">Customer Care</h2>
+                    <p class="textbox-subtitle">We ensure you get the best our of your website</p>
+                    <p class="textbox-text">Once your website is live, we don't just leave you to it! We are here to help you run and manage any updates to your website. We can carry out as much or as little work for you, it all depends on what you need.</p>
+                    <p class="textbox-text"><a href="web-design-lincolnshire">Find Out More</a></p>
                 </div>
             </div>
 
-            <div class="servicecard">
+            <div class="container gridcontainer">
+            <img class=" firstitem m-b-2-lg" src="img/bakery.jpg" alt="">
+                <div class="textbox p-t-bt-0 seconditem">
 
-                <div class="servicecard-header">
-                    <h1 class="servicecard-title">Business</h1>
-                    <p class="servicecard-sub">Great for small businesses or personal websites</p>
-                </div>
-
-                <div class="servicecard-pricing">
-                    <h3>£450</h3>
-                    <p>One off cost</p>
-                </div>
-                <div class="servicecard-features">
-                    <ul>
-                        <li class="active">Custom Design</li>
-                        <li class="active">Bespoke Colour Scheme</li>
-                        <li class="active">Bespoke Logo Service</li>
-                        <li class="active">Contact Page</li>
-                        <li class="inactive">Unlimited Business eMail Addresses</li>
-                        <li class="active">Free Domain Name</li>
-                        <li class="active">Free Updates for 12 Months</li>
-                        <li class="inactive">Unlimited Pages</li>
-                        <li class="active">Web Hosting for 12 Months</li>
-                        <li class="active">Free SSL Certificate for 12 Months</li>
-                        <li class="inactive">Online Shop</li>
-                        <li class="inactive">Blog</li>
-                        <li class="active">SEO Package</li>
-                    </ul>
-                </div>
-                <div class="featurecard-cta">
-                    <a href="#" class="btn featurecardbtn">Find Out More</a>
+                    <h2 class="textbox-title">Show Off Your Business</h2>
+                    <p class="textbox-subtitle">Get the most from your website and sell to everyone</p>
+                    <p class="textbox-text">You don't need to stop at a website that just shows off your business. Shout about your products and sell them in an onine shop. We will make you an amazing store online to grow your brand.</p>
+                    <p class="textbox-text"><a href="web-design-lincolnshire">Find Out More</a></p>
                 </div>
             </div>
 
-            <div class="servicecard">
-                <div class="servicecard-header">
-                    <h1 class="servicecard-title">Professional</h1>
-                    <p class="servicecard-sub">Great for small businesses or personal websites</p>
-                </div>
-                <div class="servicecard-pricing">
-                    <h3>From £600</h3>
-                    <p>One off cost</p>
-                </div>
-                <div class="servicecard-features">
-                    <ul>
-                        <li class="active">Custom Design</li>
-                        <li class="active">Bespoke Colour Scheme</li>
-                        <li class="active">Bespoke Logo Service</li>
-                        <li class="active">Contact Page</li>
-                        <li class="active">Unlimited Business eMail Addresses</li>
-                        <li class="active">Free Domain Name</li>
-                        <li class="active">Free Updates for 12 Months</li>
-                        <li class="active">Unlimited Pages</li>
-                        <li class="active">Web Hosting for 12 Months</li>
-                        <li class="active">Free SSL Certificate for 12 Months</li>
-                        <li class="active">Online Shop</li>
-                        <li class="active">Blog</li>
-                        <li class="active">SEO Package</li>
-                    </ul>
-                </div>
-                <div class="featurecard-cta">
-                    <a href="#" class="btn featurecardbtn">Find Out More</a>
+            <div class="container gridcontainer">
+            <img class="  m-b-2-lg" src="img/ideas.jpg" alt="">
+                <div class="textbox p-t-bt-0 firstitem">
+
+                    <h2 class="textbox-title">Bring Your Ideas to Life</h2>
+                    <p class="textbox-subtitle">we build more than just a website for you</p>
+                    <p class="textbox-text">Realise your true potential, not only will we build you a great website that helps you get your business online. We will help you with Social Media profiles, Business Email, SEO, Google Analyytics and much more</p>
+                    <p class="textbox-text"><a href="web-design-lincolnshire">Find Out More</a></p>
                 </div>
             </div>
         </section>
-
-        <section class="container">
-            <div class="banner">
-                <h1 class="bannertitle">Just require Web Hosting?</h1>
-                <h3>If it's just Web Hosting that you need, then we have some great packages to choose from!</h3>
-
-
-            </div>
-        </section>
-    
-        <section class="container servicecardgrid">
-            <div class="servicecard">
-                <div class="servicecard-header">
-                    <h1 class="servicecard-title">Starter</h1>
-                    <p class="servicecard-sub">Great for small businesses or personal websites</p>
-                </div>
-                <div class="servicecard-pricing">
-                    <h3>£3.99</h3>
-                    <p>Per Month</p>
-                </div>
-                <div class="servicecard-features">
-                    <ul>
-
-
-                        <li class="active">Unlimited Revisions</li>
-                        <li class="active">Unlimited Pages</li>
-                        <li class="active">Web Hosting</li>
-                        <li class="active">Web Hosting</li>
-                        <li class="active">Web Hosting</li>
-                    </ul>
-                </div>
-
-                <div class="featurecard-cta">
-                    <a href="#" class="btn">Find Out More</a>
-                </div>
-            </div>
-
-            <div class="servicecard">
-
-                <div class="servicecard-header">
-                    <h1 class="servicecard-title">Business</h1>
-                    <p class="servicecard-sub">Ideal for Small to Medium size businesses</p>
-                </div>
-
-                <div class="servicecard-pricing">
-                    <h3>£6.99</h3>
-                    <p>Per Month</p>
-                </div>
-                <div class="servicecard-features">
-                    <ul>
-                        <li class="active">Custom Design</li>
-                        <li class="inactive">Free Domain Name</li>
-                        <li class="active">Unlimited Revisions</li>
-                        <li class="active">Unlimited Pages</li>
-                        <li class="active">Web Hosting</li>
-                        <li class="active">Web Hosting</li>
-                        <li class="active">Web Hosting</li>
-                    </ul>
-                </div>
-                <div class="featurecard-cta">
-                    <a href="#" class="btn">Find Out More</a>
-                </div>
-            </div>
-
-            <div class="servicecard">
-                <div class="servicecard-header">
-                    <h1 class="servicecard-title">Professional</h1>
-                    <p class="servicecard-sub">Max Package, everything you need for the ultimate websites.</p>
-                </div>
-                <div class="servicecard-pricing">
-                    <h3>£9.99</h3>
-                    <p>Per Month</p>
-                </div>
-                <div class="servicecard-features">
-                    <ul>
-                        <li class="active">Custom Design</li>
-                        <li class="inactive">Free Domain Name</li>
-                        <li class="active">Unlimited Revisions</li>
-                        <li class="active">Unlimited Pages</li>
-                        <li class="active">Web Hosting</li>
-                        <li class="active">Web Hosting</li>
-                        <li class="active">Web Hosting</li>
-                    </ul>
-                </div>
-                <div class="featurecard-cta">
-                    <a href="#" class="btn">Find Out More</a>
-                </div>
-            </div>
-        </section>
-        -->
+        <div class="container banner">
+            <h2 class="bannertitle">Want To Know More?</h2>
+            <p class="lead">Drop us a line below and we will come back to you....</p>
+        </div>
+        <?php include("inc/contact.inc.php");?>
     </main>
-    
+
     <?php include("inc/footer.inc.php"); ?>

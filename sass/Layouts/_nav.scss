@@ -75,7 +75,7 @@ a{
     transition: all 0.3s ease;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: $stdnavbp) {
     
     .burger{
         display: block;
@@ -168,7 +168,7 @@ a{
        background: #fff
    }
 }
-@media (min-width:769px){
+@media (min-width:$stdnavbp){
 .sub-menu-xl{
     
     //position: relative;
@@ -224,7 +224,7 @@ a{
 }
 
 
-@media (max-width: 768px){
+@media (max-width: $stdnavbp){
 
     .sub-menu-content{
         
@@ -250,7 +250,7 @@ a{
 }
 
 
-@media (max-width: 768px){
+@media (max-width: $stdnavbp){
 .sub-menu-active{
     position: relative;
    width: max-content;

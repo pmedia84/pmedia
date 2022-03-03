@@ -1,6 +1,4 @@
 .textbox{
-  border: 1px solid $primarycol;
-  background-color: #fff;
     padding: 4rem 2rem 4rem 2rem;
     border-radius: 0.5rem;
     a::after{
@@ -47,6 +45,7 @@
     line-height: $lineheight;
     color: $lightcolor1;
     font-weight: 300;
+    text-transform: capitalize;
   }
 
   .textbox-title,

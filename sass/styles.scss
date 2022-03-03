@@ -1,5 +1,6 @@
 @import "abstract/variables";
 @import "base/base";
+@import "base/breakpoints";
 @import "base/typography";
 @import "layouts/nav";
 @import "components/btn";
@@ -18,7 +19,9 @@
 @import "pages/quoterequest";
 @import "pages/privacy";
 @import "pages/promo";
-@import "pages/portfolio";
+@import "pages/web-design";
+@import "pages/hosting";
+
 
 
 .social {
@@ -74,3 +77,4 @@
   }
 
 
+ 

@@ -159,3 +159,32 @@
   content: "\f00d";
   }
 }
+
+
+//Services Cards with links to relavent pages
+
+.service-box{
+  padding: 1.5rem;
+  display: grid;
+  place-items: center;
+  background-color: #fff;
+  transition: background-color 150ms ease-in-out;
+    font-size: 1.25rem;
+  
+  &:hover{
+    background-color: $clientbg;
+    color: #fff;
+    opacity: 1;
+    text-decoration: none;
+    transition: background-color 150ms ease-in-out;
+  }
+ 
+&:focus{
+  background-color: $clientbg;
+  opacity: 1;
+  color: #fff;
+  text-decoration: none;
+  transition: background-color 150ms ease-in-out;
+}
+  
+}

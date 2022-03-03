@@ -8,6 +8,10 @@
     padding-bottom: 0;
 }
 
+.p-t-bt-0{
+    padding-top: 0;
+    padding-bottom:0;
+}
 // Add top padding - Standard through site
 .p-top-1{
     padding-top: $narrowpadding;
@@ -47,6 +51,10 @@
 //Add bottom margin 3rem
 .m-b-2{
     margin-bottom: $stdmargin;
+}
+
+.m-b-0{
+    margin-bottom: 0;
 }
 
 

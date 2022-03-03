@@ -5,10 +5,7 @@
         grid-template-columns: 1fr 1fr;
         grid-template-rows: 1fr;
         gap: 2rem;
-        img{
-            height: 100%;
-            object-fit: contain;
-        }
+
     }
 
     
@@ -43,41 +40,34 @@
 .hero{
     
      padding: 6.5vw;
-     
-     //background-size:cover;
-     background-repeat: no-repeat;
-    // background-image: url("../img/code.jpg");
-   background-blend-mode: multiply;
    
-  // min-height: 40vh;
-   
-   //transition: color 1500ms;
+
+ }
+
+ //Css Grid Auto grid columns
+
+ .servicegrid{
+    display: grid;
+    
+    width: 95%;
+    max-width: 1200px;
+    margin: 0 auto;
+    gap: 0.0625em;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+ background-color: rgba($primarycol,1);
+  border: 0.0625em solid $primarycol;
  }
  
+ @media (min-width: 800px){
+     .servicegrid{
+        grid-template-columns: repeat(auto-fit, minmax(100px,1fr));
+     }
+ }
+
  
- .herogrid{
-     height: 40vh;
-     display: grid;
-     grid-template-columns: 1fr 1fr 1fr;
-     
-     row-gap: 0.9rem;
-     
- }
- 
- .herotitle{
-    grid-column: 1/4;
-     grid-row: 1/1;
-     
- }
- .herotext{
-     grid-row: 2/3;
-     grid-column: 1/4;
- 
- }
- .herobtnholder{
-     grid-column: 1/4;
-     grid-row: 3/4;
-     justify-self: start;
- }
+
+
+
 
  

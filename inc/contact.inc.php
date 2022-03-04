@@ -6,7 +6,7 @@
     <!-- custom styling for inputs -->
     <!-- =========== -->
     <!-- Prepend all inputs with an icon helper -->
-    <form id="contactForm" action="contactscript.php" name="contactForm">
+    <form id="contactForm" action="contact-form-script-new.php" name="contactForm">
 
 
         <div class="formrow">

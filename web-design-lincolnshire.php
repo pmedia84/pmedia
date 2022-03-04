@@ -24,7 +24,7 @@
 
                     <p class="herotext">From a simple 2 page website right through to a fully fledged online store, we have something for everyone.</p>
                 </div>
-                <figure class="hero-img"><img src="img/lba.webp" alt="Lashes Brows and Aesthetics Website">
+                <figure class="hero-img"><img src="img/portfolio/lba-screenshot.svg" alt="Lashes Brows and Aesthetics Website">
                     <figcaption class="attr"><a href="https://www.lashesbrowsandaesthetics.co.uk" target="_blank" rel="noreferrer">Lashes, Brows and Aesthetics</a></figcaption>
                 </figure>
             </div>
@@ -42,22 +42,28 @@
             <div class="textbox process p-top-0">
                 <ul>
                     <li>
-                        <p class="process-title">Design</p>We Start with the design and provide you with mockups of what your new website will look like
+                        <h3 class="process-title">Design</h3>
+                        <p>We start with the design and provide you with mockups of what your new website will look like.</p>
                     </li>
                     <li>
-                        <p class="process-title">Development</p>Once you are happy with the design, we set to work developing your website with all the amazing features you have asked for.
+                        <h3 class="process-title">Development</h3>
+                        <p>Once you are happy with the design, we set to work developing your website with all the amazing features you have asked for.</p>
                     </li>
                     <li>
-                        <p class="process-title">Revisions</p>Once we have completed our initial development work, we pass the website over to you for you to check over and make sure you are happy with everything so far. We then make any revisions that you request.
+                        <h3 class="process-title">Revisions</h3>
+                        <p>Once we have completed our initial development work, we pass the website over to you for you to check over and make sure you are happy with everything so far. We then make any revisions that you request.</p>
                     </li>
                     <li>
-                        <p class="process-title">Launch</p>As soon as we have completed any changes you have requested we are ready to "GO LIVE" with your new website. We will co-incide this with any other marketing plans you have.
+                        <h3 class="process-title">Launch</h3>
+                        <p>As soon as we have completed any changes you have requested we are ready to "GO LIVE" with your new website. We can co-incide this with any other marketing plans you have.</p>
                     </li>
                     <li>
-                        <p class="process-title">Hosting</p>At the same time as your website going live, we will set you up with the hosting package and handle this for you.
+                        <h3 class="process-title">Hosting</h3>
+                        <p>At the same time as your website going live, we will set you up with the hosting package and handle this for you.</p>
                     </li>
                     <li>
-                        <p class="process-title">Customer Care</p>We don't just leave you there! We are here with you for every step of your online journey and that includes once the initial work has been completed. We are here 24/7 for any tech support and revisons you may require.
+                        <h3 class="process-title">Customer Care</h3>
+                        <p>We don't just leave you there! We are here with you for every step of your online journey and that includes once the initial work has been completed. We are here 24/7 for any tech support and revisons you may require.</p>
                     </li>
                 </ul>
             </div>
@@ -73,13 +79,13 @@
                     <p>We ensure your website looks amazing on every device with a fully responsive design.</p>
                 </div>
                 <div class="mos-container">
-                    <figure class="mos-img"><img src="img/lba.webp" alt="Lashes Brows and Aesthetics Website">
+                    <figure class="mos-img"><img src="img/portfolio/lba-screenshot.svg" alt="Lashes Brows and Aesthetics Website">
                         <figcaption class="attr"><a href="https://www.lashesbrowsandaesthetics.co.uk" target="_blank" rel="noreferrer">Lashes, Brows and Aesthtics</a></figcaption>
                     </figure>
                     <figure class="mos-img"><img src="img/kutz-responsive.webp" alt="Lashes Brows and Aesthetics Website">
                         <figcaption class="attr"><a href="https://www.parrotmedia.co.uk/kutz" target="_blank" rel="noreferrer">Kutz - Barber Shop</a></figcaption>
                     </figure>
-                    <figure class="mos-img"><img src="img/portfolio/ptsite.png" alt="Apex Personal Training Website">
+                    <figure class="mos-img"><img src="img/portfolio/ptsite.svg" alt="Apex Personal Training Website">
                         <figcaption class="attr"><a href="https://www.lashesbrowsandaesthetics.co.uk" target="_blank" rel="noreferrer">Apex Personal Training</a></figcaption>
                     </figure>
 
@@ -109,7 +115,7 @@
 
 
         <section class="container banner">
-        <div class="banner">
+            <div class="banner">
                 <h2>Like What You See?</h2>
                 <p class="lead m-b-2">Drop us a line and find out how we can help get your business online!</p>
             </div>

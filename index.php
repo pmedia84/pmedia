@@ -63,18 +63,18 @@
             </div>
 
             <div class="container gridcontainer">
-            <img class=" m-b-2-lg" src="img/managed-websites.jpg" alt="">
+            <img class=" m-b-2-lg" src="img/managed-websites.webp" alt="">
                 <div class="textbox p-t-bt-0 firstitem">
 
                     <h2 class="textbox-title">Customer Care</h2>
-                    <p class="textbox-subtitle">We ensure you get the best our of your website</p>
+                    <p class="textbox-subtitle">We ensure you get the best out of your website</p>
                     <p class="textbox-text">Once your website is live, we don't just leave you to it! We are here to help you run and manage any updates to your website. We can carry out as much or as little work for you, it all depends on what you need.</p>
                     <p class="textbox-text"><a href="web-design-lincolnshire">Find Out More</a></p>
                 </div>
             </div>
 
             <div class="container gridcontainer">
-            <img class=" firstitem m-b-2-lg" src="img/bakery.jpg" alt="">
+            <img class=" firstitem m-b-2-lg" src="img/bakery.webp" alt="">
                 <div class="textbox p-t-bt-0 seconditem">
 
                     <h2 class="textbox-title">Show Off Your Business</h2>
@@ -85,11 +85,11 @@
             </div>
 
             <div class="container gridcontainer">
-            <img class="  m-b-2-lg" src="img/ideas.jpg" alt="">
+            <img class="  m-b-2-lg" src="img/ideas.webp" alt="">
                 <div class="textbox p-t-bt-0 firstitem">
 
                     <h2 class="textbox-title">Bring Your Ideas to Life</h2>
-                    <p class="textbox-subtitle">we build more than just a website for you</p>
+                    <p class="textbox-subtitle">We build more than just a website for you</p>
                     <p class="textbox-text">Realise your true potential, not only will we build you a great website that helps you get your business online. We will help you with Social Media profiles, Business Email, SEO, Google Analyytics and much more</p>
                     <p class="textbox-text"><a href="web-design-lincolnshire">Find Out More</a></p>
                 </div>

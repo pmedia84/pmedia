@@ -5,7 +5,7 @@
     <meta name="description" content="Get your business online for just £100. Limited time offer. We will build you a custom website that will give you everything to get started online">
     <meta property="og:title" content="Parrot Media: Websites" />
     <meta property="og:description" content="Some examples of our latest designs. All our designs are fully mobile responsive so they will look amazing on any device." />
-    <meta property="og:image" content="https://www.parrotmedia.co.uk/img/ogdata/ogportfolio.jpg" />
+    <meta property="og:image" content="https://www.parrotmedia.co.uk/img/ogdata/og-email-hosting.jpg" />
     <meta property="og:type" content="website" />
     <title>Parrot Media : Business Email Hosting</title>
 

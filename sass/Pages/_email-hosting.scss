@@ -1,0 +1,19 @@
+.emailhostinghero{
+    background-color: $primarycol;
+    h1, p, .attr a{
+        color: #fff;
+    }
+
+    img{
+        max-height: 100%;
+    }
+}
+
+.emailhostinghero .herotextbody{
+    
+    justify-content: start;
+    gap: 1.5rem;
+
+}
+/// Client Color Scheme
+/// #6b7184

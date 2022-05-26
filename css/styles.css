@@ -343,6 +343,16 @@ nav {
     box-shadow: 0 0 0;
     transition: box-shadow 150ms ease-in-out; }
 
+.btn-primary {
+  padding: 0.75rem;
+  border: 1px solid #78b5a3;
+  border-radius: 0.25rem;
+  background-color: #78b5a3;
+  color: #fff;
+  text-transform: uppercase; }
+  .btn-primary:hover, .btn-primary:focus {
+    text-decoration-line: none; }
+
 .card {
   position: relative;
   z-index: -1;
@@ -926,6 +936,9 @@ button {
 .accentbg {
   background-color: #9e9e9e; }
 
+.align-ctr {
+  align-self: center; }
+
 .carousel {
   width: 95%;
   max-width: 800px;
@@ -1137,6 +1150,17 @@ button {
   background-color: #6b7184; }
   .hostinghero h1, .hostinghero p, .hostinghero .attr a {
     color: #fff; }
+
+.emailhostinghero {
+  background-color: #78b5a3; }
+  .emailhostinghero h1, .emailhostinghero p, .emailhostinghero .attr a {
+    color: #fff; }
+  .emailhostinghero img {
+    max-height: 100%; }
+
+.emailhostinghero .herotextbody {
+  justify-content: start;
+  gap: 1.5rem; }
 
 .social {
   display: inline-flex;

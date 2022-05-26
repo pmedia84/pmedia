@@ -85,6 +85,7 @@
             <ul class="nav-links">
                <li class="nav-link"><a href="index">Home</a></li>
                 <li class="nav-link"><a href="web-design-lincolnshire">Websites</a></li>
+                <li class="nav-link"><a href="business-email-hosting">Email Hosting</a></li>
                 <li class="nav-link"><a href="website-hosting-lincolnshire">Hosting</a></li>
                 <li class="nav-link"><a href="contact">Contact</a></li>
                 

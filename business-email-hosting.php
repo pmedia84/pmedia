@@ -2,9 +2,9 @@
 <html lang="en">
 
 <head>
-    <meta name="description" content="Get your business online for just £100. Limited time offer. We will build you a custom website that will give you everything to get started online">
-    <meta property="og:title" content="Parrot Media: Websites" />
-    <meta property="og:description" content="Some examples of our latest designs. All our designs are fully mobile responsive so they will look amazing on any device." />
+    <meta name="description" content="Get that professional look and feel to yoru business with our email hosting packages">
+    <meta property="og:title" content="Business Email Hosting" />
+    <meta property="og:description" content="Business email hosting packages starting from £1.25 per week" />
     <meta property="og:image" content="https://www.parrotmedia.co.uk/img/ogdata/og-email-hosting.jpg" />
     <meta property="og:type" content="website" />
     <title>Parrot Media : Business Email Hosting</title>

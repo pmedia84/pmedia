@@ -33,7 +33,7 @@
                 <div class="hero-textbox">
                     <p>From as low as £1.25 per week!</p>
                 </div>
-                <button class="btn">Find Out More</button>
+               
                 </div>
                 <figure class="hero-img"><img src="img/email-hosting-hero.webp" alt="">
                     

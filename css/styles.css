@@ -706,11 +706,9 @@ button {
   place-self: center; }
 
 .mos-container {
-  width: 80%;
-  margin: 0 auto;
   display: grid;
   gap: 1.5rem;
-  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr)); }
+  grid-template-columns: repeat(auto-fit, minmax(200px, 2fr)); }
 
 .container {
   width: 95%;

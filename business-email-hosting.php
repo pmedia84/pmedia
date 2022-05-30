@@ -125,27 +125,27 @@
                 </div>
 
                 <div class="featurecard-cta">
-                <div id="paypal-button-container-P-5US60192V86587932MKKMPFI"></div>
-                    <script src="https://www.paypal.com/sdk/js?client-id=AXjo4j7KdRLDdUkrYlmOcM2H1cLAoNNsLexkf4dxQFsDepAIXIvi3MH7mL6sT_Ty5OtThYjBnuuUGkDm&vault=true&intent=subscription" data-sdk-integration-source="button-factory"></script>
-                    <script>
-                        paypal.Buttons({
-                            style: {
-                                shape: 'rect',
-                                color: 'white',
-                                layout: 'horizontal',
-                                label: 'subscribe'
-                            },
-                            createSubscription: function(data, actions) {
-                                return actions.subscription.create({
-                                    /* Creates the subscription */
-                                    plan_id: 'P-5US60192V86587932MKKMPFI'
-                                });
-                            },
-                            onApprove: function(data, actions) {
-                                alert(data.subscriptionID); // You can add optional success message for the subscriber here
-                            }
-                        }).render('#paypal-button-container-P-5US60192V86587932MKKMPFI'); // Renders the PayPal button
-                    </script>
+                <div id="paypal-button-container-P-9RJ17116GU5910118MKG73NA"></div>
+<script src="https://www.paypal.com/sdk/js?client-id=AXjo4j7KdRLDdUkrYlmOcM2H1cLAoNNsLexkf4dxQFsDepAIXIvi3MH7mL6sT_Ty5OtThYjBnuuUGkDm&vault=true&intent=subscription" data-sdk-integration-source="button-factory"></script>
+<script>
+  paypal.Buttons({
+      style: {
+          shape: 'rect',
+          color: 'white',
+          layout: 'horizontal',
+          label: 'subscribe'
+      },
+      createSubscription: function(data, actions) {
+        return actions.subscription.create({
+          /* Creates the subscription */
+          plan_id: 'P-9RJ17116GU5910118MKG73NA'
+        });
+      },
+      onApprove: function(data, actions) {
+        alert(data.subscriptionID); // You can add optional success message for the subscriber here
+      }
+  }).render('#paypal-button-container-P-9RJ17116GU5910118MKG73NA'); // Renders the PayPal button
+</script>
                 </div>
             </div>
 
@@ -175,7 +175,27 @@
                     </ul>
                 </div>
                 <div class="featurecard-cta">
+                <div id="paypal-button-container-P-7J287713Y3610423BMKKMM5Y"></div>
 
+<script>
+  paypal.Buttons({
+      style: {
+          shape: 'rect',
+          color: 'white',
+          layout: 'horizontal',
+          label: 'subscribe'
+      },
+      createSubscription: function(data, actions) {
+        return actions.subscription.create({
+          /* Creates the subscription */
+          plan_id: 'P-7J287713Y3610423BMKKMM5Y'
+        });
+      },
+      onApprove: function(data, actions) {
+        alert(data.subscriptionID); // You can add optional success message for the subscriber here
+      }
+  }).render('#paypal-button-container-P-7J287713Y3610423BMKKMM5Y'); // Renders the PayPal button
+</script>
                 </div>
             </div>
 

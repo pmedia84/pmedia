@@ -18,27 +18,27 @@
             <div class="hero emailhostinghero">
                 <div class="herotextbody">
                     <div class="">
-                    <p class="herosubtitle">Professional email address!</p>
+                        <p class="herosubtitle">Professional email address!</p>
                         <h1 class="herotitle">Email For Your Business</h1>
-                        
+
                     </div>
 
                     <div class="hero-textbox">
-                     <p><i class="fa-solid fa-circle-check hero-check"></i> Add Credibility To your Brand</p>
-                     <p><i class="fa-solid fa-circle-check hero-check"></i> Security - Daily Backups Of Your Emails</p>
-                     <p><i class="fa-solid fa-circle-check hero-check"></i> Includes 3 Mail Boxes</p>
-                     <p><i class="fa-solid fa-circle-check hero-check"></i> Includes a Free .co.uk Domain Name!</p>
-                     <p><i class="fa-solid fa-circle-check hero-check"></i> Ad FREE</p>
-                </div>
-                <div class="hero-textbox">
-                    <p class="playful-text lead">From as low as <span class="strong-text">£1.25</span> / week!</p>
-                </div>
-               
+                        <p><i class="fa-solid fa-circle-check hero-check"></i> Add Credibility To your Brand</p>
+                        <p><i class="fa-solid fa-circle-check hero-check"></i> Security - Daily Backups Of Your Emails</p>
+                        <p><i class="fa-solid fa-circle-check hero-check"></i> Includes 3 Mail Boxes</p>
+                        <p><i class="fa-solid fa-circle-check hero-check"></i> Includes a Free .co.uk Domain Name!</p>
+                        <p><i class="fa-solid fa-circle-check hero-check"></i> Ad FREE</p>
+                    </div>
+                    <div class="hero-textbox">
+                        <p class="playful-text lead">From as low as <span class="strong-text">£1.25</span> / week!</p>
+                    </div>
+
                 </div>
                 <figure class="hero-img"><img src="img/email-hosting-hero.webp" alt="">
-                    
+
                 </figure>
-           
+
             </div>
 
         </div>
@@ -52,18 +52,18 @@
 
         </section>
         <section class="container gridcontainer">
-            
-                <div class="textbox p-t-bt-0 firstitem">
 
-                    <h2 class="textbox-title">Email Address The Same As Your Name</h2>
-                    <p class="textbox-subtitle">Maintain consistancy across your brand</p>
-                    <p class="textbox-text">With our email hosting you are not restricted by the amount of email address that you can have. And with a free .co.uk domain name included in your package you can be sure that you will have a personalised and professional approach to your brand. </p>
-                    <p class="textbox-text">When you have an email address that matches your brand name you will make it so much easier for customers to remember you. With our email hosting package you can also seperate different areas of your business. (for example, sales@yourbusiness.co.uk)</p>
-                    
-                </div>
-                <img class="m-b-2-lg align-ctr" src="img/emailhosting-names.png" alt="">
-            </section>
-            <section class="container">
+            <div class="textbox p-t-bt-0 firstitem">
+
+                <h2 class="textbox-title">Email Address The Same As Your Name</h2>
+                <p class="textbox-subtitle">Maintain consistancy across your brand</p>
+                <p class="textbox-text">With our email hosting you are not restricted by the amount of email address that you can have. And with a free .co.uk domain name included in your package you can be sure that you will have a personalised and professional approach to your brand. </p>
+                <p class="textbox-text">When you have an email address that matches your brand name you will make it so much easier for customers to remember you. With our email hosting package you can also seperate different areas of your business. (for example, sales@yourbusiness.co.uk)</p>
+
+            </div>
+            <img class="m-b-2-lg align-ctr" src="img/emailhosting-names.png" alt="">
+        </section>
+        <section class="container">
             <div class="banner">
                 <h2>Our Features</h2>
                 <p class="lead m-b-2">Just a few of our great features that come as standard in our email hosting packages.</p>
@@ -93,7 +93,7 @@
         </section>
 
         <section class="container">
-        <div class="banner">
+            <div class="banner">
                 <h2>Want To Find Out More?</h2>
                 <p class="lead m-b-0">To keep things really simple for your business we only offer 2 packages. Both come with everything you need for your growing business.</p>
             </div>
@@ -125,7 +125,27 @@
                 </div>
 
                 <div class="featurecard-cta">
-                    <a href="contact" class="btn-primary">Set Me Up</a>
+                <div id="paypal-button-container-P-5US60192V86587932MKKMPFI"></div>
+                    <script src="https://www.paypal.com/sdk/js?client-id=AXjo4j7KdRLDdUkrYlmOcM2H1cLAoNNsLexkf4dxQFsDepAIXIvi3MH7mL6sT_Ty5OtThYjBnuuUGkDm&vault=true&intent=subscription" data-sdk-integration-source="button-factory"></script>
+                    <script>
+                        paypal.Buttons({
+                            style: {
+                                shape: 'rect',
+                                color: 'white',
+                                layout: 'horizontal',
+                                label: 'subscribe'
+                            },
+                            createSubscription: function(data, actions) {
+                                return actions.subscription.create({
+                                    /* Creates the subscription */
+                                    plan_id: 'P-5US60192V86587932MKKMPFI'
+                                });
+                            },
+                            onApprove: function(data, actions) {
+                                alert(data.subscriptionID); // You can add optional success message for the subscriber here
+                            }
+                        }).render('#paypal-button-container-P-5US60192V86587932MKKMPFI'); // Renders the PayPal button
+                    </script>
                 </div>
             </div>
 
@@ -142,7 +162,7 @@
                 </div>
                 <div class="servicecard-features">
                     <ul>
-                    <li class="inactive">Up To 3 eMail Addresses</li>
+                        <li class="inactive">Up To 3 eMail Addresses</li>
                         <li class="active">Free .co.uk Domain Name</li>
                         <li class="active">Ad Free</li>
                         <li class="active">Free Tech Support</li>
@@ -155,10 +175,10 @@
                     </ul>
                 </div>
                 <div class="featurecard-cta">
-                    <a href="contact" class="btn-primary">Set Me Up</a>
+
                 </div>
             </div>
 
-            
+
         </section>
         <?php include("inc/footer.inc.php"); ?>

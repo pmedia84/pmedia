@@ -27,11 +27,11 @@
                      <p><i class="fa-solid fa-circle-check hero-check"></i> Add Credibility To your Brand</p>
                      <p><i class="fa-solid fa-circle-check hero-check"></i> Security - Daily Backups Of Your Emails</p>
                      <p><i class="fa-solid fa-circle-check hero-check"></i> Includes 3 Mail Boxes</p>
-                     <p><i class="fa-solid fa-circle-check hero-check"></i> Includes Free .co.uk Domain Name!</p>
+                     <p><i class="fa-solid fa-circle-check hero-check"></i> Includes a Free .co.uk Domain Name!</p>
                      <p><i class="fa-solid fa-circle-check hero-check"></i> Ad FREE</p>
                 </div>
                 <div class="hero-textbox">
-                    <p>From as low as £1.25 per week!</p>
+                    <p class="playful-text lead">From as low as <span class="strong-text">£1.25</span> / week!</p>
                 </div>
                
                 </div>
@@ -84,13 +84,18 @@
                     <h3 class="textbox-subtitle">Access On Any Device</h3>
                     <p class="textbox-text">No matter what device you want to use to access your emails, we have you covered. All email clients are supported and we will help you get set up and running.</p>
                 </div>
+                <div class="textbox">
+                    <img class="m-b-1" src="img/business.svg" alt="">
+                    <h3 class="textbox-subtitle">Access On Any Device</h3>
+                    <p class="textbox-text">Professional approach to your business and added credibility, customers will remember your email address and helps to grow your brand rather than a hosted providers brand name!</p>
+                </div>
             </div>
         </section>
 
         <section class="container">
         <div class="banner">
                 <h2>Want To Find Out More?</h2>
-                <p class="lead m-b-0">To keep things really simple for your business we offer one package with the option of increasing the mailboxes as you need them.</p>
+                <p class="lead m-b-0">To keep things really simple for your business we only offer 2 packages. Both come with everything you need for your growing business.</p>
             </div>
         </section>
 

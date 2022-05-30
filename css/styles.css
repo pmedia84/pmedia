@@ -939,6 +939,13 @@ button {
 .align-ctr {
   align-self: center; }
 
+.strong-text {
+  font-size: 2rem; }
+
+.playful-text {
+  font-family: "Comic Neue", cursive;
+  font-weight: 400; }
+
 .carousel {
   width: 95%;
   max-width: 800px;

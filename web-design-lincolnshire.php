@@ -24,7 +24,7 @@
 
                     <p class="herotext">From a simple 2 page website right through to a fully fledged online store, we have something for everyone.</p>
                 </div>
-                <figure class="hero-img"><img src="img/portfolio/lba-screenshot.svg" alt="Lashes Brows and Aesthetics Website">
+                <figure class="hero-img"><img src="img/portfolio/lba-screenshot.png" alt="Lashes Brows and Aesthetics Website">
                     <figcaption class="attr"><a href="https://www.lashesbrowsandaesthetics.co.uk" target="_blank" rel="noreferrer">Lashes, Brows and Aesthetics</a></figcaption>
                 </figure>
             </div>

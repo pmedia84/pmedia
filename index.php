@@ -27,7 +27,7 @@
                 <a class="herobtn" href="#" class="btn">Find Out More</a>
                 <p class="herotext" style="margin-top: 1rem;">We take away the headache of getting your business online. <br>Full services from design and development to hosting.</p>
             </div>
-            <figure class="hero-img"><img src="img/kutz-barbers.svg" alt="Kutz Barber Shop Website">
+            <figure class="hero-img"><img src="img/kutz-barbers.webp" alt="Kutz Barber Shop Website">
                 <figcaption class="attr"><a href="https://www.parrotmedia.co.uk/kutz" target="_blank" rel="noreferrer">Kutz - Barber Shop</a></figcaption>
             </figure>
 

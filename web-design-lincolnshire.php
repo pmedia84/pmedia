@@ -79,7 +79,7 @@
                     <p>We ensure your website looks amazing on every device with a fully responsive design.</p>
                 </div>
                 <div class="mos-container">
-                    <figure class="mos-img"><img src="img/portfolio/lba-screenshot.svg" alt="Lashes Brows and Aesthetics Website">
+                    <figure class="mos-img"><img src="img/portfolio/lba-screenshot.png" alt="Lashes Brows and Aesthetics Website">
                         <figcaption class="attr"><a href="https://www.lashesbrowsandaesthetics.co.uk" target="_blank" rel="noreferrer">Lashes, Brows and Aesthtics</a></figcaption>
                     </figure>
                     <figure class="mos-img"><img src="img/kutz-responsive.webp" alt="Lashes Brows and Aesthetics Website">

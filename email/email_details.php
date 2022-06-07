@@ -7,6 +7,6 @@ $username = "admin@parrotmedia.co.uk"; ///Username
 $pass = "Krb833908!"; /// Password
 $from = $username; ///Email
 
-$fromname = "Webmaster - Well-being From Within"; /// Username and how you want your name to be displayed on emails
+$fromname = "Webmaster - Parrot Media"; /// Username and how you want your name to be displayed on emails
 
 ?>

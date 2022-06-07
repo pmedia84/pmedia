@@ -4,9 +4,9 @@ use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\SMTP;
 use PHPMailer\PHPMailer\Exception;
 
-require $_SERVER['DOCUMENT_ROOT'].'/pmedia/mailer/PHPMailer.php';
-require $_SERVER['DOCUMENT_ROOT'].'/pmedia/mailer/SMTP.php';
-require $_SERVER['DOCUMENT_ROOT'].'/pmedia/mailer/Exception.php';
+require $_SERVER['DOCUMENT_ROOT'].'/mailer/PHPMailer.php';
+require $_SERVER['DOCUMENT_ROOT'].'/mailer/SMTP.php';
+require $_SERVER['DOCUMENT_ROOT'].'/mailer/Exception.php';
 
 if(!$_POST) {
 	echo "<div style='text-align:center;font-size: 32px;font-weight:bold;'>403 Forbidden</div>";

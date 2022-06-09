@@ -12,10 +12,10 @@
     <?php include("inc/nav.inc.php"); ?>
 
     <main>
-        <div class="herocontainerfw">
+        <div class="herocontainerfw" style="background-color: #6b7184;">
 
 
-            <div class="hero hostinghero">
+            <div class="hero hostinghero" style="width:95%; max-width:1200px; margin: 0 auto;">
                 <div class="herotextbody">
                     <div class="">
                         <h1 class="herotitle">Full Hosting Package</h1>

@@ -12,8 +12,6 @@
 @import "framework/grids";
 @import "layouts/footer";
 @import "layouts/layouts";
-@import "utilities/utilities";
-@import "layouts/testimonials";
 @import "pages/contact";
 @import "pages/index";
 @import "pages/quoterequest";
@@ -22,7 +20,8 @@
 @import "pages/web-design";
 @import "pages/hosting";
 @import "pages/email-hosting";
-
+@import "pages/blog";
+@import "utilities/utilities";
 
 
 .social {

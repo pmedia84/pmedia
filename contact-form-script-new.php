@@ -99,7 +99,7 @@ if(isset($_POST['validation']) && !empty($_POST['validation'])) {
         <div id='response'>1</div>
         <div id='success_page'>
             <p>Message Sent Successfully.</p>
-            <p>Thank you <strong>$name</strong>, your message has been sent and I will come back to you ASAP.</p>
+            <p>Thank you <strong>$name</strong>, your message has been sent and we will come back to you ASAP.</p>
         </div>
     </fieldset>";
             

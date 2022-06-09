@@ -12,7 +12,7 @@
     <?php include("inc/nav.inc.php"); ?>
 
     <main>
-        <div class="herocontainerfw">
+        <div class="herocontainerfw bg-primary">
 
 
             <div class="hero emailhostinghero">

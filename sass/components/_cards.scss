@@ -189,3 +189,42 @@
 }
   
 }
+
+///Blog Cards for blog home page
+$border-radius: .25rem;
+.blog-card{
+  border: 1px solid #f4f3f3;
+  border-top-left-radius: $border-radius;
+  border-top-right-radius: $border-radius;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.blog-card-title{
+  padding: 1rem;
+  background-color: #f4f3f3;
+  border-top-left-radius: $border-radius;
+  border-top-right-radius: $border-radius;
+  display:flex ;
+  justify-content: space-between;
+  align-items: flex-start;
+  a{
+    color: rgb(56, 56, 56);
+  }
+}
+.blog-card-profile-pic{
+  max-width: 50px;
+  border-radius: 100%;
+}
+
+.blog-card-content{
+  padding: 1rem;
+}
+
+.blog-card-footer{
+  padding: 0.5rem;
+  background-color: #f4f3f3;
+  color: rgba(142, 142, 142, 0.918);
+}
+///

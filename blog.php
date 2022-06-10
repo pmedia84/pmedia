@@ -23,7 +23,7 @@ $article_result = $conn->query($article_query);
 
 
 
-<div class="container blog-hero ">
+<div class="hero container blog-hero ">
     <div class="herotextbody">
         <div class="">
             <h1 class="herotitle">News And Advice</h1>

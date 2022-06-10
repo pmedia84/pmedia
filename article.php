@@ -41,7 +41,7 @@ include("inc/nav.inc.php");
 
 
 
-<div class="container blog-hero " style="background-image: url('img/<?=$header_img;?>');">
+<div class="hero container blog-hero " style="background-image: url('img/<?=$header_img;?>');">
     <div class="herotextbody">
         <div class="">
             <h1 class="herotitle"><?=$article['article_title'];?></h1>

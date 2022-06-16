@@ -18,7 +18,7 @@
             <div class="hero hostinghero" style="width:95%; max-width:1200px; margin: 0 auto;">
                 <div class="herotextbody">
                     <div class="">
-                        <h1 class="herotitle">Full Hosting Package</h1>
+                        <h1 class="herotitle">Website Hosting</h1>
                         <p class="herosubtitle">Your website will be fully hosted on our servers. We manage the whole process for you.</p>
                     </div>
 

@@ -21,11 +21,12 @@
 
             <div class="herotextbody">
                 <div class="">
-                    <h1 class="herotitle">Grow Your Business</h1>
+                    <h1 class="herotitle">Creative Web Solutions For Your Business</h1>
                     <p class="herosubtitle">Web Design & Development Services in Long Sutton Lincolnshire</p>
                 </div>
+               
+                <p class="herotext m-b-1" style="margin-top: 1rem;">Websites, Hosting and Social Media Marketing and More...</p>
                 <a class="herobtn" href="#" class="btn">Find Out More</a>
-                <p class="herotext" style="margin-top: 1rem;">We take away the headache of getting your business online. <br>Full services from design and development to hosting.</p>
             </div>
             <figure class="hero-img"><img src="img/kutz-barbers.png" alt="Kutz Barber Shop Website">
                 <figcaption class="attr"><a href="https://www.parrotmedia.co.uk/kutz" target="_blank" rel="noreferrer">Kutz - Barber Shop</a></figcaption>
@@ -42,10 +43,10 @@
 
 
             <a class="service-box" href="#">
-                Development
+                Hosting
             </a>
             <a class="service-box" href="#">
-                Hosting
+                Social Media
             </a>
 
         </div>

@@ -19,13 +19,13 @@
                 <div class="herotextbody">
                     <div class="">
                         <h1 class="herotitle">A New Website is Just The Start</h1>
-                        <p class="herosubtitle">We will design you an amazing website that will give you the presence your business deserves.</p>
+                        <p class="herosubtitle">We will design and build you a stunning website that will not only look great, but will come packed with features too!</p>
                     </div>
 
                     <p class="herotext">From a simple 2 page website right through to a fully fledged online store, we have something for everyone.</p>
                 </div>
-                <figure class="hero-img"><img src="img/portfolio/lba-screenshot.png" alt="Lashes Brows and Aesthetics Website">
-                    <figcaption class="attr"><a href="https://www.lashesbrowsandaesthetics.co.uk" target="_blank" rel="noreferrer">Lashes, Brows and Aesthetics</a></figcaption>
+                <figure class="hero-img"><img src="img/portfolio/wellbeingfromwithin.png" alt="Well being From Within Website">
+                    <figcaption class="attr"><a href="https://www.well-beingfromwithin.co.uk" target="_blank" rel="noreferrer">Well Being From Within</a></figcaption>
                 </figure>
             </div>
 

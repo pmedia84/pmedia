@@ -24,7 +24,7 @@ if($header_img <= 0){
     <meta property="og:title" content="<?=$article['article_og_title'];?>" />
     <meta property="og:description" content="<?=$article['article_og_description'];?>" />
     <meta property="og:image" content="https://www.parrotmedia.co.uk/img/ogdata/<?=$article['article_og_img_filename'];?>" />
-    <meta property="og:type" content="website" />
+    <meta property="og:type" content="article" />
     <title>Parrot Media : <?=$article['article_title'];?></title>
 
 

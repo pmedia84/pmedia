@@ -170,7 +170,7 @@
                         <h2 class="service-cta-title">Social Media Management</h2>
                         <p class="service-cta-subtitle">Our all in one solution to managing your social media feeds. From logo design to scheduling your posts, we have it all.</p>
                         <a href="web-design-lincolnshire" class="service-cta-link m-b-1">Find Out More</a>
-                        <img src="./img/socialgraphic.png" alt="">
+                        <img src="./img/social-graphic.png" alt="">
                     </div>
                 </div>
             </div>

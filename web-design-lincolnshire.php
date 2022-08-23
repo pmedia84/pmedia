@@ -12,25 +12,33 @@
     <?php include("inc/nav.inc.php"); ?>
 
     <main>
-        <div class="herocontainerfw">
+     
 
 
-            <div class="hero webdesignhero">
-                <div class="herotextbody">
-                    <div class="">
-                        <h1 class="herotitle">A New Website is Just The Start</h1>
-                        <p class="herosubtitle">We will design and build you a stunning website that will not only look great, but will come packed with features too!</p>
-                    </div>
+    <section class="hero webdesignhero">
+            <div class="herocontainer">
 
-                    <p class="herotext">From a simple 2 page website right through to a fully fledged online store, we have something for everyone.</p>
+
+                <div class="herobody">
+                    <h1 class="herotitle">A New Website is just the start</h1>
+                    <p class="herosubtitle">From design to development we provide the full package.</p>
+                    <p class="herotext m-b-1 d-none-sm" style="margin-top: 1rem;">We start with a consultation to fully understand your business. And we then work on a great design for you to approve. We then work on a custom website with all the great features you require. </p>
                 </div>
-                <figure class="hero-img"><img src="img/portfolio/wellbeingfromwithin.png" alt="Well being From Within Website">
-                    <figcaption class="attr"><a href="https://www.well-beingfromwithin.co.uk" target="_blank" rel="noreferrer">Well Being From Within</a></figcaption>
-                </figure>
+
+                <div class="herographic">
+                    <picture>
+                        <source media="(max-width:768px)" srcset="./img/hero/indexherographic-small.webp">
+                        <img src="./img/hero/indexherographic.webp" alt="">
+                    </picture>
+
+                </div>
             </div>
 
+            </div>
 
-        </div>
+        </section>
+
+      
 
         <section class="container">
 
@@ -85,8 +93,8 @@
                     <figure class="mos-img"><img src="img/kutz-responsive.webp" alt="Lashes Brows and Aesthetics Website">
                         <figcaption class="attr"><a href="https://www.parrotmedia.co.uk/kutz" target="_blank" rel="noreferrer">Kutz - Barber Shop</a></figcaption>
                     </figure>
-                    <figure class="mos-img"><img src="img/portfolio/ptsite.svg" alt="Apex Personal Training Website">
-                        <figcaption class="attr"><a href="https://www.lashesbrowsandaesthetics.co.uk" target="_blank" rel="noreferrer">Apex Personal Training</a></figcaption>
+                    <figure class="mos-img"><img src="img/portfolio/wellbeingfromwithin.png" alt="Well Being From Within Website">
+                        <figcaption class="attr"><a href="https://www.well-beingfromwithin.co.uk" target="_blank" rel="noreferrer">Well being From Within</a></figcaption>
                     </figure>
 
 
@@ -101,15 +109,80 @@
         <section class="container">
             <div class="banner">
                 <h2>What's Included</h2>
-                <p class="lead m-b-2">We don't just build you an amazing website, we also provide hosting and maintenance as well:</p>
+                <p class="lead m-b-2">We don't just build you an amazing website, we also provide hosting and maintenance as well</p>
             </div>
-            <div class="mos-container">
-                <p>Custom design complete with proofs for you to approve.</p>
-                <p>Fully hosted website package including business email addresses if required.</p>
-                <p>SSL Certificates. Shows your website is genuine and helps to improve your website ranking in Search Engine results.</p>
-                <p>Free .co.uk Domain Name if required.</p>
-                <p>24/7 Customer care. We are always here for any technical support.</p>
-                <p>Unlimited updates and revisions in the first 12 months after launch.</p>
+            <div class="row">
+                <div class="col-3">
+                    <div class="featurecard">
+                        <div class="featurecard-icon"><img src="./img/icons/design.svg" alt=""></div>
+                        <div class="featurecard-body">
+
+                            <h3 class="featurecard-title">Design</h3>
+                            <p class="featurecard-text">Custom design complete with proofs for you to approve.</p>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="featurecard">
+                        <div class="featurecard-icon"><img src="./img/icons/server.svg" alt=""></div>
+                        <div class="featurecard-body">
+
+                            <h3 class="featurecard-title">Web Hosting</h3>
+                            <p class="featurecard-text">Fully hosted website package including business email addresses.</p>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="featurecard">
+                        <div class="featurecard-icon"><img src="./img/icons/padlock.svg" alt=""></div>
+                        <div class="featurecard-body">
+
+                            <h3 class="featurecard-title">SSL Certificate</h3>
+                            <p class="featurecard-text">SSL Certificates. Shows your website is genuine and helps to improve your website ranking in Search Engine results.</p>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="row">
+                <div class="col-3">
+                    <div class="featurecard">
+                        <div class="featurecard-icon"><img src="./img/icons/globe1.svg" alt=""></div>
+                        <div class="featurecard-body">
+
+                            <h3 class="featurecard-title">Domain Name</h3>
+                            <p class="featurecard-text">Free .co.uk Domain Name if required.</p>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="featurecard">
+                        <div class="featurecard-icon"><img src="./img/icons/care.svg" alt=""></div>
+                        <div class="featurecard-body">
+
+                            <h3 class="featurecard-title">Customer Care</h3>
+                            <p class="featurecard-text">24/7 Customer care. We are always here for any technical support.</p>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="featurecard">
+                        <div class="featurecard-icon"><img src="./img/icons/unlimited.svg" alt=""></div>
+                        <div class="featurecard-body">
+
+                            <h3 class="featurecard-title">Unlimited Updates</h3>
+                            <p class="featurecard-text">Unlimited updates and revisions in the first 12 months after launch.</p>
+                        </div>
+
+                    </div>
+                </div>
+
             </div>
         </section>
 

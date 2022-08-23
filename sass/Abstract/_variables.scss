@@ -1,18 +1,17 @@
 
 
 /// Colours
-$primarycol: #78b5a3;
-$secondcol: #e7816d;
-$blue: #2995cc;
-$accentcol: #9e9e9e;
-$grey:#cecece;
+$primarycol: #3B695B;
+$secondcol: #78b5a3;
+$darkcol: #364B44;
+$accentcol: rgba(236, 236, 236,1);
+$grey:#f3f3f3;
 $herobgblend: #c9c9c9;
 $text-light:#696969;
-$highlighttext: #E66D4C;
-$focuscolor: #E66D4C;
+$highlighttext: $secondcol;
+$focuscolor: $primarycol;
 $pricecardtext:#805d54;
 $lightcolor1: rgb(36, 36, 36);
-$notscrolledbg: #1179AD;
 
 /// Standard Padding use for banners etc
 $stdpadding: 3rem;
@@ -32,3 +31,17 @@ $narrowmargin: 1.5rem;
 $clientprimary: #be7d36;
 $clientsecondary: #f1f1f1;
 $clientbg: #0a0b04;
+
+//Box Shadow
+
+$box-shadow: 7px 10px 20px -7px rgba(0,0,0,0.64);
+
+//Heights
+
+$navbar-height: 70px;
+
+//Site Width Setting
+
+//Max Content width
+
+$max-width: 1500px;

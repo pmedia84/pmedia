@@ -1,12 +1,17 @@
 .btn{
     padding: 0.25em 1em;
     text-align: center;
+    font-family: $bodytext;
     font-size: 1.25rem;
+    font-weight: 300;
+    line-height: 1.7;
     border-radius: 0.25rem;
     text-decoration: none;
     color: $secondcol;
     border: 1px solid $secondcol;
     text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
     &:hover{
         opacity: 0.9;
         text-decoration: none;
@@ -37,7 +42,7 @@
   }
 }
 
-.featurecardbtn, button{
+.featurecardbtn button{
   
   box-shadow: 0 1px 1px rgba(0,0,0,0.15), 
               0 2px 2px rgba(0,0,0,0.15), 
@@ -51,7 +56,8 @@
   }
 }
 
-.btn-primary{
+.btn-primary,
+.primary-muted{
   padding: 0.75rem;
   border: 1px solid $primarycol;
   border-radius: 0.25rem;
@@ -61,4 +67,10 @@
   &:hover, &:focus{
     text-decoration-line: none;
   }
+}
+
+.primary-muted{
+  background-color: #fff;
+  color: $primarycol;
+  border-color: $secondcol;
 }

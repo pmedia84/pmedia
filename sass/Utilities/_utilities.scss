@@ -30,7 +30,7 @@
     padding-bottom: $stdpadding;
 }
 
-//Add extra 3rem of padding
+//Add extra 3rem of padding on bottom
 .p-bt-3{
     padding-bottom: 6rem;
 }
@@ -53,6 +53,18 @@
     margin-bottom: $stdmargin;
 }
 
+//Add top margin of 1.5rem
+
+.m-t-1{
+    margin-top: $narrowmargin;
+}
+///Add margin top and bottom 
+.margin-inline{
+    margin-block: $stdmargin;
+}
+
+
+///Remove margin
 .m-b-0{
     margin-bottom: 0;
 }
@@ -65,15 +77,26 @@
 
 .m-b-2-lg{
     margin-bottom: $stdmargin;
+    
 }
 }
+@media (min-width:768px){
+    ///Remove margin on wide screen
+    .m-b-1-lg{
+        margin-bottom: 0; 
+    }
 
+
+}
 
 
 //Add margin to titles for spacing
 .mt-b-1{
     margin-bottom: 0.5rem;
 }
+
+
+
 
 //Add margin to p elements for spacing
 .mp-b-1{
@@ -96,8 +119,12 @@ $smallbreak: 768px;
     }
 }
 
-.pinkbg{//converts the element to a bg color of pink
+//Adds a dark color to the element and changes the text color to be more prominent including links
+.dark-bg{ 
     background-color: $secondcol;
+    a{
+        color: currentColor;
+    }
 }
 
 .accentbg{ // Adds bg color to the element based on the accent colour of the size
@@ -112,11 +139,57 @@ $smallbreak: 768px;
     font-size: 2rem;
 }
 
-.playful-text{
-    font-family: $playful;
-    font-weight: 400;
-}
-
+//BG Colours
 .bg-primary{
     background-color: $primarycol;
+}
+
+.bg-grey{
+    background-color: $grey;
+}
+
+///display flex column on small screens
+.d-flex-col-sm {
+    flex-direction: column;
+    align-items: center;
+}
+@media( min-width: 768px){
+   /// Display Flex To an element after 768px
+    .d-flex-row-lg{
+       flex-direction: row;
+    }
+    ///add spece-between to a flex container
+    .space-between{
+        justify-content: space-between;
+    }
+
+    ///Align centre
+    .align-ctr{
+        align-items: center;
+    }
+}
+
+//Display element only on larger screens
+
+@media(max-width:768px){
+    .d-none-sm{
+        display: none;
+    }
+}
+
+//Place Items in center. Use for hero sections that have no images below
+.place-ctr{
+    display: grid;
+    place-items: center;
+}
+//////////////////////////
+/// 
+
+.d-none{
+    display: none;
+}
+
+///////Colours
+.bg-grey{
+    background-color: $grey;
 }

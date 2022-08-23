@@ -79,7 +79,7 @@
         
             <div class="brand">
                 <a href="index">
-                    <img src="img/svglogo.svg" alt="Parrot Media Logo">
+                    <img src="img/NewLogo.svg" alt="Parrot Media Logo">
                 </a>
             </div>
 
@@ -87,9 +87,8 @@
             <ul class="nav-links">
                <li class="nav-link"><a href="index">Home</a></li>
                 <li class="nav-link"><a href="web-design-lincolnshire">Websites</a></li>
-                <li class="nav-link"><a href="business-email-hosting">Email Hosting</a></li>
                 <li class="nav-link"><a href="website-hosting-lincolnshire">Hosting</a></li>
-                <li class="nav-link"><a href="blog">News</a></li>
+                <li class="nav-link"><a href="social-media-services-lincolnshire">Social Media</a></li>
                 <li class="nav-link"><a href="contact">Contact</a></li>
                 
             </ul>

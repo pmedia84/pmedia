@@ -21,9 +21,12 @@
 @import "pages/hosting";
 @import "pages/email-hosting";
 @import "pages/blog";
+@import "pages/socialmedia";
+@import "components/accordion";
+@import "components/timeline";
+@import "components/cta";
+@import "components/modals";
 @import "utilities/utilities";
-@import "shop/shop";
-
 
 .social {
     display: inline-flex;

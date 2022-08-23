@@ -1,0 +1,15 @@
+.socialhero{
+    background-image: url("../img/hero/social-media-hero.jpg");
+}
+
+.img-frame{
+    background-color: $secondcol;
+    padding: 1rem;
+    border-radius: 0.375rem;
+    box-shadow: $box-shadow;
+    max-width: max-content;
+}
+
+#social-media-process-paralax{
+    background-image: url("../img/paralaxbg/sm-paralax-bg.webp");
+}

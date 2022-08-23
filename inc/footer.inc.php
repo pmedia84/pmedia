@@ -9,10 +9,9 @@
             <div class="footer-group">
             <h3 class="footer-group-heading">Parrot Media</h3>
             <ul>
-                <li>About Us</li>
+              
                 <li><a href="contact">Contact Us</a></li>
-                <li><a href="quote_request">Quotation Request</a></li>
-                <li><a href="portfolio">Portfolio</a></li>
+               
                 <li><a href="privacy">Privacy Policy</a></li>
                 
             </ul>
@@ -22,10 +21,7 @@
             <ul>
             <li><a href="web-design-lincolnshire">Website Design</a></li>
             <li><a href="website-hosting-lincolnshire">Web Hosting</a></li>
-            <li><a href="business-email-hosting">Email Hosting</a></li>
-         <!--   <li><a href="wordpress-websites-lincolnshire">Wordpress Websites</a></li>
-            <li><a href="seo-lincolnshire">SEO</a></li>
-            <li><a href="faq">FAQ</a></li>-->
+            <li><a href="social-media-services-lincolnshire">Social Media</a></li>
             </ul> 
             </div>
             <div class="footer-group">

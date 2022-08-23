@@ -1,0 +1,41 @@
+///Services Panels with images and CTA etc
+
+.service-cta{
+    padding: 3rem 3rem 0 3rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+    
+    h2{
+        font-size: 1.75rem;
+    }
+    img{
+        max-height: 250px;
+    }
+    a{
+        font-weight: 400;
+        letter-spacing: 0.15rem;
+        font-size: 1.1rem;
+    }
+
+    background-color: $grey;
+}
+
+/// Call to action card for after sections of text etc
+.cta-panel{
+    padding: 3rem;
+    background-color: $primarycol;
+    border-radius: 0.375rem;
+    box-shadow: $box-shadow;
+    -webkit-box-shadow: $box-shadow;
+    -moz-box-shadow: $box-shadow;
+    color: #dddddd;
+    display: flex;
+  
+    p{
+      font-size: 1.7rem;
+    }
+  }

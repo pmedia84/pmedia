@@ -38,12 +38,53 @@
     
 }
 
-.indexheroscrolled{
-    @media (min-width:800px) {
-        color:black;
-    }
-    
-    background-color: rgb(126, 126, 126);
-    transition: background-color 1500ms;
 
+
+
+
+.indexhero{
+    background-color: $secondcol;
+    
+    width: 100%;
+    max-width: 100%;
+    margin: 0;
+    padding: 0;
+    color: black;
+   .herotitle{
+    font-size: clamp(3rem, 8vw, 4rem);
+    font-weight: 800;
+   }
+   .herosubtitle{
+    font-size: 1.7rem;
+   }
+   
+   .herotext{
+    font-size: 1.25rem;
+   }
+}
+
+.herocontainer{
+    width: 95%;
+    max-width: 1500px;
+    margin: 0 auto;
+    padding:3rem 0 0rem 0;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+
+///Cards
+#webdesigncard{
+    background-image: url(../img/card-bg-webdesign.svg);
+}
+
+#webhostingcard{
+    background-image: url(../img/card-bg-webhosting.svg);
+}
+
+#socialmediacard{
+    background-image: url(../img/card-bg-socialmedia.svg);
 }

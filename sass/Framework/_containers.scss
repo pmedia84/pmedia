@@ -1,7 +1,7 @@
 //main content container
 .container{
     width: 95%;
-    max-width: 1200px;
+    max-width: $max-width;
     margin: 0 auto;
     padding:3rem 0 3rem 0;
 }
@@ -16,6 +16,7 @@ width: 100%;
     width: 95%;
     margin: 0 auto;
 }
+
 
 
 
@@ -45,14 +46,60 @@ width: 100%;
       font-size: clamp(1.5rem, 1.5vw, 2.7rem);
     }
     p{
-      font-size: 1.25rem;
+        font-size: 2rem;
+        font-weight: 200;
     }
     h3, p{
         font-family: $bodytext;
-        font-weight: 400;
+       
     }
-    .lead{
-        font-weight: 300;
+
+}
+
+.row{
+margin-inline: 1rem;
+display: flex;
+flex-direction: column;
+gap: 1rem;
+}
+
+
+
+@media(min-width: 768px){
+    .row{
+        flex-direction: row;
+
     }
+    .col-3{
+        width: 33.33%;
+        flex: 0 0 auto;
+    }
+
+    .col{
+        width: 50%;
+    }
+
+    .col-auto{
+        max-width: max-content;
+    }
+    //Full width column
+.col-full{
+    width: 100%;
+    background-color: red;
+}
+}
+
+///Paralax Container, Set bg img on each page with a unique #ID
+.paralax{
+    padding: 1rem;
+    @supports(background-attachment:fixed){
+        background-attachment: fixed;
+    }
+    
+    background-attachment: scroll;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
 }
 

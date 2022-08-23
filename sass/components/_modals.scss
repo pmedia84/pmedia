@@ -1,0 +1,71 @@
+.modal{
+    background: rgba(255, 255, 255, 0.5);
+    position: fixed;
+    z-index: 100;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+     width: 100%;
+     height: 100vh;
+    opacity: 0;
+    pointer-events: none;
+    transition: 0.25s ease-out;
+   display: grid;
+   place-items: center;
+   overflow-y:scroll ;
+  
+}
+@supports (-webkit-backdrop-filter: none) or (backdrop-filter: none) {
+    .modal {
+      -webkit-backdrop-filter: blur(3px);
+      backdrop-filter: blur(3px);
+      background-color: rgba(255, 255, 255, 0.5);  
+    }
+    .warning {
+      display: none;
+    }
+  }
+
+.modal.open{
+    opacity: 1;
+    pointer-events: all;
+}
+.modal-content{
+    background-color: #fefefe;
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 2px solid $primarycol;
+    transform:scale(0.5);
+    transition: all 0.25s ease-out;
+    max-width: 1000px;
+    
+    @media(min-width:768px){
+        
+    width: 80%; /* Could be more or less, depending on screen size */
+    }
+    .close{
+      font-size: 1.75rem;
+      padding: 1rem;
+      margin-bottom: 1rem;
+      cursor: pointer;
+      position: fixed;
+      right: 0;
+      top: -10px;
+    }
+    h2{
+        text-align: center;
+        margin-bottom: 2rem;
+        font-weight: 800;
+        font-size: 2rem;
+    }
+}
+
+.modal-content.open{
+    transform: scale(1);
+    transition: all 0.25s ease-out;
+}
+.modal-open{
+    opacity: 1;
+    pointer-events: all;
+}

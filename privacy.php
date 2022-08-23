@@ -44,7 +44,7 @@
 
 <h2>How we store your personal information</h2>
 <p>Your information is securely stored within our secure email servers.</p>
-<p>We keep contact details for 3 years. We will then dispose of your information by deleting it permanatley from our email servers.</p>
+<p>We keep contact details for 3 years. We will then dispose of your information by deleting it permanently from our email servers.</p>
 
 <h2>Your data protection rights</h2>
 <p>Under data protection law, you have rights including:</p>

@@ -43,13 +43,6 @@
     grid-template-rows: 1fr 1fr;
 }
 
-// Default Hero Settings
-.hero{
-    
-     padding: 6.5vw;
-   
-
- }
 
  //Css Grid Auto grid columns
 
@@ -72,9 +65,30 @@
      }
  }
 
+
+
+ .grid{
+    width: 95%;
+    max-width: $max-width;
+    margin: 0 auto;
+    margin-block-end: 1rem;
+    display: grid;
+    gap: 1rem;
+
+ }
+
  
+ @media(min-width: 600px){
+    .grid{
+     grid-template-columns: repeat(2, 1fr);
+    }
+    
+ }
+ @media(min-width: 1200px){
+    .grid{
+     grid-template-columns: repeat(4, 1fr);
+    }
+    
+ }
 
 
-
-
- 

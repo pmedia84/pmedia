@@ -8,7 +8,7 @@
     <meta name="robots" content="..., ..." />
     <meta property="og:title" content="Parrot Media: Creative Web Solutions For Your Business" />
     <meta property="og:description" content="Grow your business with Parrot Media" />
-    <meta property="og:image" content="https://www.parrotmedia.co.uk/img/ogdata/ogad.png" />
+    <meta property="og:image" content="https://www.parrotmedia.co.uk/img/ogdata/og-ad.png" />
     <meta property="og:type" content="website" />
     <meta name="facebook-domain-verification" content="jlgqnxbxg590mhl4r7fypiwkw77h8y" />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>

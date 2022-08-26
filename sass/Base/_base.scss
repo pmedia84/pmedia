@@ -69,7 +69,7 @@ html {
   body {
     scrollbar-width: thin;
     scrollbar-color: #fff $secondcol;
-    margin-bottom: env(safe-area-inset-bottom);
+    margin-bottom: calc(1rem + env(safe-area-inset-bottom) );
   }
   body::-webkit-scrollbar-track {
     background: #fff;

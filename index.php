@@ -127,18 +127,18 @@
                                 <div id="success"></div>
                                 <div id="submit">
                                     <p class="privacynotice mp-b-1">By submitting this form you agree to our <a href="privacy">Privacy Notice</a></p>
-                                    <button class="btn" id="sendMessageButton" type="submit">Send Message</button>
+                                    <button class="btn btn-primary" id="sendMessageButton" type="submit">Confirm Booking</button>
                                 </div>
                             </div>
                             <!-- success - for status messages -->
                             
                         </div>
                     </div>
-                    <div class="form-response d-none" id="status" >
-                
-                    </div>
-                </form>
 
+                </form>
+                <div class="form-response d-none" id="status" >
+                
+                </div>
             </div>
         </div>
 
@@ -181,7 +181,7 @@
         <div class="bg-grey p-tb-2">
             <div class="container banner">
                 <h2 class="bannertitle">Need Some Ideas?</h2>
-                <p class="lead">Just an idea of how we can help you get your business online.</p>
+                <p class="lead">How we can help get your business online.</p>
             </div>
             <section class="grid m-b-1">
 
@@ -193,7 +193,7 @@
                         </div>
                         <div class="card-content">
                             <span class="card-content-subtitle">Get Online The easy way</span>
-                            <p>All our packages come with everything you need to get your business online. We do everything for you so you don't have to. </p>
+                            <p>All our packages come with everything you need to get your business online. We do everything for you, so you don't have to. </p>
                         </div>
                         <div class="card-footer">
                             From £150
@@ -226,7 +226,7 @@
                             <h3>Social Media</h3>
                         </div>
                         <div class="card-content">
-                            <span class="card-content-subtitle">Social Media, Done for you</span>
+                            <span class="card-content-subtitle">Social Media, done for you</span>
                             <p>The simple way to manage your social media feeds. We do all the hard work for you, from artwork to scheduling your posts.</p>
                         </div>
                         <div class="card-footer">
@@ -237,7 +237,7 @@
 
                 <div class="img-card">
                     <div class="img-card-text-box">
-                        <h3>Realise Your Potential</h3>
+                        <h3>Open Your Business' Potential</h3>
                     </div>
                     <img src="./img/bakery.webp" alt="">
                 </div>
@@ -312,6 +312,7 @@ $('#consultation-form').submit(function(event){
             $("#status").html(data);
             $('#status').slideDown(400);
             $('#consultation-form')[0].reset();
+            $('#consultation-form').slideUp(400);
         },
 
        

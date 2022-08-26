@@ -1,14 +1,16 @@
 ///Services Panels with images and CTA etc
 
 .service-cta{
-    padding: 3rem 3rem 0 3rem;
+    padding: 3rem 1rem 0 1rem;
     text-align: center;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
     height: 100%;
-    
+    @media (min-width:768px){
+        padding: 3rem 3rem 0 3rem;
+    }
     h2{
         font-size: 1.75rem;
     }

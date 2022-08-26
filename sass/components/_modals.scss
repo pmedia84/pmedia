@@ -33,7 +33,7 @@
 }
 .modal-content{
     background-color: #fefefe;
-    margin: 15% auto; /* 15% from the top and centered */
+  
     padding: 20px;
     border: 2px solid $primarycol;
     transform:scale(0.5);
@@ -41,7 +41,7 @@
     max-width: 1000px;
     
     @media(min-width:768px){
-        
+      margin: 15% auto; /* 15% from the top and centered */
     width: 80%; /* Could be more or less, depending on screen size */
     }
     .close{

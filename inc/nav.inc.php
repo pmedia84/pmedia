@@ -79,7 +79,7 @@
         
             <div class="brand">
                 <a href="index">
-                    <img src="img/NewLogo.svg" alt="Parrot Media Logo">
+                    <img class="nav-logo" src="img/pmedia-logo-new.png" alt="Parrot Media Logo">
                 </a>
             </div>
 

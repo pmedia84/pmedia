@@ -14,7 +14,7 @@
    display: grid;
    place-items: center;
    overflow-y:scroll ;
-   margin-bottom: calc(2rem + env(safe-area-inset-bottom) );
+   
 }
 @supports (-webkit-backdrop-filter: none) or (backdrop-filter: none) {
     .modal {
@@ -59,6 +59,7 @@
         font-weight: 800;
         font-size: 2rem;
     }
+    margin-bottom: calc(2rem + env(safe-area-inset-bottom) );
 }
 
 .modal-content.open{

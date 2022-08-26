@@ -14,7 +14,7 @@
    display: grid;
    place-items: center;
    overflow-y:scroll ;
-   
+   z-index: 1000;
 }
 @supports (-webkit-backdrop-filter: none) or (backdrop-filter: none) {
     .modal {

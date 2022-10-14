@@ -3,7 +3,7 @@
 
 <head>
 
-
+    <link rel="canonical" href="https://www.parrotmedia.co.uk" />
     <meta name="description" content="Welcome to Parrot Media - We design and build amazing custom websites. We are from Long Sutton, Lincolnshire" />
     <meta name="robots" content="..., ..." />
     <meta property="og:title" content="Parrot Media: Creative Web Solutions For Your Business" />
@@ -52,7 +52,7 @@
 
                     <div class="formrow">
                         <div class="formcolumn">
-                        <label class="input-label" for="name">Name</label>
+                            <label class="input-label" for="name">Name</label>
                             <div class="inputwrapper">
 
                                 <!-- input prepend -->
@@ -64,40 +64,40 @@
                                 <input class="text-input input" type="text" name="name" id="name" placeholder="Your Name *" autocomplete="off" required="" maxlength="45"><small class="form-text text-danger flex-grow-1 help-block lead"></small>
                             </div>
                             <label class="input-label" for="email">Email Address</label>
-                           <div class="inputwrapper">
-                           
-                               
+                            <div class="inputwrapper">
+
+
                                 <div class="input-prepend">
-                                    
+
                                     <span class="input-prepend-text"><i class="fa fa-envelope-o"></i></span>
                                 </div>
                                 <input class="email-input input" type="email" name="email" id="email" placeholder="Your Email *" autocomplete="off" required="" maxlength="75"><small class="form-text text-danger help-block lead"></small>
-                            </div> 
+                            </div>
                             <label class="input-label" for="phone">Phone Number</label>
                             <div class="inputwrapper">
-                                
+
                                 <div class="input-prepend">
-                                    
+
                                     <span class="input-prepend-text"><i class="fas fa-mobile-alt"></i></span>
                                 </div>
                                 <input class="text-input input" type="tel" name="phone" id="phone" placeholder="Your Phone No. *" autocomplete="off" required="" maxlength="45"><small class="form-text text-danger help-block lead"></small>
-                            </div> 
+                            </div>
 
-                           
-                               
-                           <label class="input-label" for="service">Select Service</label>
 
-                                    <div class="select-form-wrapper">
-                                        <select class="form-select" name="service" id="service">
-                                            <option value="" selected>Select Your Service</option>
-                                            <option value="Web Design">Web Design</option>
-                                            <option value="Web Hosting">Web Hosting</option>
-                                            <option value="Social Media Marketing">Social Media Marketing</option>
-                                            <option value="Something Else">Something Else</option>
-                                        </select>
-                                    </div>
-                               
-                      
+
+                            <label class="input-label" for="service">Select Service</label>
+
+                            <div class="select-form-wrapper">
+                                <select class="form-select" name="service" id="service">
+                                    <option value="" selected>Select Your Service</option>
+                                    <option value="Web Design">Web Design</option>
+                                    <option value="Web Hosting">Web Hosting</option>
+                                    <option value="Social Media Marketing">Social Media Marketing</option>
+                                    <option value="Something Else">Something Else</option>
+                                </select>
+                            </div>
+
+
 
 
                         </div>
@@ -107,9 +107,9 @@
 
                             <label class="input-label" for="time">Preferred Date For Your Consultation</label>
                             <div class="inputwrapper">
-                              
+
                                 <div class="input-prepend">
-                                  
+
                                     <span class="input-prepend-text"><i class="fa fa-envelope-o"></i></span>
                                 </div>
                                 <input class="email-input input" type="date" name="date" id="time" placeholder="Your Email *" autocomplete="off" required="" maxlength="75"><small class="form-text text-danger help-block lead"></small>
@@ -131,13 +131,13 @@
                                 </div>
                             </div>
                             <!-- success - for status messages -->
-                            
+
                         </div>
                     </div>
 
                 </form>
-                <div class="form-response d-none" id="status" >
-                
+                <div class="form-response d-none" id="status">
+
                 </div>
             </div>
         </div>
@@ -247,78 +247,80 @@
         </div>
     </main>
     <script src="./js/modals.js"></script>
-    <script>//////////////////Adding in recaptcha here and functionality
+    <script>
+        //////////////////Adding in recaptcha here and functionality
 
-//set vars for checking status of recaptcha
-var recaptchaCheck = false;
-var recaptchaRequired = false;
-//function to load recaptcha
-function recaptchaLoad() {
-    $.getScript("https://www.google.com/recaptcha/api.js").done(function(script, textStatus) {
-        console.log(textStatus); // Success
-        console.log("Load was performed.");
-        recaptchaCheck = true;
-        $(validation).css("margin-bottom", "1rem");
-    });
-}
-//monitor user entering form
-$("#consultation-form").click(function() {
-    //check if recaptcha is already loaded
-    if (recaptchaCheck == false) {
-        //load recaptcha from function
-        recaptchaLoad();
-    }
-});
-//monitor entering information in form
-$("#consultation-form").keydown(function() {
-    //check if recaptcha is set to required
-    if (recaptchaRequired == false) {
-        //get dom element for recaptcha form field
-        var $recaptcha = document.querySelector('#g-recaptcha-response');
-        if ($recaptcha) {
-            //set recaptcha field to required
-            $recaptcha.setAttribute("required", "required");
-            console.log("required set");
-            recaptchaRequired = true;
-        } else {
-            //log if recaptcha wasn't found and therefore not set as required
-            console.log("required not set");
+        //set vars for checking status of recaptcha
+        var recaptchaCheck = false;
+        var recaptchaRequired = false;
+        //function to load recaptcha
+        function recaptchaLoad() {
+            $.getScript("https://www.google.com/recaptcha/api.js").done(function(script, textStatus) {
+                console.log(textStatus); // Success
+                console.log("Load was performed.");
+                recaptchaCheck = true;
+                $(validation).css("margin-bottom", "1rem");
+            });
         }
-    }
-});
-$('#consultation-form').submit(function(event){
-    event.preventDefault();
-  
-    
-    const data = new FormData(event.target);
-    const values = Object.fromEntries(data.entries());
-    const validation = $('.g-recaptcha-response').val();
-    console.log(validation);
-    console.log({values});
-    
+        //monitor user entering form
+        $("#consultation-form").click(function() {
+            //check if recaptcha is already loaded
+            if (recaptchaCheck == false) {
+                //load recaptcha from function
+                recaptchaLoad();
+            }
+        });
+        //monitor entering information in form
+        $("#consultation-form").keydown(function() {
+            //check if recaptcha is set to required
+            if (recaptchaRequired == false) {
+                //get dom element for recaptcha form field
+                var $recaptcha = document.querySelector('#g-recaptcha-response');
+                if ($recaptcha) {
+                    //set recaptcha field to required
+                    $recaptcha.setAttribute("required", "required");
+                    console.log("required set");
+                    recaptchaRequired = true;
+                } else {
+                    //log if recaptcha wasn't found and therefore not set as required
+                    console.log("required not set");
+                }
+            }
+        });
+        $('#consultation-form').submit(function(event) {
+            event.preventDefault();
 
-    const post = JSON.stringify(values);
+
+            const data = new FormData(event.target);
+            const values = Object.fromEntries(data.entries());
+            const validation = $('.g-recaptcha-response').val();
+            console.log(validation);
+            console.log({
+                values
+            });
 
 
-    $.ajax({
-        type:"POST",
-        url: "consultation-booking.php",
-        data: post,
-        //dataType:"json",
-        encode: true,
-        success: function(data, responseText){
-            
-           
-            $("#status").html(data);
-            $('#status').slideDown(400);
-            $('#consultation-form')[0].reset();
-            $('#consultation-form').slideUp(400);
-        },
+            const post = JSON.stringify(values);
 
-       
-    })
 
-});
+            $.ajax({
+                type: "POST",
+                url: "consultation-booking.php",
+                data: post,
+                //dataType:"json",
+                encode: true,
+                success: function(data, responseText) {
+
+
+                    $("#status").html(data);
+                    $('#status').slideDown(400);
+                    $('#consultation-form')[0].reset();
+                    $('#consultation-form').slideUp(400);
+                },
+
+
+            })
+
+        });
     </script>
     <?php include("inc/footer.inc.php"); ?>
-

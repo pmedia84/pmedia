@@ -7,7 +7,7 @@
 
   gtag('config', 'G-HDWE9E4MXK');
 </script>
-<link rel="stylesheet" href="css/styles.css">
+<link rel="stylesheet" href="../css/styles.css">
 <meta charset="UTF-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="theme-color" content="#3B695B">
@@ -78,14 +78,14 @@
         <div class="nav-container">
         
             <div class="brand">
-                <a href="index">
+                <a href="/">
                     <img class="nav-logo" src="img/pmedia-logo-new.png" alt="Parrot Media Logo">
                 </a>
             </div>
 
 
             <ul class="nav-links">
-               <li class="nav-link"><a href="index">Home</a></li>
+               <li class="nav-link"><a href="/">Home</a></li>
                 <li class="nav-link"><a href="web-design-lincolnshire">Websites</a></li>
                 <li class="nav-link"><a href="website-hosting-lincolnshire">Hosting</a></li>
                 <li class="nav-link"><a href="social-media-services-lincolnshire">Social Media</a></li>

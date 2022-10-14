@@ -78,14 +78,14 @@
         <div class="nav-container">
         
             <div class="brand">
-                <a href="/">
+                <a href="https://www.parrotmedia.co.uk/">
                     <img class="nav-logo" src="img/pmedia-logo-new.png" alt="Parrot Media Logo">
                 </a>
             </div>
 
 
             <ul class="nav-links">
-               <li class="nav-link"><a href="/">Home</a></li>
+               <li class="nav-link"><a href="https://www.parrotmedia.co.uk/">Home</a></li>
                 <li class="nav-link"><a href="web-design-lincolnshire">Websites</a></li>
                 <li class="nav-link"><a href="website-hosting-lincolnshire">Hosting</a></li>
                 <li class="nav-link"><a href="social-media-services-lincolnshire">Social Media</a></li>

@@ -50,6 +50,10 @@ body{
     z-index: -1;
     overflow-x: hidden;
     -webkit-tap-highlight-color: transparent;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 

@@ -1,0 +1,61 @@
+//Dropdown item, opened with jquery slide down function. Set up with a UL as its container
+.dropdown-wrapper{
+    position: relative;
+    width: max-content;
+
+}
+.dropdown-menu{
+    width: max-content;
+    margin-top: 10px;
+    background-color: #fff;
+    list-style-type: none;
+    position: absolute;
+    border: 1px solid $primarybgcol;
+    border-radius: 5px;
+    box-shadow: 4px 2px 13px 0px rgba(133,133,133,0.82);
+-webkit-box-shadow: 4px 2px 13px 0px rgba(133,133,133,0.82);
+-moz-box-shadow: 4px 2px 13px 0px rgba(133,133,133,0.82);
+transform: translateY(-10px);
+opacity:0;
+pointer-events: none;
+transition: transform 400ms ease-out, opacity 400ms ease-out;
+
+li{
+    width: 100%;
+    display: flex;
+}
+.dropdown-link{
+    padding: 0.5rem 1rem 0.5rem 1rem;
+    width: 100%;
+    height: 100%;
+    transition: background-color 200ms ease-out;
+    display: flex;
+    align-items: center;
+    svg{
+        width: 15px;
+        margin-right: 0.5rem;
+        opacity: .5;
+    }
+
+}
+
+.dropdown-link:hover, .dropdown-link:focus{
+    background-color: rgb(212, 212, 212);
+    transition: background-color 200ms ease-out;
+    svg{
+        
+        path{
+            fill: rgb(53, 53, 53);
+        }
+        opacity: 1;
+        transition: opacity 200ms ease-out;
+    }
+}
+}
+.dropdown-button:focus + .dropdown-menu{
+    opacity: 1;
+    transform: translateY(0);
+    transition: transform 400ms ease-out, opacity 400ms ease-out;
+    pointer-events: all;
+
+}

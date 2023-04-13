@@ -37,7 +37,9 @@ $border-radius:0.25rem;
   justify-content: center;
   
   }
-  
+  .input-prepend-textarea{
+    height: 100%;
+  }
 
   .input{ /*Basic Input field Settings for all form boxes*/
    
@@ -260,4 +262,14 @@ margin-bottom: 1rem;
 .form-response{
   background-color: #dcf2dd;
   padding: 1rem;
+}
+
+.error{
+  background-color: #ffe8e8;
+}
+//button section div wrapper
+.button-section{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
 }

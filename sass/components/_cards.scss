@@ -324,3 +324,31 @@ $padding: 2rem 0.5rem 2rem 0.5rem;
     letter-spacing: 0.3rem;
   }
 }
+
+//////Admin Cards for dashboard////////////////
+.admin-card{
+  background-color: $primarybgcol;
+}
+.admin-card-header{
+  padding: 0.5rem;
+  color: #fff;
+  font-size: 1rem;
+}
+.admin-card-body{
+  background-color:rgb(59, 65, 66);
+  padding: 1rem;
+  font-size: 50px;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  svg{
+    height: 50px;
+  }
+}
+.admin-card-footer{
+  padding: 0.5rem;
+  a{
+    color: #fff;
+  }
+  
+}

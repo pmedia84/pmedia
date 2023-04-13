@@ -6,7 +6,7 @@
     <!-- custom styling for inputs -->
     <!-- =========== -->
     <!-- Prepend all inputs with an icon helper -->
-    <form id="contactForm" action="contact-form-script-new.php" name="contactForm">
+    <form id="contactForm" action="contact-form-script-new.php" name="contactForm" method="POST">
 
 
         <div class="formrow">
@@ -20,15 +20,6 @@
                     <!-- Flex Item -->
                     <input class="text-input input" type="text" id="name" placeholder="Your Name *" autocomplete="off" required="" maxlength="45"><small class="form-text text-danger flex-grow-1 help-block lead"></small>
                 </div>
-
-               
-
-
-                
-
-
-
-
                 <div class="inputwrapper">
                     <!-- flex container -->
                     <div class="input-prepend">
@@ -82,10 +73,6 @@
 
 
 </section>
-
-
-
-
 
 <script type="text/javascript">
 //set vars for checking status of recaptcha

@@ -58,7 +58,8 @@
 
 .btn-primary,
 .primary-muted{
-  padding: 0.75rem;
+  display: inline-block;
+  padding: 0.75rem .375rem;
   border: 1px solid $primarycol;
   border-radius: 0.25rem;
   background-color: $primarycol;
@@ -68,7 +69,9 @@
     text-decoration-line: none;
   }
 }
-
+.admin-btn-primary{
+  background-color: $primarybgcol;
+}
 .primary-muted{
   background-color: #fff;
   color: $primarycol;

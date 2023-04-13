@@ -1,0 +1,35 @@
+.table-container{
+    overflow-x: auto;
+}
+
+//////////////////Invoice//////////////////
+
+.invoice-body-table{
+    border: 1px solid $primarycol;
+    width: 100%;
+    border-collapse: collapse;
+    text-align: left;
+
+    th{
+        background-color: $secondcol;
+        padding: 0.5rem;
+        color: $primarycol;
+
+    }
+    td{
+        padding: 0.5rem;
+    }
+    tr{
+        border-bottom: 1px solid $secondcol;
+    }
+    .subtotal, .vat{
+        text-align: right;
+        width: 100%;
+    }
+    .invoice-footer{
+        background-color: $grey;
+        &:last-of-type{
+            border-bottom: 0;
+        }
+    }
+}
